@@ -5,6 +5,11 @@ A Communications Guide\
 \
 04 Aug 2016
 
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
+
+![CC BY-SA 4.0](cc-by-sa-4.0.png)
+
+
 CONTENTS
 
 [Purpose: 3](#_Toc362874862)
