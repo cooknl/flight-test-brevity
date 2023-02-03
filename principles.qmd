@@ -1,0 +1,54 @@
+# The Principles of Brevity
+
+*BREVITY --- Multiservice Brevity Codes* does not contain all of the words required for test conduct, but it is an important document for establishing the principles of brevity and for avoiding misuse of official terms.
+
+## Principle 1 - Contracts
+
+One of the strengths of brevity is the coupling of a code with pre-arranged roles and responsibilities, or "contracts." A given code, when broadcast, is always associated with a particular role, reducing the amount of time required for identifying the transmitter and intended receiver. A given code also updates or confirms the responsibilities of the transmitter and the receiver.
+
+> **BREVITY EXAMPLE**\
+> **TACO 02:** "TACO 02 is IN RIGHT"\
+> **TACO 01:** "PRESS"
+
+> **PLAIN ENGLISH EXAMPLE**\
+> **TACO 02:** "TACO 01, TACO 02, I'm going to engage with the target that I had been previously assigned by making a sharp turn to the right, therefore I'll no longer be able to stay visual with you, so you need to make sure you don't run into me and keep scanning for other threats."\
+> **TACO 01:** "TACO 02, TACO 01, as Flight Lead, I'm directing you to continue your attack as stated in your transmission. I will continue to scan for other threats, while preventing your target from obtaining the advantage over you. I will also not run into you."\
+
+In the above example, notice that the wingman, "Taco 02," and flight lead, "Taco 01," did not have to identify themselves, and used single-syllable words, "IN" and "PRESS," to communicate current and future actions, as well as changes to responsibilities for separation and support.
+
+## Principle 2 - Only Three Types of Brevity Code
+
+Brevity codes can be sorted by their intent, as shown in @tbl-types. This sorting is important, because it shows the three types of brevity code:
+
+- direct
+- inform
+- request
+
+Type          Intent                                                      Example
+------------- ----------------------------------------------------------- --------------
+Direct        I am telling you to do something                            "HOOK LEFT"
+Inform        I am describing something to you                            "WINCHESTER"
+Request       I am requesting information AND you are expected to reply   "PICTURE"
+
+: The Three Brevity Code Types {#tbl-types}
+
+
+The bottom line is this: 
+
+> If you aren't directing, informing or requesting, then you're not using brevity, you're having a discussion.
+
+## Principle 3 - Standard Word Count
+
+Some brevity codes are standalone and some are always accompanied by other words, as shown in @tbl-count. This distinction is important, because it sets the expectation of how many words should constitute a radio call. If the number of words doesn't match expectations, confusion may ensue.
+
+-----------------------------------------------------------
+Word Count Form             Examples
+--------------------------- -------------------------------
+Standalone                  "MADDOG"\
+                            "LINE ABREAST"
+
+Standard Additional Words   "CHECK (number, left/right)"\
+                            "(system) BENT"
+-----------------------------------------------------------
+
+: Word Count Form in Brevity Codes {#tbl-count}

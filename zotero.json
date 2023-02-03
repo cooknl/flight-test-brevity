@@ -1,0 +1,28 @@
+[
+	{
+		"id": "http://zotero.org/users/7103471/items/HVKQ4CHY",
+		"type": "book",
+		"abstract": "This publication standardizes air-to-air, air-to-surface, surface-to-air, and surface-to-surface brevity code words. The scope is limited to those brevity codes used in multiservice operations and does not include words unique to single-service operations. While not authoritative in nature, all services agree to these brevity code meanings. These code words have been forwarded for inclusion or modification of current North Atlantic Treaty Organization (NATO) brevity code words.",
+		"number-of-pages": "60",
+		"publisher": "HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000",
+		"title": "BREVITY Multiservice Brevity Codes",
+		"URL": "https://apps.dtic.mil/sti/pdfs/ADA404426.pdf",
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2002",
+					2
+				]
+			]
+		}
+	}
+]

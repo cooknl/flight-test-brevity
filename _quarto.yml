@@ -1,5 +1,25 @@
 project:
-  title: "flight-test-brevity"
+  type: book
+
+book:
+  title: "Flight Test Brevity"
+  author: "Nathan Cook"
+  date: "2/2/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - principles.qmd
+    - comm_plan.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: zotero.json
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
 
 
 
