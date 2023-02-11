@@ -2,11 +2,17 @@
 	{
 		"id": "http://zotero.org/users/7103471/items/HVKQ4CHY",
 		"type": "book",
-		"abstract": "This publication standardizes air-to-air, air-to-surface, surface-to-air, and surface-to-surface brevity code words. The scope is limited to those brevity codes used in multiservice operations and does not include words unique to single-service operations. While not authoritative in nature, all services agree to these brevity code meanings. These code words have been forwarded for inclusion or modification of current North Atlantic Treaty Organization (NATO) brevity code words.",
+		"abstract": "1. Purpose\nThis publication will improve coordination and understanding during multi-Service operations. A brevity code is a code which provides no security but which has as its sole purpose the shortening of messages rather than the concealment of its\ncontent.\n2. Scope\nThis publication standardizes air-to-air (A/A), air-to-surface (A/S), surface-to-air (S/A), surface-to-surface (S/S), maritime air, and maritime to maritime brevity\ncodes regardless of communication medium (voice/chat), as well as brevity codes (abbreviations) specific for use in tactical chat. The scope is limited to\nthose brevity codes used in multi-Service operations and does not include words unique to single-Service operations. All Services agree to these brevity code\nmeanings. These brevity codes have been forwarded to the NATO Standardization Office (NSO) terminology custodian for inclusion or modification of current joint brevity words in APP-7 and other appropriate Allied\nCommunications Publications.\n3. Applicability\nThis publication is intended for air, land, maritime, and space personnel conducting operations at the tactical level.",
 		"number-of-pages": "60",
 		"publisher": "HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000",
-		"title": "BREVITY Multiservice Brevity Codes",
+		"title": "Multiservice Brevity Codes",
+		"title-short": "BREVITY",
 		"URL": "https://apps.dtic.mil/sti/pdfs/ADA404426.pdf",
+		"author": [
+			{
+				"literal": "FM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5"
+			}
+		],
 		"accessed": {
 			"date-parts": [
 				[
@@ -21,6 +27,40 @@
 				[
 					"2002",
 					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7103471/items/A99Q8MZZ",
+		"type": "book",
+		"abstract": "This publication standardizes air-to-air, air-to-surface, surface-to-air, and surface-to-surface brevity code words. The scope is limited to those brevity codes used in multiservice operations and does not include words unique to single-service operations. While not authoritative in nature, all services agree to these brevity code meanings. These code words have been forwarded for inclusion or modification of current North Atlantic Treaty Organization (NATO) brevity code words.",
+		"edition": "Change 1 02 Apr 2021",
+		"number-of-pages": "92",
+		"publisher": "Director: ALSA Center 114 Andrews Street Joint Base Langley-Eustis, VA 23665-2785",
+		"title": "Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes",
+		"title-short": "BREVITY",
+		"URL": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf",
+		"author": [
+			{
+				"literal": "ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					11
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					5,
+					28
 				]
 			]
 		}

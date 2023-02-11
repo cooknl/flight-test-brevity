@@ -13,6 +13,15 @@ face-to-face.
 
 ## Method
 
-To reduce the confusion of misused brevity and to leverage military rated aircrews' operational training, this guide introduces **brevity codes** in their military context, the multiservice document "*BREVITY -- Multiservice Brevity Codes* " [@http://zotero.org/users/7103471/items/HVKQ4CHY]. The multiservice brevity codes most applicable to flight test are shown in Appendix A, with the definition and the flight test context included.
+To reduce the confusion of misused brevity and to leverage military rated aircrews' operational training, this guide introduces **brevity codes** in their military context, the multiservice document *BREVITY* [@http://zotero.org/users/7103471/items/HVKQ4CHY]. The multiservice brevity codes most applicable to flight test are shown in Appendix A, with the definition and the flight test context included.
 
 This guide develops a general approach to **Flight Test Brevity** to enhance test conduct quality and inform test teams' communication plans. Appendix B contains Flight Test Brevity terms. Each entry states the term, and its definition. Typical errors associated with each term are also shown, as well as the effects of the error and a "plain English antidote" to be used if brevity breaks down.
+
+## Change Log
+
+- 2023-02-11
+    - Port to Quarto
+    - Update from 2002 to 2020 Change 1 version of BREVITY
+        - [@http://zotero.org/users/7103471/items/HVKQ4CHY]
+        - [@http://zotero.org/users/7103471/items/A99Q8MZZ]
+- 2016-08-04 Most recent Word version
