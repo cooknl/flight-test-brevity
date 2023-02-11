@@ -20,6 +20,8 @@ bibliography: zotero.json
 format:
   html:
     theme: cosmo
+    toc: true
+    toc-depth: 2
   pdf:
     documentclass: scrreprt
 
