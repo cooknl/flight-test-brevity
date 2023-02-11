@@ -10,8 +10,9 @@ book:
     - intro.qmd
     - principles.qmd
     - comm_plan.qmd
-    - summary.qmd
-    - references.qmd
+  appendices: 
+    - multiservice-codes-applicable-to-flight-test.qmd
+    - flight-test-brevity-codes.qmd
 
 bibliography: zotero.json
 
@@ -20,6 +21,8 @@ format:
     theme: cosmo
   pdf:
     documentclass: scrreprt
+
+license: CC BY-SA 4.0
 
 
 

@@ -1,0 +1,873 @@
+# Flight Test Brevity Codes
+
+
+[]{#_Toc362874885 .anchor}Table B1. Flight Test Brevity Terms
+
++-------------+-------------+-------------+-------------+-------------+
+| Correct     | Meaning     | Typical     | Effect of   | Plain       |
+| Term        |             | Error       | Error       | English     |
+|             |             |             |             | Antidote    |
++=============+=============+=============+=============+=============+
+| "RADIO      | I'm         | > Calling   | > Aircrew   | -   "How do |
+| CHECK"      | requesting  | > from AUX  | > think     |     > you   |
+|             | that you    | > or VHF    | > you're    |     > hear  |
+|             | tell me how |             | > calling   |     > me on |
+|             | well you    |             | > on UHF    |     > UHF   |
+|             | can hear my |             | > PRIME but |             |
+|             | t           |             | > you're    |    > PRIME? |
+|             | ransmission |             | > actually  |             |
+|             | on UHF      |             | > on VHF or |             |
+|             | PRIME.      |             | > UHF AUX   |             |
++-------------+-------------+-------------+-------------+-------------+
+| "RADIO      | I'm         | -   "RADIO  | -   Aircrew | -   "How do |
+| CHECK ON    | requesting  |             |     > think |     > you   |
+| AUX"        | that you    |    > CHECK" |             |     > hear  |
+|             | tell me how |             |    > you're |     > me on |
+|             | well you    | -   A       |             |     > \[UHF |
+|             | can hear my | ccidentally |   > calling |     > AUX   |
+|             | t           |             |     > on    |     > or    |
+|             | ransmission |   > calling |     > UHF   |             |
+|             | on the      |     > from  |     > PRIME |    > VHF\]? |
+|             | auxiliary   |     > UHF   |             |             |
+|             | (either     |     > PRIME | -   Aircrew |             |
+|             | UHF2 or     |             |     > think |             |
+|             | VHF).       |             |             |             |
+|             |             |             |    > you're |             |
+|             |             |             |             |             |
+|             |             |             |   > calling |             |
+|             |             |             |     > on    |             |
+|             |             |             |     > VHF   |             |
+|             |             |             |     > or    |             |
+|             |             |             |     > UHF   |             |
+|             |             |             |     > AUX   |             |
+|             |             |             |     > but   |             |
+|             |             |             |             |             |
+|             |             |             |    > you're |             |
+|             |             |             |             |             |
+|             |             |             |  > actually |             |
+|             |             |             |     > on    |             |
+|             |             |             |     > UHF   |             |
+|             |             |             |     > PRIME |             |
++-------------+-------------+-------------+-------------+-------------+
+| "RADIO      | I'm         | -   "RADIO  | -   Aircrew | -   "How do |
+| CHECK ON    | requesting  |             |     > think |     > you   |
+| VICTOR"     | that you    |    > CHECK" |             |     > hear  |
+|             | tell me how |             |    > you're |     > me on |
+|             | well you    | -   A       |             |     > VHF?  |
+|             | can hear my | ccidentally |   > calling |             |
+|             | t           |             |     > on    |             |
+|             | ransmission |   > calling |     > UHF   |             |
+|             | on VHF.     |     > from  |     > PRIME |             |
+|             |             |     > UHF   |             |             |
+|             |             |     > PRIME | -   Aircrew |             |
+|             |             |             |     > think |             |
+|             |             |             |             |             |
+|             |             |             |    > you're |             |
+|             |             |             |             |             |
+|             |             |             |   > calling |             |
+|             |             |             |     > on    |             |
+|             |             |             |     > VHF   |             |
+|             |             |             |     > or    |             |
+|             |             |             |     > UHF   |             |
+|             |             |             |     > AUX   |             |
+|             |             |             |     > but   |             |
+|             |             |             |             |             |
+|             |             |             |    > you're |             |
+|             |             |             |             |             |
+|             |             |             |  > actually |             |
+|             |             |             |     > on    |             |
+|             |             |             |     > UHF   |             |
+|             |             |             |     > PRIME |             |
++-------------+-------------+-------------+-------------+-------------+
+| "\[Control  | The control | -           | -   Aircrew | -   "The    |
+| Room        | room is     |    "CLEARED |     > begin |             |
+| Callsign\]\ | ready to    |     > TO    |     > taxi  |   > control |
+| IS READY\   | support     |     > TAXI" |             |     > room  |
+| \[for       | test as     |             |   > without |     > has   |
+| taxi/ta     | soon as you | -           |             |     > seen  |
+| keoff/point | get         |    "CLEARED |    > proper |     >       |
+| X/etc.\]"   | clearance   |     > TO    |     > co    |  everything |
+|             | for the     |             | ordination. |             |
+|             | next        |  > TAKEOFF" |             | > necessary |
+|             | adm         |             | -   Aircrew |             |
+|             | inistrative | -   "..."   |     > take  |    > before |
+|             | step (taxi, |     >       |     > the   |     > you   |
+|             | takeoff,    |  (crickets) |             |     > leave |
+|             | etc.), or   |             |    > runway |     > the   |
+|             | as soon as  |             |             |             |
+|             | you call    |             |   > without |   > parking |
+|             | back with   |             |             |             |
+|             | "TEST IS    |             |    > proper |    > area." |
+|             | READY"      |             |     > co    |             |
+|             |             |             | ordination. | -   "The    |
+|             |             |             |             |             |
+|             |             |             | -   Aircrew |   > control |
+|             |             |             |     > are   |     > room  |
+|             |             |             |             |     > has   |
+|             |             |             | > wondering |     > seen  |
+|             |             |             |             |     >       |
+|             |             |             |    > what's |  everything |
+|             |             |             |     > going |             |
+|             |             |             |     > on.   | > necessary |
+|             |             |             |             |             |
+|             |             |             |             |    > before |
+|             |             |             |             |     > you   |
+|             |             |             |             |     > leave |
+|             |             |             |             |     > EOR." |
+|             |             |             |             |             |
+|             |             |             |             | -   Say     |
+|             |             |             |             |             |
+|             |             |             |             |  > somethin |
+|             |             |             |             | g/anything. |
++-------------+-------------+-------------+-------------+-------------+
+| "CLEARED TO | Initiate    | -   Saying  | -           | "We are on  |
+| MANEUVER"   | action per  |             |   Confusion | test point  |
+|             | the brief   |  > "CLEARED |             | XX. We show |
+|             | for this    |     > TO    |    > ensues | good setup. |
+|             | test point  |             |     > about | The control |
+|             |             | > MANEUVER" |     > if    | room is     |
+|             |             |     > way   |     > the   | ready. You  |
+|             |             |     > too   |     > test  | are cleared |
+|             |             |             |     > point | to          |
+|             |             |    > early, |     > has   | maneuver."  |
+|             |             |     > i.e.  |             |             |
+|             |             |     > prior |  > actually |             |
+|             |             |     > to    |             |             |
+|             |             |             |    > begun, |             |
+|             |             |    > setup, |     > if    |             |
+|             |             |             |             |             |
+|             |             |   > instead |   > aircrew |             |
+|             |             |     > of    |     > are   |             |
+|             |             |             |     > on    |             |
+|             |             |  > clearing |     >       |             |
+|             |             |     > the   | parameters, |             |
+|             |             |             |     > or if |             |
+|             |             |   > aircrew |             |             |
+|             |             |     > to a  | > clearance |             |
+|             |             |     > setup |     > has   |             |
+|             |             |             |             |             |
+|             |             |    > flight |   > already |             |
+|             |             |             |     > been  |             |
+|             |             | > condition |             |             |
+|             |             |     > to    |   > issued, |             |
+|             |             |             |             |             |
+|             |             |   > prepare | > requiring |             |
+|             |             |     > for   |     > a     |             |
+|             |             |     > the   |     > co    |             |
+|             |             |             | nversation. |             |
+|             |             |    > actual |             |             |
+|             |             |             | -   TC      |             |
+|             |             | > maneuver. |     > loses |             |
+|             |             |             |             |             |
+|             |             | -   Saying  |   > control |             |
+|             |             |             |     > of    |             |
+|             |             |  > "CLEARED |     > the   |             |
+|             |             |     > TO    |             |             |
+|             |             |             |   > mission |             |
+|             |             | > MANEUVER" |     > and   |             |
+|             |             |     > way   |     > the   |             |
+|             |             |     > too   |     > trust |             |
+|             |             |     > late, | /confidence |             |
+|             |             |     > i.e.  |     > of    |             |
+|             |             |     > the   |     > the   |             |
+|             |             |             |             |             |
+|             |             |   > aircrew |   > aircrew |             |
+|             |             |     > are   |             |             |
+|             |             |             |   > because |             |
+|             |             |   > waiting |             |             |
+|             |             |     > and   |   > aircrew |             |
+|             |             |             |     > have  |             |
+|             |             |   > burning |     > gone  |             |
+|             |             |     > gas,  |             |             |
+|             |             |     > or    |    > rogue, |             |
+|             |             |             |     > not   |             |
+|             |             |   > they've |             |             |
+|             |             |             |   > wanting |             |
+|             |             |   > already |     > to    |             |
+|             |             |     > begun |     > burn  |             |
+|             |             |     > the   |     > gas   |             |
+|             |             |             |     > and   |             |
+|             |             |  > maneuver |     > time  |             |
+|             |             |             |             |             |
+|             |             |   > without |   > waiting |             |
+|             |             |     > your  |     > for   |             |
+|             |             |     >       |     > your  |             |
+|             |             |  clearance. |     >       |             |
+|             |             |             |  clearance. |             |
++-------------+-------------+-------------+-------------+-------------+
+| "CONCUR"    | I have      | -   "..."   | -   Aircrew | "I agree"   |
+|             | heard your  |     >       |     > have  |             |
+|             | proposed    |  (crickets) |     > no    |             |
+|             | course of   |             |     > idea  |             |
+|             | action and  | -           |     > why   |             |
+|             | I agree     |   "CONFIRM" |     > they  |             |
+|             | with it     |             |     > are   |             |
+|             |             | -   "A      |             |             |
+|             |             | FFIRMATIVE" |  > waiting, |             |
+|             |             |             |     > if    |             |
+|             |             | -   "COPY"  |     > the   |             |
+|             |             |             |             |             |
+|             |             |             |    > radios |             |
+|             |             |             |     > are   |             |
+|             |             |             |             |             |
+|             |             |             |   > broken, |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             | > generally |             |
+|             |             |             |     > if    |             |
+|             |             |             |     > you   |             |
+|             |             |             |     > are   |             |
+|             |             |             |     > still |             |
+|             |             |             |     > alive |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             | > breathing |             |
+|             |             |             |             |             |
+|             |             |             | -           |             |
+|             |             |             |   Answering |             |
+|             |             |             |     > a     |             |
+|             |             |             |             |             |
+|             |             |             |  > proposal |             |
+|             |             |             |     > with  |             |
+|             |             |             |     > a     |             |
+|             |             |             |             |             |
+|             |             |             |  > request. |             |
+|             |             |             |             |             |
+|             |             |             | -           |             |
+|             |             |             |   Answering |             |
+|             |             |             |     > a     |             |
+|             |             |             |     >       |             |
+|             |             |             | complicated |             |
+|             |             |             |             |             |
+|             |             |             |  > proposal |             |
+|             |             |             |     > with  |             |
+|             |             |             |     > a     |             |
+|             |             |             |             |             |
+|             |             |             |    > simple |             |
+|             |             |             |     > "yes" |             |
+|             |             |             |             |             |
+|             |             |             | -   Aircrew |             |
+|             |             |             |     > are   |             |
+|             |             |             |     > left  |             |
+|             |             |             |             |             |
+|             |             |             | > wondering |             |
+|             |             |             |     > you   |             |
+|             |             |             |     > have  |             |
+|             |             |             |     > any   |             |
+|             |             |             |             |             |
+|             |             |             |  > opinion. |             |
++-------------+-------------+-------------+-------------+-------------+
+| "CONFIRM    | I am        | >           | > Confusion | "Is the     |
+| \[          | requesting  |  Convoluted |             | \[THING\]   |
+| declarative | that you    | > verbiage  |             | in          |
+| s           | reply with  |             |             | \[STATE\]?" |
+| tatement\]" | your        |             |             |             |
+|             | un          |             |             |             |
+|             | derstanding |             |             |             |
+|             | of          |             |             |             |
+|             | something   |             |             |             |
+|             | or with the |             |             |             |
+|             | current     |             |             |             |
+|             | status of   |             |             |             |
+|             | something.  |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| "CONTINUE"  | I have      | -   "..."   | -   Aircrew | -   Say     |
+|             | heard you,  |     >       |     > have  |             |
+|             | but your    |  (crickets) |     > no    |  > somethin |
+|             | concern can |             |     > idea  | g/anything. |
+|             | be          | -   "HOLD"  |     > why   |             |
+|             | addressed   |             |     > they  | -   "Keep   |
+|             | later. Keep |             |     > are   |     > doing |
+|             | going.      |             |             |     > what  |
+|             |             |             |  > waiting, |             |
+|             |             |             |     > if    |    > you're |
+|             |             |             |     > the   |             |
+|             |             |             |             |   > doing." |
+|             |             |             |    > radios |             |
+|             |             |             |     > are   |             |
+|             |             |             |             |             |
+|             |             |             |   > broken, |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             | > generally |             |
+|             |             |             |     > if    |             |
+|             |             |             |     > you   |             |
+|             |             |             |     > are   |             |
+|             |             |             |     > still |             |
+|             |             |             |     > alive |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             | > breathing |             |
+|             |             |             |             |             |
+|             |             |             | -   Aircrew |             |
+|             |             |             |     >       |             |
+|             |             |             |  confusion, |             |
+|             |             |             |     > since |             |
+|             |             |             |     > they  |             |
+|             |             |             |     > may   |             |
+|             |             |             |     > not   |             |
+|             |             |             |     > be    |             |
+|             |             |             |             |             |
+|             |             |             | > expecting |             |
+|             |             |             |     > to    |             |
+|             |             |             |     > hold  |             |
+|             |             |             |     > their |             |
+|             |             |             |             |             |
+|             |             |             |   > current |             |
+|             |             |             |             |             |
+|             |             |             |    > flight |             |
+|             |             |             |     >       |             |
+|             |             |             |  condition, |             |
+|             |             |             |     > since |             |
+|             |             |             |     > they  |             |
+|             |             |             |             |             |
+|             |             |             |   > brought |             |
+|             |             |             |     > up a  |             |
+|             |             |             |             |             |
+|             |             |             |  > concern. |             |
++-------------+-------------+-------------+-------------+-------------+
+| "AFFIRM"    | Yes         | > "ROGER"   | > Answering | "Yes"       |
+|             |             |             | > a         |             |
+|             |             |             | > question  |             |
+|             |             |             | > with "I   |             |
+|             |             |             | > heard     |             |
+|             |             |             | > you"      |             |
+|             |             |             | > brings    |             |
+|             |             |             | > things to |             |
+|             |             |             | > a halt    |             |
++-------------+-------------+-------------+-------------+-------------+
+| "NEGATIVE"  | No          | > See       | > See       | "No"        |
+|             |             | > "AFFIRM"  | > "AFFIRM"  |             |
++-------------+-------------+-------------+-------------+-------------+
+| "ROGER"     | I have      | -   "ROGER, | -   I have  | "I          |
+|             | heard you   |     > COPY" |     > heard | understand" |
+|             |             |             |     > you,  |             |
+|             |             | -   "ROGER, |     > and I |             |
+|             |             |             |     > have  |             |
+|             |             |    > WILCO" |     > heard |             |
+|             |             |             |     > you   |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             |  > recorded |             |
+|             |             |             |     > what  |             |
+|             |             |             |     > you   |             |
+|             |             |             |     > said. |             |
+|             |             |             |             |             |
+|             |             |             | -   I have  |             |
+|             |             |             |     > heard |             |
+|             |             |             |     > you,  |             |
+|             |             |             |     > and I |             |
+|             |             |             |     > have  |             |
+|             |             |             |     > heard |             |
+|             |             |             |     > you,  |             |
+|             |             |             |     > and I |             |
+|             |             |             |     > will  |             |
+|             |             |             |             |             |
+|             |             |             |    > comply |             |
+|             |             |             |     > with  |             |
+|             |             |             |     > your  |             |
+|             |             |             |             |             |
+|             |             |             |   > request |             |
+|             |             |             |     > (even |             |
+|             |             |             |             |             |
+|             |             |             |    > though |             |
+|             |             |             |     > you   |             |
+|             |             |             |             |             |
+|             |             |             |  > probably |             |
+|             |             |             |             |             |
+|             |             |             |    > didn't |             |
+|             |             |             |             |             |
+|             |             |             |   > request |             |
+|             |             |             |             |             |
+|             |             |             | > anything) |             |
++-------------+-------------+-------------+-------------+-------------+
+| "COPY"      | I have      | -   See     | Important   | Read back   |
+|             | heard you   |             | infor       | what you    |
+|             | and have    |   > "ROGER" | mation/data | just heard  |
+|             | recorded    |             | gets lost   |             |
+|             | what you    | -   Saying  | because it  |             |
+|             | said        |             | wasn't      |             |
+|             |             |    > "COPY" | recorded.   |             |
+|             |             |     > but   | Or the      |             |
+|             |             |     > not   | speaker     |             |
+|             |             |             | assumes too |             |
+|             |             |  > actually | much        |             |
+|             |             |     >       | retention   |             |
+|             |             | remembering | on the part |             |
+|             |             |     > what  | of the      |             |
+|             |             |     > was   | hearer.     |             |
+|             |             |     > said  |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| "WILCO"     | I have      | -   See     | Confusion   | "I will do  |
+|             | heard you   |             | about the   | \[the thing |
+|             | and will    |   > "ROGER" | status of   | you just    |
+|             | comply with |             | the         | r           |
+|             | your        | -   Saying  | reques      | equested\]" |
+|             | request     |             | t/statement |             |
+|             |             |   > "WILCO" |             |             |
+|             |             |     > when  |             |             |
+|             |             |     > you   |             |             |
+|             |             |     > mean  |             |             |
+|             |             |             |             |             |
+|             |             |  > "AFFIRM" |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| "A          | I have      | "..."       | -   You     | -   Repeat  |
+| CKNOWLEDGE" | updated     | (crickets)  |     > don't |     > the   |
+|             | something   |             |     > know  |     > t     |
+|             | and am      |             |     > that  | ransmission |
+|             | requesting  |             |     > the   |     > and   |
+|             | verbal      |             |     > test  |             |
+|             | ackn        |             |     > team  |   > request |
+|             | owledgement |             |     > has   |     > ackno |
+|             | from all    |             |     > heard | wledgement. |
+|             | players.    |             |     > the   |             |
+|             |             |             |             | -   Repeat  |
+|             |             |             |    > update |     > back  |
+|             |             |             |             |     > the   |
+|             |             |             | -   The     |     > t     |
+|             |             |             |     > test  | ransmission |
+|             |             |             |     > team  |             |
+|             |             |             |             | > verbatim: |
+|             |             |             |   > doesn't |     > "The  |
+|             |             |             |     > know  |             |
+|             |             |             |     > you   |   > control |
+|             |             |             |     > have  |     > room  |
+|             |             |             |     > heard |             |
+|             |             |             |     > the   |    > copies |
+|             |             |             |             |     > new   |
+|             |             |             |   > update. |     > floor |
+|             |             |             |             |     > 10K." |
++-------------+-------------+-------------+-------------+-------------+
+| "WHEN ABLE" | It sounds   | Talking     | Increased   | "I've got a |
+|             | like you're | over or     | frustration | que         |
+|             | busy, but   | into a busy |             | stion/piece |
+|             | I've got    | pilot's     |             | of          |
+|             | something   | conversat   |             | information |
+|             | to discuss, | ion/thought |             | when you    |
+|             | so get back | process     |             | have a      |
+|             | to me when  |             |             | chance."    |
+|             | you can     |             |             |             |
+|             | talk        |             |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| "STANDBY"   | I have      | -   "..."   | -   Aircrew | -   Say     |
+|             | heard you,  |     >       |     > have  |             |
+|             | but I'm     |  (crickets) |     > no    |  > somethin |
+|             | unable to   |             |     > idea  | g/anything. |
+|             | reply to    | -   "HOLD"  |     > why   |             |
+|             | your        |             |     > they  | -   "Wait a |
+|             | t           |             |     > are   |             |
+|             | ransmission |             |             |    > moment |
+|             | in detail   |             |  > waiting, |     > while |
+|             | at this     |             |     > if    |     > we    |
+|             | time. In a  |             |     > the   |             |
+|             | moment, I   |             |             | > discuss." |
+|             | will say    |             |    > radios |             |
+|             | more.       |             |     > are   |             |
+|             |             |             |             |             |
+|             |             |             |   > broken, |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             | > generally |             |
+|             |             |             |     > if    |             |
+|             |             |             |     > you   |             |
+|             |             |             |     > are   |             |
+|             |             |             |     > still |             |
+|             |             |             |     > alive |             |
+|             |             |             |     > and   |             |
+|             |             |             |     >       |             |
+|             |             |             |  breathing. |             |
+|             |             |             |     > Also  |             |
+|             |             |             |     > waste |             |
+|             |             |             |     > of    |             |
+|             |             |             |     > ga    |             |
+|             |             |             | s/resources |             |
+|             |             |             |     > as    |             |
+|             |             |             |             |             |
+|             |             |             |   > aircrew |             |
+|             |             |             |     > come  |             |
+|             |             |             |     > off   |             |
+|             |             |             |     >       |             |
+|             |             |             | conditions. |             |
+|             |             |             |             |             |
+|             |             |             | -   Aircrew |             |
+|             |             |             |     >       |             |
+|             |             |             |  confusion, |             |
+|             |             |             |     > since |             |
+|             |             |             |     > they  |             |
+|             |             |             |     > may   |             |
+|             |             |             |     > not   |             |
+|             |             |             |     > be    |             |
+|             |             |             |             |             |
+|             |             |             | > expecting |             |
+|             |             |             |     > to    |             |
+|             |             |             |     > hold  |             |
+|             |             |             |     > their |             |
+|             |             |             |             |             |
+|             |             |             |   > current |             |
+|             |             |             |             |             |
+|             |             |             |    > flight |             |
+|             |             |             |             |             |
+|             |             |             | > condition |             |
++-------------+-------------+-------------+-------------+-------------+
+| "HOLD"      | Maintain    | -   "..."   | -   Aircrew | -   Say     |
+|             | current     |     >       |     > have  |             |
+|             | conditions  |  (crickets) |     > no    |  > somethin |
+|             | until       |             |     > idea  | g/anything. |
+|             | further     | -           |     > why   |             |
+|             | notice.     |   "STANDBY" |     > they  | -   "Keep   |
+|             |             |             |     > are   |     > doing |
+|             |             |             |             |     > what  |
+|             |             |             |  > waiting, |             |
+|             |             |             |     > if    |    > you're |
+|             |             |             |     > the   |             |
+|             |             |             |             |   > doing." |
+|             |             |             |    > radios |             |
+|             |             |             |     > are   |             |
+|             |             |             |             |             |
+|             |             |             |   > broken, |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             | > generally |             |
+|             |             |             |     > if    |             |
+|             |             |             |     > you   |             |
+|             |             |             |     > are   |             |
+|             |             |             |     > still |             |
+|             |             |             |     > alive |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             | > breathing |             |
+|             |             |             |             |             |
+|             |             |             | -   Aircrew |             |
+|             |             |             |     >       |             |
+|             |             |             |  confusion, |             |
+|             |             |             |     > since |             |
+|             |             |             |     > they  |             |
+|             |             |             |     > may   |             |
+|             |             |             |     > not   |             |
+|             |             |             |     > be    |             |
+|             |             |             |             |             |
+|             |             |             | > expecting |             |
+|             |             |             |     > to be |             |
+|             |             |             |     > told  |             |
+|             |             |             |     > to    |             |
+|             |             |             |     > wait  |             |
+|             |             |             |     > for   |             |
+|             |             |             |     > you   |             |
+|             |             |             |     > to    |             |
+|             |             |             |     > get   |             |
+|             |             |             |     > back  |             |
+|             |             |             |     > to    |             |
+|             |             |             |     > them. |             |
++-------------+-------------+-------------+-------------+-------------+
+| "..."       | A pause     | -   Holding | -   The     | -   "..."\  |
+|             | between     |     > the   |     > test  |             |
+|             | tr          |     > t     |     > team  |  > (waiting |
+|             | ansmissions | ransmission |             |     > long  |
+|             | to allow    |     > key   |    > cannot |             |
+|             | the test    |     > for   |             |    > enough |
+|             | team to     |     > the   | > interject |     > to    |
+|             | interject.  |             |     > to    |             |
+|             | Often used  |  > duration |             |    > listen |
+|             | in          |     > of    |   > prevent |     > for   |
+|             | countdowns  |     > the   |             |     > test  |
+|             | to          |             |  > mistaken |     > team  |
+|             | i           | > countdown |     >       |             |
+|             | rreversible |             |  triggering |   > inputs) |
+|             | events      | -   Too     |     > of    |             |
+|             |             |     > short |     > the   |             |
+|             |             |     > of a  |     > i     |             |
+|             |             |     > pause | rreversible |             |
+|             |             |             |     > event |             |
+|             |             |             |             |             |
+|             |             |             | -   The     |             |
+|             |             |             |             |             |
+|             |             |             |   > aircrew |             |
+|             |             |             |     > don't |             |
+|             |             |             |     > have  |             |
+|             |             |             |     > time  |             |
+|             |             |             |     > to    |             |
+|             |             |             |             |             |
+|             |             |             |    > listen |             |
+|             |             |             |     > for   |             |
+|             |             |             |     > in    |             |
+|             |             |             | terjections |             |
++-------------+-------------+-------------+-------------+-------------+
+| "\[INCREASE | Per the     | -   "       | -   Aircrew | -   "Your   |
+| /DECREASE\] | brief and   | CHECK/WATCH |             |     > \[    |
+| \[P         | the mission |     > \[P   |   > doesn't | PARAMETER\] |
+| ARAMETER\]" | materials,  | ARAMETER\]" |     > know  |     > is    |
+|             | the         |             |     > what  |     >       |
+|             | parameter   | -   "..."   |     > you   | approaching |
+|             | is about to |     >       |     > want  |     >       |
+|             | go out of   |  (crickets) |     > after |  \[TOLERANC |
+|             | toler       |             |     > they  | E/LIMIT\]." |
+|             | ance/limits |             |     > look  |             |
+|             | unless you  |             |     > at    | -   Say     |
+|             | comply with |             |     > the   |             |
+|             | this        |             |     >       |  > somethin |
+|             | advisory    |             |  parameter. | g/anything. |
+|             | call.       |             |     > The   |             |
+|             |             |             |             |             |
+|             |             |             | > parameter |             |
+|             |             |             |             |             |
+|             |             |             |  > probably |             |
+|             |             |             |             |             |
+|             |             |             |   > dropped |             |
+|             |             |             |     > out   |             |
+|             |             |             |     > of    |             |
+|             |             |             |     > their |             |
+|             |             |             |     > scan, |             |
+|             |             |             |     > which |             |
+|             |             |             |     > n     |             |
+|             |             |             | ecessitated |             |
+|             |             |             |     > the   |             |
+|             |             |             |     > call  |             |
+|             |             |             |     > in    |             |
+|             |             |             |     > the   |             |
+|             |             |             |     > first |             |
+|             |             |             |             |             |
+|             |             |             |    > place, |             |
+|             |             |             |     > so    |             |
+|             |             |             |     > they  |             |
+|             |             |             |             |             |
+|             |             |             |    > aren't |             |
+|             |             |             |     > aware |             |
+|             |             |             |     > of    |             |
+|             |             |             |     > the   |             |
+|             |             |             |     >       |             |
+|             |             |             |  corrective |             |
+|             |             |             |             |             |
+|             |             |             |   > action. |             |
+|             |             |             |             |             |
+|             |             |             | -   Test    |             |
+|             |             |             |     > point |             |
+|             |             |             |     > needs |             |
+|             |             |             |     > to be |             |
+|             |             |             |             |             |
+|             |             |             | > repeated, |             |
+|             |             |             |     > test  |             |
+|             |             |             |             |             |
+|             |             |             |    > limits |             |
+|             |             |             |     > are   |             |
+|             |             |             |             |             |
+|             |             |             | > exceeded, |             |
+|             |             |             |             |             |
+|             |             |             |  > aircraft |             |
+|             |             |             |             |             |
+|             |             |             |    > limits |             |
+|             |             |             |     > are   |             |
+|             |             |             |             |             |
+|             |             |             | > exceeded. |             |
++-------------+-------------+-------------+-------------+-------------+
+| "TERMINATE" | Per the     | -   Not     | > Confusion | -   Because |
+|             | brief and   |             |             |     > of    |
+| "ABORT"     | the mission |  > reacting |             |     > the   |
+|             | materials,  |     > per   |             |             |
+| "KN         | stop what   |     > the   |             |    > urgent |
+| OCK-IT-OFF" | you're      |     > brief |             |             |
+|             | doing and   |             |             |    > nature |
+| Ex.         | take        | -   The     |             |     > of    |
+|             | corrective  |     >       |             |     > these |
+| Project:    | action.     |  originator |             |             |
+| \"Quell     |             |     > not   |             |    > calls, |
+| Terminate\" |             |             |             |     > it's  |
+|             |             |    > saying |             |             |
+| Quell 1:    |             |     > the   |             |    > better |
+| \"Quell 1   |             |             |             |     > to    |
+| Terminate\" |             |    > reason |             |     > say   |
+|             |             |     > for   |             |     > the   |
+| Quell 2:    |             |     > the   |             |     > wrong |
+| \"Quell 2   |             |     > call. |             |     > thing |
+| Terminate\" |             |             |             |     > than  |
+|             |             |             |             |     > to    |
+| Project:    |             |             |             |     > say   |
+| \"Project   |             |             |             |             |
+| Terminate,  |             |             |             |  > nothing. |
+| \           |             |             |             |     > The   |
+| [REASON\]\" |             |             |             |     > best  |
+|             |             |             |             |     > this  |
+| Ex.         |             |             |             |     > is to |
+|             |             |             |             |             |
+| Test:       |             |             |             |  > practice |
+| \"          |             |             |             |     > the   |
+| Terminate,\ |             |             |             |     > calls |
+| Test        |             |             |             |     > in    |
+| Terminate\" |             |             |             |     > the   |
+|             |             |             |             |     > brief |
+| Chase:      |             |             |             |     > and   |
+| \"Chase     |             |             |             |     > over  |
+| Terminate\" |             |             |             |     > the   |
+|             |             |             |             |     > radio |
+| Project:    |             |             |             |     > prior |
+| \"Project   |             |             |             |     > to    |
+| Terminate\" |             |             |             |             |
+|             |             |             |             | > beginning |
+| Test:       |             |             |             |     > test  |
+| "           |             |             |             |     >       |
+| \[REASON\]" |             |             |             |  execution. |
+|             |             |             |             |             |
+|             |             |             |             | -   Say     |
+|             |             |             |             |             |
+|             |             |             |             |  > somethin |
+|             |             |             |             | g/anything. |
++-------------+-------------+-------------+-------------+-------------+
+| "POINT      | The test    | -   Saying  | -   Either  | -           |
+| COMPLETE"   | point was   |             |             |    "Standby |
+|             | executed    |    > "POINT |    > you're |     > while |
+|             | within the  |             |     > lucky |     > we    |
+|             | success     | > COMPLETE" |     > and   |     > look  |
+|             | criteria    |             |     > the   |     > at    |
+|             | per the     |    > before |     > point |     > the   |
+|             | brief and   |     > you   |     > was   |             |
+|             | mission     |     > know  |             |    > data." |
+|             | materials   |     > if it |  > actually |             |
+|             |             |     > was   |             | -   Say     |
+|             |             |             | > complete, |             |
+|             |             |  > executed |     > or    |   > nothing |
+|             |             |     > su    |     > you   |     > until |
+|             |             | ccessfully. |     > have  |     > the   |
+|             |             |             |     > to    |     > test  |
+|             |             | -   Saying  |     > eat   |     > point |
+|             |             |             |     > your  |     > is    |
+|             |             |    > "POINT |     > words |             |
+|             |             |             |     > and   | > complete. |
+|             |             | > COMPLETE" |     > call  |             |
+|             |             |             |     > for a | -   "       |
+|             |             |    > before |             | Mach/airspe |
+|             |             |     > the   |    > repeat | ed/altitude |
+|             |             |             |             |     > out   |
+|             |             |  > maneuver |   > because |     > of    |
+|             |             |             |     > the   |     >       |
+|             |             |    > and/or |     > point | parameters. |
+|             |             |             |     > was   |     > We'll |
+|             |             |  > recovery |     > not,  |     > need  |
+|             |             |     > are   |     > in    |     > to    |
+|             |             |             |     > fact, |             |
+|             |             | > finished. |             |    > repeat |
+|             |             |             | > complete. |     > that  |
+|             |             | -   Saying  |             |             |
+|             |             |             | -   The     |   > point." |
+|             |             |    > "POINT |             |             |
+|             |             |             |   > aircrew | -   "The    |
+|             |             | > COMPLETE" |     > cease |             |
+|             |             |     > when  |     > test  |   > control |
+|             |             |     > what  |     > point |     > room  |
+|             |             |     > you   |             |     > is    |
+|             |             |             | > execution |             |
+|             |             |    > really |     > prior | > satisfied |
+|             |             |     > mean  |     > to    |     > with  |
+|             |             |     > is    |     >       |     > this  |
+|             |             |     > "     | completion, |     > test  |
+|             |             | TERMINATE." |             |             |
+|             |             |             |  > negating |   > point." |
+|             |             | -   "..."   |     > the   |             |
+|             |             |     >       |     > data  |             |
+|             |             |  (crickets) |     > and   |             |
+|             |             |             |             |             |
+|             |             |             |   > wasting |             |
+|             |             |             |             |             |
+|             |             |             |  > millions |             |
+|             |             |             |     > of    |             |
+|             |             |             |             |             |
+|             |             |             |   > dollars |             |
+|             |             |             |     > of    |             |
+|             |             |             |             |             |
+|             |             |             |  > taxpayer |             |
+|             |             |             |             |             |
+|             |             |             |    > money. |             |
+|             |             |             |             |             |
+|             |             |             | -   The     |             |
+|             |             |             |             |             |
+|             |             |             |   > aircrew |             |
+|             |             |             |             |             |
+|             |             |             |    > aren't |             |
+|             |             |             |     > aware |             |
+|             |             |             |     > that  |             |
+|             |             |             |             |             |
+|             |             |             | > something |             |
+|             |             |             |     > is    |             |
+|             |             |             |     > wrong |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             |  > continue |             |
+|             |             |             |     > with  |             |
+|             |             |             |     > the   |             |
+|             |             |             |     > test, |             |
+|             |             |             |             |             |
+|             |             |             |  > possibly |             |
+|             |             |             |             |             |
+|             |             |             | > repeating |             |
+|             |             |             |     > the   |             |
+|             |             |             |             |             |
+|             |             |             |  > mistake. |             |
+|             |             |             |             |             |
+|             |             |             | -   B       |             |
+|             |             |             | ueller?\... |             |
+|             |             |             |     > B     |             |
+|             |             |             | ueller?\... |             |
+|             |             |             |             |             |
+|             |             |             |  > Bueller? |             |
++-------------+-------------+-------------+-------------+-------------+
+| "NEXT       | The next    | > "..."     | > Two       | > "Next     |
+| \[POINT/    | thing is... | >           | > effects,  | > point is  |
+| CARD/FLIGHT |             |  (crickets) | > depending | > X, at X   |
+| C           |             |             | > on        | > feet and  |
+| ONDITION\]" |             |             | > aircrew.  | > X Mach."  |
+|             |             |             | > Either    |             |
+|             |             |             | > the       |             |
+|             |             |             | > aircrew   |             |
+|             |             |             | > wait and  |             |
+|             |             |             | > wonder    |             |
+|             |             |             | > what's    |             |
+|             |             |             | > next, or  |             |
+|             |             |             | > the       |             |
+|             |             |             | > aircrew   |             |
+|             |             |             | > declare   |             |
+|             |             |             | > what's    |             |
+|             |             |             | > next and  |             |
+|             |             |             | > the       |             |
+|             |             |             | > control   |             |
+|             |             |             | > room      |             |
+|             |             |             | > loses     |             |
+|             |             |             | > control   |             |
+|             |             |             | > of the    |             |
+|             |             |             | > mission.  |             |
++-------------+-------------+-------------+-------------+-------------+
+| "MISSION    | The data,   | -   "..."   | -   Aircrew | -   Say     |
+| COMPLETE"   | fuel,       |     >       |     > ask   |             |
+|             | aircraft,   |  (crickets) |     >       |   > somethi |
+|             | or          |     > or    |  questions, | ng/anything |
+|             | formation   |             |             |             |
+|             | requires    | > generally |    > trying | -   "The    |
+|             | that the    |             |     > to    |             |
+|             | test        |    > succes |             |   > control |
+|             | portion of  | s-ambiguous | > determine |     > room  |
+|             | the mission |     > comm  |     > if    |     > shows |
+|             | must        |             |     > the   |     > there |
+|             | conclude.   | -           |             |     > is no |
+|             |             |    "CLEARED |   > mission |     > more  |
+|             |             |     > TO    |     > is    |             |
+|             |             |     > RTB"  |     > going |   > testing |
+|             |             |             |     > to    |     > to be |
+|             |             |             |             |     > acc   |
+|             |             |             |  > continue | omplished." |
+|             |             |             |     > or    |             |
+|             |             |             |     > not.  |             |
+|             |             |             |             |             |
+|             |             |             | -   ATC     |             |
+|             |             |             |     > hears |             |
+|             |             |             |     > "RTB" |             |
+|             |             |             |     > and   |             |
+|             |             |             |             |             |
+|             |             |             |    > begins |             |
+|             |             |             |     > c     |             |
+|             |             |             | oordination |             |
+|             |             |             |             |             |
+|             |             |             |    > before |             |
+|             |             |             |     > the   |             |
+|             |             |             |             |             |
+|             |             |             |   > aircrew |             |
+|             |             |             |     > are   |             |
+|             |             |             |             |             |
+|             |             |             |    > ready. |             |
++-------------+-------------+-------------+-------------+-------------+

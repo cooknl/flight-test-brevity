@@ -6,13 +6,11 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 ## Purpose
 
-Accelerate the communications training of flight testers. The desired end
-state is a flight test team who can safely, securely, effectively, and
-efficiently communicate with each other, whether over the radio or
+This guide is intended to accelerate the communications training of flight testers. The desired end state is a flight test team who can safely, securely, effectively, and efficiently communicate with each other, whether over the radio or
 face-to-face.
 
 ## Method
 
-Introduce **brevity codes** in their proper context, the multiservice document "*BREVITY -- Multiservice Brevity Codes*" [@http://zotero.org/users/7103471/items/HVKQ4CHY], to reduce the confusion of misused brevity and to leverage rated aircrews' operational training. The multiservice brevity codes most applicable to flight test are shown in Appendix A, with the definition and the flight test context included. Codes most often misused are indicated with an asterisk (\*) and an explanation of how to avoid misuse.
+To reduce the confusion of misused brevity and to leverage military rated aircrews' operational training, this guide introduces **brevity codes** in their military context, the multiservice document "*BREVITY -- Multiservice Brevity Codes* " [@http://zotero.org/users/7103471/items/HVKQ4CHY]. The multiservice brevity codes most applicable to flight test are shown in Appendix A, with the definition and the flight test context included.
 
-Develop a general approach to **Flight Test Brevity** to enhance test conduct quality and inform test teams' communication plans. Appendix B contains Flight Test Brevity terms. Each entry states the term, and its definition. Typical errors associated with each term are also shown, as well as the effects of the error and a "plain English antidote" to be used if brevity breaks down.
+This guide develops a general approach to **Flight Test Brevity** to enhance test conduct quality and inform test teams' communication plans. Appendix B contains Flight Test Brevity terms. Each entry states the term, and its definition. Typical errors associated with each term are also shown, as well as the effects of the error and a "plain English antidote" to be used if brevity breaks down.
