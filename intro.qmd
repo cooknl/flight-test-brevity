@@ -2,7 +2,7 @@
 
 **"Brevity codes"** are short, standard phrases used in operational radio communications to maximize information content while minimizing time spent transmitting (keying the microphone) and receiving (wondering what the guy just said).
 
-For the United States armed forces, brevity codes are defined in the document "*BREVITY -- Multiservice Brevity Codes*" [@http://zotero.org/users/7103471/items/HVKQ4CHY] with the Air Force document designation of AFTTP(I) 3-2.5. The February 2002 version is unclassified and publicly releasable.
+For the United States armed forces, brevity codes are defined in the document *BREVITY* [@http://zotero.org/users/7103471/items/A99Q8MZZ]. The publicly releasable version of the document is used for this guide.
 
 **"Flight Test Brevity"** is a more general approach to test team communications (comm) that 
 
@@ -14,9 +14,9 @@ Properly used, brevity can assist flight test conduct because there is direct co
 
   Test Conduct Quality   Proper Communication
   ---------------------- ----------------------
-  Safe                   Correct
+  Safe                   Complete
   Secure                 Concise
-  Effective              Complete
+  Effective              Correct
   Efficient              Clear
 
 : Correlation Between Test Conduct Quality and Proper Communications {#tbl-correlation}

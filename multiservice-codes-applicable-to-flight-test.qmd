@@ -137,7 +137,7 @@
 
 : Relative Geometry Brevity Codes {#tbl-ms-relative}
 
-![The Relation Between Aspect Angles and Relative Geometry Brevity Codes](aspect-geometry.png){#fig-aspect width="6.5in" height="4.44617in" width="6.5in"}
+![The Relation Between Aspect Angles and Relative Geometry Brevity Codes](./images/aspect-geometry.png){#fig-aspect width="6.5in" height="4.44617in" width="6.5in"}
 
 +----------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | "Picture" Geometry\        | Definition                                                                                                                                                             |

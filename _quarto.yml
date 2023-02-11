@@ -6,11 +6,15 @@ book:
   title: "Flight Test Brevity"
   author: "Nathan Cook"
   date: "2/2/2023"
+  cover-image: /images/cover.png
+  repo-url: https://github.com/cooknl/flight-test-brevity
+  repo-actions: [issue]
   chapters:
     - index.qmd
     - intro.qmd
     - principles.qmd
     - comm_plan.qmd
+    - references.qmd
   appendices: 
     - multiservice-codes-applicable-to-flight-test.qmd
     - flight-test-brevity-codes.qmd
@@ -25,7 +29,7 @@ format:
   pdf:
     documentclass: scrreprt
 
-license: CC BY-SA 4.0
+license: "CC BY-SA"
 
 
 

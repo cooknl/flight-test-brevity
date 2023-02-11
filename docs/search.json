@@ -4,7 +4,7 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "“Brevity codes” are short, standard phrases used in operational radio communications to maximize information content while minimizing time spent transmitting (keying the microphone) and receiving (wondering what the guy just said).\nFor the United States armed forces, brevity codes are defined in the document “BREVITY – Multiservice Brevity Codes” (BREVITY Multiservice Brevity Codes 2002) with the Air Force document designation of AFTTP(I) 3-2.5. The February 2002 version is unclassified and publicly releasable.\n“Flight Test Brevity” is a more general approach to test team communications (comm) that\n\nuses the principles of brevity codes,\ndoes not misuse official brevity codes, and\ndefines specific words to be used in a communications plan for a particular test mission.\n\nProperly used, brevity can assist flight test conduct because there is direct correlation between proper communications and test conduct quality, as shown in Table 1.1.\n\n\nTable 1.1: Correlation Between Test Conduct Quality and Proper Communications\n\n\nTest Conduct Quality\nProper Communication\n\n\n\n\nSafe\nCorrect\n\n\nSecure\nConcise\n\n\nEffective\nComplete\n\n\nEfficient\nClear\n\n\n\n\n\n\n\n\nBREVITY Multiservice Brevity Codes. 2002. HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000. https://apps.dtic.mil/sti/pdfs/ADA404426.pdf."
+    "text": "“Brevity codes” are short, standard phrases used in operational radio communications to maximize information content while minimizing time spent transmitting (keying the microphone) and receiving (wondering what the guy just said).\nFor the United States armed forces, brevity codes are defined in the document BREVITY (ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5 2020). The publicly releasable version of the document is used for this guide.\n“Flight Test Brevity” is a more general approach to test team communications (comm) that\n\nuses the principles of brevity codes,\ndoes not misuse official brevity codes, and\ndefines specific words to be used in a communications plan for a particular test mission.\n\nProperly used, brevity can assist flight test conduct because there is direct correlation between proper communications and test conduct quality, as shown in Table 1.1.\n\n\nTable 1.1: Correlation Between Test Conduct Quality and Proper Communications\n\n\nTest Conduct Quality\nProper Communication\n\n\n\n\nSafe\nComplete\n\n\nSecure\nConcise\n\n\nEffective\nCorrect\n\n\nEfficient\nClear\n\n\n\n\n\n\n\n\nATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5. 2020. Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes. Change 1 02 Apr 2021. Director: ALSA Center 114 Andrews Street Joint Base Langley-Eustis, VA 23665-2785. https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf."
   },
   {
     "objectID": "principles.html#principle-1---contracts",
@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "Flight Test Brevity",
     "section": "",
-    "text": "Preface\nThis work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
+    "text": "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License"
   },
   {
     "objectID": "index.html#purpose",
@@ -74,13 +74,27 @@
     "href": "index.html#method",
     "title": "Flight Test Brevity",
     "section": "Method",
-    "text": "Method\nTo reduce the confusion of misused brevity and to leverage military rated aircrews’ operational training, this guide introduces brevity codes in their military context, the multiservice document BREVITY (FM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5 2002). The multiservice brevity codes most applicable to flight test are shown in Appendix A, with the definition and the flight test context included.\nThis guide develops a general approach to Flight Test Brevity to enhance test conduct quality and inform test teams’ communication plans. Appendix B contains Flight Test Brevity terms. Each entry states the term, and its definition. Typical errors associated with each term are also shown, as well as the effects of the error and a “plain English antidote” to be used if brevity breaks down."
+    "text": "Method\nTo reduce the confusion of misused brevity and to leverage military rated aircrews’ operational training, this guide introduces brevity codes in their military context, the multiservice document BREVITY (ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5 2020). The multiservice brevity codes most applicable to flight test are shown in Appendix A, with the definition and the flight test context included.\nThis guide develops a general approach to Flight Test Brevity to enhance test conduct quality and inform test teams’ communication plans. Appendix B contains Flight Test Brevity terms. Each entry states the term, and its definition. Typical errors associated with each term are also shown, as well as the effects of the error and a “plain English antidote” to be used if brevity breaks down."
   },
   {
     "objectID": "index.html#change-log",
     "href": "index.html#change-log",
     "title": "Flight Test Brevity",
     "section": "Change Log",
-    "text": "Change Log\n\n2023-02-11\n\nPort to Quarto\nUpdate from 2002 to 2020 Change 1 version of BREVITY\n\n(FM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5 2002)\n(ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5 2020)\n\n\n2016-08-04 Most recent Word version\n\n\n\n\n\nATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5. 2020. Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes. Change 1 02 Apr 2021. Director: ALSA Center 114 Andrews Street Joint Base Langley-Eustis, VA 23665-2785. https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf.\n\n\nFM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5. 2002. Multiservice Brevity Codes. HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000. https://apps.dtic.mil/sti/pdfs/ADA404426.pdf."
+    "text": "Change Log\n\n2023-02-11\n\nPort to Quarto\nUpdate from 2002 to 2020 Change 1 version of BREVITY\n\n(FM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5 2002)\n(ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5 2020)\n\nTable 1.1 order changed\n\n2016-08-04 Most recent Word version\n\n\n\n\n\nATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5. 2020. Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes. Change 1 02 Apr 2021. Director: ALSA Center 114 Andrews Street Joint Base Langley-Eustis, VA 23665-2785. https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf.\n\n\nFM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5. 2002. Multiservice Brevity Codes. HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000. https://apps.dtic.mil/sti/pdfs/ADA404426.pdf."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5. 2020. Multi-Service\nTactics, Techniques, and Procedures for Multi-Service Brevity\nCodes. Change 1 02 Apr 2021. Director: ALSA Center 114 Andrews\nStreet Joint Base Langley-Eustis, VA 23665-2785. https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf.\n\n\nFM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5. 2002. Multiservice\nBrevity Codes. HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000. https://apps.dtic.mil/sti/pdfs/ADA404426.pdf."
+  },
+  {
+    "objectID": "index.html#feedback",
+    "href": "index.html#feedback",
+    "title": "Flight Test Brevity",
+    "section": "Feedback",
+    "text": "Feedback\nThis guide is a living document. All feedback is welcomed, and the most effective means of providing it is to create an “Issue” at https://github.com/cooknl/flight-test-brevity/issues"
   }
 ]

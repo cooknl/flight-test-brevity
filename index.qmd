@@ -3,19 +3,22 @@
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
 
 ::: {.column-margin}
-![](cc-by-sa-4.0.png)
+![](./images/cc-by-sa-4.0.png)
 :::
 
 ## Purpose
 
-This guide is intended to accelerate the communications training of flight testers. The desired end state is a flight test team who can safely, securely, effectively, and efficiently communicate with each other, whether over the radio or
-face-to-face.
+This guide is intended to accelerate the communications training of flight testers. The desired end state is a flight test team who can safely, securely, effectively, and efficiently communicate with each other, whether over the radio or face-to-face.
 
 ## Method
 
-To reduce the confusion of misused brevity and to leverage military rated aircrews' operational training, this guide introduces **brevity codes** in their military context, the multiservice document *BREVITY* [@http://zotero.org/users/7103471/items/HVKQ4CHY]. The multiservice brevity codes most applicable to flight test are shown in Appendix A, with the definition and the flight test context included.
+To reduce the confusion of misused brevity and to leverage military rated aircrews' operational training, this guide introduces **brevity codes** in their military context, the multiservice document *BREVITY* [@http://zotero.org/users/7103471/items/A99Q8MZZ]. The multiservice brevity codes most applicable to flight test are shown in Appendix A, with the definition and the flight test context included.
 
 This guide develops a general approach to **Flight Test Brevity** to enhance test conduct quality and inform test teams' communication plans. Appendix B contains Flight Test Brevity terms. Each entry states the term, and its definition. Typical errors associated with each term are also shown, as well as the effects of the error and a "plain English antidote" to be used if brevity breaks down.
+
+## Feedback
+
+This guide is a living document. All feedback is welcomed, and the most effective means of providing it is to create an "Issue" at <https://github.com/cooknl/flight-test-brevity/issues>
 
 ## Change Log
 
@@ -24,4 +27,5 @@ This guide develops a general approach to **Flight Test Brevity** to enhance tes
     - Update from 2002 to 2020 Change 1 version of BREVITY
         - [@http://zotero.org/users/7103471/items/HVKQ4CHY]
         - [@http://zotero.org/users/7103471/items/A99Q8MZZ]
+    - @tbl-correlation order changed
 - 2016-08-04 Most recent Word version
