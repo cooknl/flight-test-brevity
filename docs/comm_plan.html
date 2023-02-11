@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./flight-test-applicable-code.html" rel="next">
+<link href="./references.html" rel="next">
 <link href="./principles.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -84,6 +84,9 @@ ul.task-list li input[type="checkbox"] {
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Flight Test Brevity</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/cooknl/flight-test-brevity" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
     </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
@@ -113,6 +116,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="./comm_plan.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Communications Plan</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Appendices</a>
@@ -123,7 +131,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./flight-test-applicable-code.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Flight Test Applicable Codes</span></a>
+  <a href="./multiservice-codes-applicable-to-flight-test.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./flight-test-brevity-codes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></a>
   </div>
 </li>
       </ul>
@@ -133,7 +146,15 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#brevitya-small-part-of-the-comm-plan" id="toc-brevitya-small-part-of-the-comm-plan" class="nav-link active" data-scroll-target="#brevitya-small-part-of-the-comm-plan"><span class="toc-section-number">3.1</span>  Brevity…a small part of the comm plan</a></li>
+  <li><a href="#creating-a-comm-plan" id="toc-creating-a-comm-plan" class="nav-link" data-scroll-target="#creating-a-comm-plan"><span class="toc-section-number">3.2</span>  Creating a comm plan</a></li>
+  <li><a href="#using-the-comm-plan" id="toc-using-the-comm-plan" class="nav-link" data-scroll-target="#using-the-comm-plan"><span class="toc-section-number">3.3</span>  Using the comm plan:</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cooknl/flight-test-brevity/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -155,15 +176,22 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><span id="_Toc362874866" class="anchor"></span>Brevity…A Small Part of the Comm Plan:</p>
-<p>Part of the test engineer’s responsibility is to establish and use a communications plan during test conduct.</p>
+<section id="brevitya-small-part-of-the-comm-plan" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="brevitya-small-part-of-the-comm-plan"><span class="header-section-number">3.1</span> Brevity…a small part of the comm plan</h2>
+<p>Part of the test conductor’s responsibility is to establish and use a communications plan during test conduct.</p>
 <p>The primary purpose of the comm plan is to create a “cadence” to the test flow, allowing the test team to anticipate the next step, then execute that step at the right time and right place with the right actions. If the comm plan is poorly briefed and/or understood, the execution of the test will suffer because of the difficulty of establishing an understanding of what is to be done, by whom, when and where.</p>
 <p>Brevity can assist the comm plan by reducing the “chatter” on the radio, allowing the test team to focus on action, rather than communication.</p>
-<p>Brevity is NOT the most important part of a comm plan, however! Referring back to Table 1, you can see there is a priority order. Always remember that plain English (AKA “Trucker Comm”) is sometimes necessary to safely execute, but you should NEVER “talk around” classified over the radio.</p>
-<p><span id="_Toc362874867" class="anchor"></span>Creating a Comm Plan:</p>
-<p><strong>Defining your terms</strong> is the foundation of a good comm plan. Test team members come from varied backgrounds. The mission materials and the pre-flight brief are the last opportunity to get everyone on the same page. A non-exhaustive listing of definition priorities is shown in Table 4.</p>
-<p><span id="_Ref362274138" class="anchor"></span>Table 4. Priority of Term Definitions</p>
+<p>Brevity is NOT the most important part of a comm plan, however!</p>
+<p>Referring back to <a href="intro.html#tbl-correlation">Table&nbsp;<span>1.1</span></a>, you can see there is a priority order. Always remember that plain English (AKA “Trucker Comm”) is sometimes necessary to safely execute, but you should NEVER “talk around” classified over the radio.</p>
+</section>
+<section id="creating-a-comm-plan" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="creating-a-comm-plan"><span class="header-section-number">3.2</span> Creating a comm plan</h2>
+<section id="defining-your-terms" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="defining-your-terms"><span class="header-section-number">3.2.1</span> Defining your terms</h3>
+<p>Definitions are the foundation of a good comm plan. Test team members come from varied backgrounds. The mission materials and the pre-flight brief are the last opportunity to get everyone on the same page. A non-exhaustive listing of definition priorities is shown in Table 4.</p>
+<div id="tbl-priority" class="anchored">
 <table class="table">
+<caption>Table&nbsp;3.1: Priority of Term Definitions</caption>
 <colgroup>
 <col style="width: 40%">
 <col style="width: 40%">
@@ -185,19 +213,19 @@ ul.task-list li input[type="checkbox"] {
 <td>Highest</td>
 </tr>
 <tr class="even">
-<td>Switch Actuations</td>
+<td>Switch Actions</td>
 <td>“Designate” v “TMS FWD”</td>
 <td>High</td>
 </tr>
 <tr class="odd">
 <td>Maneuvers</td>
 <td>Success Criteria</td>
-<td></td>
+<td>High</td>
 </tr>
 <tr class="even">
 <td>Chase/Target Responsibilities</td>
 <td>Safety v Photo v Area</td>
-<td></td>
+<td>High</td>
 </tr>
 <tr class="odd">
 <td>Callsigns</td>
@@ -211,34 +239,42 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 </tbody>
 </table>
-<p><strong>Identifying the types of test points</strong> provides the structure of a good comm plan. Some test missions consist of a single type of test point, necessitating a single, repeated comm plan. Other test missions have many types of test points, necessitating a carefully laid out comm plan, which clarifies which test point type is being flown for each test point.</p>
-<p><strong>Scripting the plan</strong> is essential to ensure the test team has an objective reference for planning and briefing purposes. Include pacing when appropriate, for example during weapons deliveries pauses might be inserted into the countdown to allow for team members to call for aborts. Also consider the role of hot mic, which tends to reduce brevity on the part of the aircrew while the ground controllers are still constrained by radio communications, as well as reduced/partial comm situations, where portions of the test team cannot participate in the comm as briefed.</p>
+</div>
+</section>
+<section id="identifying-the-types-of-test-points" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="identifying-the-types-of-test-points"><span class="header-section-number">3.2.2</span> Identifying the types of test points</h3>
+<p>Subdividing the test by types of test points provides the structure of a good comm plan. Some test missions consist of a single type of test point, necessitating a single, repeated comm plan. Other test missions have many types of test points, necessitating a carefully laid out comm plan, which clarifies which test point type is being flown for each test point.</p>
+</section>
+<section id="scripting-the-plan" class="level3" data-number="3.2.3">
+<h3 data-number="3.2.3" class="anchored" data-anchor-id="scripting-the-plan"><span class="header-section-number">3.2.3</span> Scripting the plan</h3>
+<p>A clear and common script is essential to ensure the test team has an objective reference for planning and briefing purposes. Include pacing when appropriate, for example during weapons deliveries pauses might be inserted into the countdown to allow for team members to call for aborts. Also consider the role of hot mic, which tends to reduce brevity on the part of the aircrew while the ground controllers are still constrained by radio communications, as well as reduced/partial comm situations, where portions of the test team cannot participate in the comm as briefed.</p>
+</section>
+<section id="brevity-takes-it-from-good-to-great" class="level3" data-number="3.2.4">
+<h3 data-number="3.2.4" class="anchored" data-anchor-id="brevity-takes-it-from-good-to-great"><span class="header-section-number">3.2.4</span> Brevity takes it from good to great</h3>
 <p>Keeping brevity in mind is the finishing touch of a good comm plan. Brevity takes a comm plan to the next level, but the foundation and structure are more important! So, when you get to the point of scripting your plan, only after defining your terms and identifying test point types, apply the three principles of brevity:</p>
 <ol type="1">
-<li><p><strong>Contracts</strong> - At each step of the comm plan, know who is responsible for speaking next.</p></li>
-<li><p><strong>Three Types</strong> - Ensure your words accurately reflect whether the responsible party is:</p>
+<li><strong>Contracts</strong> - At each step of the comm plan, know who is responsible for speaking next.</li>
+<li><strong>Three Types</strong> - Ensure your words accurately reflect whether the responsible party is:
 <ol type="a">
-<li><p>Directing – “Cleared to…” “Check…”</p></li>
-<li><p>Informing – “Next point is…” “Point complete…”</p></li>
-</ol></li>
-</ol>
-<blockquote class="blockquote">
-<p>or</p>
-</blockquote>
-<ol start="3" type="a">
+<li>Directing – “Cleared to…” “Check…”</li>
+<li>Informing – “Next point is…” “Point complete…”</li>
 <li>Requesting – “Ops check…” “Confirm…”</li>
-</ol>
-<!-- -->
-<ol start="3" type="1">
+</ol></li>
 <li><strong>Standard Word Count</strong> - Use words in accordance with the brief and the mission materials</li>
 </ol>
-<p><span id="_Toc362874868" class="anchor"></span>Using the Comm Plan:</p>
+</section>
+</section>
+<section id="using-the-comm-plan" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="using-the-comm-plan"><span class="header-section-number">3.3</span> Using the comm plan:</h2>
 <p>The key to establishing a cadence during test execution is consistency. Say the same thing at the same time to build test team confidence and to help reinforce the impression that the test mission is proceeding under control.</p>
 <p>When inconsistencies creep in, they are a sign that something has changed. It may be as simple as fatigue, or it may be a serious system problem. Bring the test team back to the comm plan, if there are no safety-of-flight or test concerns. If there are problems to be resolved, be explicit about the plan of action and the exit criteria from the troubleshooting.</p>
+<blockquote class="blockquote">
 <p>Example: “We are reviewing the data. If we can’t find the cause in the next 5 minutes, we’ll stop testing and return to base.”</p>
-<p>Remember, you’re either using the comm plan, or you’re having a discussion. Make sure the entire test team is clear on where you are in your communications.</p>
+</blockquote>
+<p>Remember, you’re either using the comm plan, or you’re having a discussion. Both can be important aspects of test conduct. Make sure the entire test team is clear on where you are in your communications.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -381,8 +417,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./flight-test-applicable-code.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Flight Test Applicable Codes</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./references.html" class="pagination-link">
+        <span class="nav-page-text">References</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
