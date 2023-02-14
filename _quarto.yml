@@ -26,8 +26,6 @@ format:
     theme: cosmo
     toc: true
     toc-depth: 2
-  pdf:
-    documentclass: scrreprt
 
 license: "CC BY-SA"
 
