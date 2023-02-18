@@ -1,16 +1,20 @@
 # Introduction
 
-**"Brevity codes"** are short, standard phrases used in operational radio communications to maximize information content while minimizing time spent transmitting (keying the microphone) and receiving (wondering what the guy just said).
+## Brevity codes
+
+**"Brevity codes"** are short, standard phrases used in operational radio communications to maximize information content while minimizing time spent transmitting (keying the microphone) and receiving (wondering what they just said).
 
 For the United States armed forces, brevity codes are defined in the document *BREVITY* [@http://zotero.org/users/7103471/items/A99Q8MZZ]. The publicly releasable version of the document is used for this guide.
 
-**"Flight Test Brevity"** is a more general approach to test team communications (comm) that 
+## Flight Test Brevity
+
+**"Flight Test Brevity"** takes the concept of brevity codes and extends it to test team communications (comm) that 
 
 1. uses the principles of brevity codes, 
 1. does not misuse official brevity codes, and 
 1. defines specific words to be used in a communications plan for a particular test mission.
 
-Properly used, brevity can assist flight test conduct because there is direct correlation between proper communications and test conduct quality, as shown in @tbl-correlation.
+Properly used, brevity can assist flight test conduct by encouraging proper communication. There is direct correlation between proper communications and test conduct quality, as shown in @tbl-correlation.
 
   Test Conduct Quality   Proper Communication
   ---------------------- ----------------------
@@ -20,3 +24,9 @@ Properly used, brevity can assist flight test conduct because there is direct co
   Efficient              Clear
 
 : Correlation Between Test Conduct Quality and Proper Communications {#tbl-correlation}
+
+## Method
+
+To reduce the confusion of misused brevity and to leverage military rated aircrews' operational training, this guide introduces **brevity codes** in their military context, the multiservice document *BREVITY* [@http://zotero.org/users/7103471/items/A99Q8MZZ]. The multiservice brevity codes most applicable to flight test are shown in @sec-multiservice, with the definition and the flight test context included.
+
+This guide develops a general approach to **Flight Test Brevity** to enhance test conduct quality and inform test teams' communication plans. @sec-flighttestbrevity contains Flight Test Brevity terms. Each entry states the term, and its definition. Typical errors associated with each term are also shown, as well as the effects of the error and a "plain English antidote" to be used if brevity breaks down.
