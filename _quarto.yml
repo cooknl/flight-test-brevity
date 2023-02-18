@@ -5,7 +5,7 @@ project:
 book:
   title: "Flight Test Brevity"
   author: "Nathan Cook"
-  date: "2/2/2023"
+  date: "2/18/2023"
   cover-image: /images/cover.png
   repo-url: https://github.com/cooknl/flight-test-brevity
   repo-actions: [issue]
