@@ -4,8 +4,10 @@ project:
 
 book:
   title: "Flight Test Brevity"
+  subtitle: "A Communications Guide"
   author: "Nathan Cook"
-  date: "2/18/2023"
+  date: 2023-02-18
+  date-format: iso
   cover-image: /images/cover.png
   repo-url: https://github.com/cooknl/flight-test-brevity
   repo-actions: [issue]
@@ -17,7 +19,7 @@ book:
     - references.qmd
   appendices: 
     - multiservice-codes-applicable-to-flight-test.qmd
-    - flight-test-brevity-codes.qmd
+    - flight-test-brevity-codes-sections.qmd
 
 bibliography: zotero.json
 
@@ -25,6 +27,11 @@ format:
   html:
     theme: cosmo
     toc: true
+    toc-depth: 2
+  pdf:
+    documentclass: scrreport
+    lof: true
+    lot: true
     toc-depth: 2
 
 license: "CC BY-SA"

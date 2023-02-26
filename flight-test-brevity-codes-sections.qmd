@@ -1,0 +1,90 @@
+# Flight Test Brevity Codes {#sec-flighttestbrevity}
+
+This appendix consists of flight test brevity codes that resolve many of the most common test team communication issues.
+
+Codes are presented in roughly chronological order of a typical flight test mission.
+
+{{< pagebreak >}}
+
+## RADIO CHECK
+
+### Correct Usage {.unnumbered}
+
+-   "RADIO CHECK"
+-   "RADIO CHECK ON \[channel\]"
+
+### Meaning {.unnumbered}
+
+-   "RADIO CHECK"
+    -   I'm requesting that you tell me how well you can hear my transmission on the PRIMARY or MAIN channel.\
+-   "RADIO CHECK ON \[channel\]"
+    -   I'm requesting that you tell me how well you can hear my transmission on the explicitly stated channel.
+
+### Typical Errors {.unnumbered}
+
+-   Calling for a "RADIO CHECK" from a channel other than PRIMARY or MAIN.
+-   Calling for a "RADIO CHECK ON \[channel\]" from a channel other than that explicitly stated
+
+### Effects of Errors {.unnumbered}
+
+Aircrew think you're calling on a channel that you're not calling from, and provides a RADIO CHECK on that erroneous channel, leading to a "false positive" or "false negative."
+
+### Plain English Antidotes {.unnumbered}
+
+- "How do you hear me on \[channel\]?
+
+{{< pagebreak >}}
+
+## READY
+
+### Correct Usage {.unnumbered}
+
+"\[Transmitting callsign\] IS READY \[for taxi/takeoff/point X/etc\]"
+
+### Meaning {.unnumbered}
+
+The sender is ready to support test as soon as clearance is obtained for the next administrative step (taxi, takeoff, etc.), or as soon as the receiver acknowledges with "\[Receiving callsign\] IS READY"
+
+### Typical Errors {.unnumbered}
+
+1. "CLEARED TO \[action for which the sender has no authority or responsibility such as TAXI, TAKEOFF, LANDING, etc.\]" 2. "…" (aka crickets)
+
+### Effects of Errors {.unnumbered}
+
+1.  Receiver begins action without proper coordination and/or clearance.
+2.  Aircrew are wondering what's going on.
+
+### Plain English Antidote {.unnumbered}
+
+1.  "\[Transmitting callsign\] is showing all necessary steps complete and is prepared for \[receiving callsign\] to \[take action\]"
+2.  Say something/anything.
+
+{{< pagebreak >}}
+
+```{=html}
+<!--# This is the section template
+## CODE
+
+### Correct Usage   {.unnumbered}
+
+"CODE"
+
+### Meaning {.unnumbered}
+
+Meaning
+
+### Typical Errors {.unnumbered}
+
+Typical errors
+
+### Effects of Errors   {.unnumbered}
+
+Effects of errors
+
+### Plain English Antidote  {.unnumbered}
+
+Plain English Antidotes
+
+{{< pagebreak >}}
+-->
+```
