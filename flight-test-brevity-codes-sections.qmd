@@ -61,6 +61,40 @@ The sender is ready to support test as soon as clearance is obtained for the nex
 
 {{< pagebreak >}}
 
+## CLEARED
+
+### Correct Usage   {.unnumbered}
+
+A. "CLEARED TO MANEUVER"
+B. "CLEARED [test point]"
+C. "CLEARED [condition]"
+
+### Meaning {.unnumbered}
+
+Initiate action per the brief for this context
+
+### Typical Errors {.unnumbered}
+
+Typical errors
+
+### Effects of Errors   {.unnumbered}
+
+Effects of errors
+
+### Plain English Antidote  {.unnumbered}
+
+Plain English Antidotes
+
+{{< pagebreak >}}
+
+##@
+"-        Saying “CLEARED TO MANEUVER” way too early, i.e. prior to setup, instead of clearing the aircrew to a setup flight condition to prepare for the actual maneuver.
+-        Saying “CLEARED TO MANEUVER” way too late, i.e. the aircrew are waiting and burning gas, or they’ve already begun the maneuver without your clearance."
+"-        Confusion ensues about if the test point has actually begun, if aircrew are on parameters, or if clearance has already been issued, requiring a conversation.
+-        TC loses control of the mission and the trust/confidence of the aircrew because aircrew have gone rogue, not wanting to burn gas and time waiting for your clearance."
+“We are on test point XX. We show good setup. The control room is ready. You are cleared to maneuver.”
+
+
 ```{=html}
 <!--# This is the section template
 ## CODE

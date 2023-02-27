@@ -15,11 +15,13 @@ book:
     - index.qmd
     - intro.qmd
     - principles.qmd
-    - comm_plan.qmd
     - references.qmd
   appendices: 
     - multiservice-codes-applicable-to-flight-test.qmd
     - flight-test-brevity-codes-sections.qmd
+    - unsafe-comm.qmd
+    - test-point.qmd
+    - comm-plan.qmd
 
 bibliography: zotero.json
 
