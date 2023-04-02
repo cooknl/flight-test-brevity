@@ -62,7 +62,7 @@
 |                      | Opposite of BLIND.                                                                                                                            |                                                                                                                                                                                                  |
 +----------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Attention-Getting Brevity Codes {#tbl-ms-attention}
+: Attention-Getting Brevity Codes {#tbl-ms-attention tbl-colwidths="[30, 35, 35]"}
 
 **Informative Geometry** codes communicate a general condition. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -96,7 +96,7 @@
 | WINGS LEVEL           | Informative call from aircraft to FAC reporting rolled-out on final attack heading.           |
 +-----------------------+-----------------------------------------------------------------------------------------------+
 
-: Informative Geometry Brevity Codes {#tbl-ms-informative}
+: Informative Geometry Brevity Codes {#tbl-ms-informative tbl-colwidths="[30, 70]"}
 
 **Relative Geometry** codes provide relationship between two air vehicles, both location and angles. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -140,7 +140,7 @@
 | STACK                | Two or more contacts or formations with an altitude separation in relation to each other.                                                                     |
 +----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Relative Geometry Brevity Codes {#tbl-ms-relative}
+: Relative Geometry Brevity Codes {#tbl-ms-relative tbl-colwidths="[30, 70]"}
 
 ![The Relation Between Aspect Angles and Relative Geometry Brevity Codes](./images/aspect-geometry.png){#fig-aspect width="6.5in" height="4.44617in" width="6.5in"}
 
@@ -230,7 +230,7 @@
 | TRACK (cardinal direction)        | Group/contact's direction of flight.                                                                                                                                   |
 +-----------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: "Picture" Geometry Brevity Codes {#tbl-ms-picture}
+: "Picture" Geometry Brevity Codes {#tbl-ms-picture tbl-colwidths="[30, 70]"}
 
 **Maneuver** codes direct or describe single-ship maneuvers. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -319,7 +319,7 @@
 | SPLIT                        | Informative/directive call that flight member is leaving formation to pursue a separate attack; VISUAL may not be maintained.                    |
 +------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Maneuver Brevity Codes {#tbl-ms-maneuver}
+: Maneuver Brevity Codes {#tbl-ms-maneuver tbl-colwidths="[30, 70]"}
 
 **Request** codes compress questions into single words. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -337,7 +337,7 @@
 | WORDS        | Directive or interrogative call regarding further information or directives pertinent to the mission.      |
 +--------------+------------------------------------------------------------------------------------------------------------+
 
-: Request Brevity Codes {#tbl-ms-request}
+: Request Brevity Codes {#tbl-ms-request tbl-colwidths="[30, 70]"}
 
 **Weapon** codes are related to employment of munitions. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -418,7 +418,7 @@
 | SKOSH                                      | Aircraft is out of/or unable to employ active radar missiles.                                                                                                              |
 +--------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Weapon Brevity Codes {#tbl-ms-weapon}
+: Weapon Brevity Codes {#tbl-ms-weapon tbl-colwidths="[30, 70]"}
 
 **RADAR/Sensor** codes provide information about radio-frequency, optical, and infrared sensors, as well as lasers used for designation and ranging. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -505,7 +505,7 @@
 | TOY                                | HTS pods.                                                                                                                                                                      |
 +------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Radar or Sensor Brevity Codes {#tbl-ms-radar}
+: Radar or Sensor Brevity Codes {#tbl-ms-radar tbl-colwidths="[30, 70]"}
 
 **Avionics/Datalink** codes describe communications, interrogations, identification, and datalink systems and their states. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -564,7 +564,7 @@
 | ZAP                    | Request for data link information.                                                                                                                         |
 +------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Avionics or Datalink Brevity Codes {#tbl-ms-avionics}
+: Avionics or Datalink Brevity Codes {#tbl-ms-avionics tbl-colwidths="[30, 70]"}
 
 **Clearance** codes have significant potential for miscommunication. This is because there are phases of test execution when a third-party is primarily responsible for clearance (often critical phases such as engine start, taxiing, takeoff, departure, aerial refueling, approach, and landing). There are other phases of test execution where the test team must decide and clarify who is responsible for clearance. The specifics of the test point should be the primary consideration, including how static or dynamic the point is.
 
@@ -610,7 +610,7 @@
 |     SAFE◬ (USN)             |                                                                                                                                           |                                                                                                                                                                                                                                                                  |
 +-----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Clearance Brevity Codes {#tbl-ms-clearance}
+: Clearance Brevity Codes {#tbl-ms-clearance tbl-colwidths="[30, 35, 35]"}
 
 **Flight Condition** codes provide low-fidelity generalizations of altitude and airspeed. They can be very useful when tight tolerances and databands are not required, but a general condition is desired. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -635,7 +635,7 @@
 | WEEDS             | Indicates that aircraft are operating close to the surface.                        |
 +-------------------+------------------------------------------------------------------------------------+
 
-: Flight Condition Brevity Codes {#tbl-ms-condition}
+: Flight Condition Brevity Codes {#tbl-ms-condition tbl-colwidths="[30, 70]"}
 
 **Rules of Engagement (ROE) & Identification (ID)** codes provide characterizations of the friend/foe status, as well as free/restrained weapons engagements can be. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.
 
@@ -673,4 +673,4 @@
 | SPADES           | An interrogated group/radar contact which lacks all of the ATO (or equivalent) IFF/SIF modes and codes required for the ID criteria.                   |
 +------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Rules of Engagement & ID Brevity Codes {#tbl-ms-roe}
+: Rules of Engagement & ID Brevity Codes {#tbl-ms-roe tbl-colwidths="[30, 70]"}

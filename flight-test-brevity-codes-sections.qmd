@@ -1,0 +1,597 @@
+# Flight Test Brevity Codes {#sec-flighttestbrevity}
+
+This appendix consists of flight test brevity codes that resolve many of the most common test team communication issues.
+
+Codes are presented in roughly chronological order of a typical flight test mission.
+
+{{< pagebreak >}}
+
+## RADIO CHECK
+
+### Correct Usage {.unnumbered}
+
+-   "RADIO CHECK"
+-   "RADIO CHECK ON \[channel\]"
+
+### Meaning {.unnumbered}
+
+-   "RADIO CHECK"
+    -   I'm requesting that you tell me how well you can hear my transmission on the PRIMARY or MAIN channel.\
+-   "RADIO CHECK ON \[channel\]"
+    -   I'm requesting that you tell me how well you can hear my transmission on the explicitly stated channel.
+
+### Typical Errors {.unnumbered}
+
+1.   Calling for a "RADIO CHECK" from a channel other than PRIMARY or MAIN.
+1.   Calling for a "RADIO CHECK ON \[channel\]" from a channel other than that explicitly stated
+
+### Effect of Errors {.unnumbered}
+
+Aircrew think you're calling on a channel that you're not calling from, and provides a RADIO CHECK on that erroneous channel, leading to a "false positive" or "false negative."
+
+### Plain English Antidote {.unnumbered}
+
+"How do you hear me on \[channel\]?
+
+{{< pagebreak >}}
+
+## READY
+
+### Correct Usage {.unnumbered}
+
+"\[Transmitting callsign\] IS READY \[for taxi/departure/point X/etc\]"
+
+### Meaning {.unnumbered}
+
+The sender is ready to support test as soon as clearance is obtained for the next administrative step (taxi, takeoff, etc.), or as soon as the receiver acknowledges with "\[Receiving callsign\] IS READY"
+
+### Typical Error {.unnumbered}
+
+1. "CLEARED TO \[action for which the sender has no authority or responsibility such as TAXI, DEPARTURE, APPROACH, etc.\]" 2. "…" (aka crickets)
+
+### Effects of Error {.unnumbered}
+
+1.  Receiver begins action without proper coordination and/or clearance.
+2.  Aircrew are wondering what's going on.
+
+### Plain English Antidotes {.unnumbered}
+
+1.  "\[Transmitting callsign\] is showing all necessary steps complete and is prepared for \[receiving callsign\] to \[take action\]"
+2.  Say something/anything.
+
+{{< pagebreak >}}
+
+## CLEARED
+
+### Correct Usage   {.unnumbered}
+
+1. "CLEARED TO MANEUVER"
+2. "CLEARED \[test point\]"
+3. "CLEARED \[condition\]"
+
+### Meaning {.unnumbered}
+
+Initiate action per the brief for this context
+
+### Typical Errors {.unnumbered}
+
+1. Saying "CLEARED TO MANEUVER" way too early, i.e. prior to setup, instead of clearing the aircrew to a setup flight condition to prepare for the actual maneuver.
+2. Saying "CLEARED TO MANEUVER" way too late, i.e. the aircrew are waiting and burning gas, or they've already begun the maneuver without your clearance.
+
+### Effects of Errors   {.unnumbered}
+
+1. Confusion ensues about if the test point has actually begun, if aircrew are on parameters, or if clearance has already been issued, requiring a conversation.
+2. TC loses control of the mission and the trust/confidence of the aircrew because aircrew have gone rogue, not wanting to burn gas and time waiting for your clearance.
+
+### Plain English Antidote  {.unnumbered}
+
+"We are on test point XX. We show good setup. The control room is ready. You are cleared to maneuver."
+
+{{< pagebreak >}}
+
+## STEP
+
+### Correct Usage   {.unnumbered}
+
+"CLEARED CARD [card identifier] STEP [setup/procedure/recovery step identifier]"
+
+### Meaning {.unnumbered}
+
+A way to clearly refer to a step in a setup, procedure, or recovery without explicitly describing the action. Often used to obfuscate test actions over unencrypted communications channels. Can also be used to avoid saying "special" words like "ABORT" if they are part of the procedure.
+
+### Typical Errors {.unnumbered}
+
+1. Saying the wrong step, or not indicating the card
+2. Describing the actions explicitly
+
+### Effects of Errors {.unnumbered}
+
+1. Confusion and loss of situational awareness
+2. Exposing test activities unnecessarily
+
+### Plain English Antidotes {.unnumbered}
+
+1. "We are on card [card identifier], complete step [step identifier]"
+2. "We are on card [card identifier], complete step [step identifier]"
+
+{{< pagebreak >}}
+
+## CONCUR
+
+### Correct Usage   {.unnumbered}
+
+"CONCUR"
+
+### Meaning {.unnumbered}
+
+I have heard your proposed course of action and I agree with it.
+
+### Typical Errors {.unnumbered}
+
+1. "…" (crickets)
+2. "CONFIRM"
+3. "AFFIRMATIVE"
+4. "COPY"
+
+### Effects of Errors   {.unnumbered}
+
+1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing
+2. Answering a proposal with a request.
+3. Answering a complicated proposal with a simple "yes"
+4. Aircrew are left wondering you have any opinion.
+
+### Plain English Antidote  {.unnumbered}
+
+"I agree"
+
+{{< pagebreak >}}
+
+## "CONFIRM
+
+### Correct Usage   {.unnumbered}
+
+"CONFIRM [declarative statement]"
+
+### Meaning {.unnumbered}
+
+I am requesting that you reply with your understanding of something or with the current status of something.
+
+### Typical Error {.unnumbered}
+
+Convoluted verbiage
+
+### Effects of Error   {.unnumbered}
+
+Confusion
+
+### Plain English Antidote  {.unnumbered}
+
+"Is the [THING] in [STATE]?"
+
+{{< pagebreak >}}
+
+## CONTINUE
+
+### Correct Usage   {.unnumbered}
+
+"CONTINUE"
+
+### Meaning {.unnumbered}
+
+Keep going. (Alternative: I have heard you, but your concern can be addressed later.)
+
+### Typical Errors {.unnumbered}
+
+1. "…" (crickets)
+2. "HOLD"
+
+### Effects of Errors   {.unnumbered}
+
+1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing.
+2. Aircrew confusion, since they may not be expecting to hold their current flight condition, or since they brought up a concern.
+
+### Plain English Antidotes  {.unnumbered}
+
+1. Say something/anything.
+2. "Keep doing what you're doing."
+
+{{< pagebreak >}}
+
+## AFFIRM
+
+### Correct Usage   {.unnumbered}
+
+"AFFIRM"
+
+### Meaning {.unnumbered}
+
+Yes
+
+### Typical Errors {.unnumbered}
+
+1. "ROGER"
+2. "COPY"
+3. "CONCUR"
+4. "CONFIRM"
+
+### Effects of Errors   {.unnumbered}
+
+1. Answering a question with "I heard you" brings things to a halt
+2. Answering a question with "I heard you and have recorded what you said" brings things to a halt
+3. Answering a question with "I have heard your proposed course of action and I agree with it" brings things to a halt
+4. Answering a question with "I am requesting that you reply with your understanding of something or with the current status of something" brings things to a halt
+
+### Plain English Antidote  {.unnumbered}
+
+"Yes"
+
+{{< pagebreak >}}
+
+## NEGATIVE
+
+### Correct Usage   {.unnumbered}
+
+"NEGATIVE"
+
+### Meaning {.unnumbered}
+
+No
+
+### Typical Errors {.unnumbered}
+
+See "AFFIRM"
+
+### Effects of Errors   {.unnumbered}
+
+See "AFFIRM"
+
+### Plain English Antidotes  {.unnumbered}
+
+"No"
+
+{{< pagebreak >}}
+
+## ACKNOWLEDGE
+
+### Correct Usage   {.unnumbered}
+
+"ACKNOWLEDGE"
+
+### Meaning {.unnumbered}
+
+I have updated something and am requesting verbal acknowledgement from all players.
+
+### Typical Error {.unnumbered}
+
+"…" (crickets)
+
+### Effects of Error   {.unnumbered}
+
+1. You don't know that the test team has heard the update
+1. The test team doesn't know you have heard the update.
+
+### Plain English Antidotes  {.unnumbered}
+
+1. Repeat the transmission and request acknowledgement.
+1. Repeat back the transmission verbatim: "The control room copies new floor 10K."
+
+{{< pagebreak >}}
+
+## WHEN ABLE
+
+### Correct Usage   {.unnumbered}
+
+"WHEN ABLE"
+
+### Meaning {.unnumbered}
+
+It sounds like you're busy, but I've got something to discuss, so get back to me when you can talk
+
+### Typical Error {.unnumbered}
+
+Talking over or into a busy pilot's conversation/thought process
+
+### Effect of Error   {.unnumbered}
+
+Increased frustration
+
+### Plain English Antidote  {.unnumbered}
+
+"I've got a question/piece of information when you have a chance.""
+
+{{< pagebreak >}}
+
+## STANDBY
+
+### Correct Usage   {.unnumbered}
+
+"STANDBY"
+
+### Meaning {.unnumbered}
+
+I have heard you, but I'm unable to reply to your transmission in detail at this time. In a moment, I will say more.
+
+### Typical Errors {.unnumbered}
+
+1. "…" (crickets)
+2. "HOLD"
+
+### Effects of Errors   {.unnumbered}
+
+1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing. Also waste of gas/resources as aircrew come off conditions.
+2. Aircrew confusion, since they may not be expecting to hold their current flight condition
+
+### Plain English Antidotes  {.unnumbered}
+
+1. Say something/anything.
+2. "Wait a moment while we discuss."
+
+{{< pagebreak >}}
+
+## HOLD
+
+### Correct Usage   {.unnumbered}
+
+"HOLD"
+
+### Meaning {.unnumbered}
+
+Maintain current conditions until further notice.
+
+### Typical Errors {.unnumbered}
+
+1. "…" (crickets)
+2. "STANDBY"
+
+### Effects of Errors   {.unnumbered}
+
+1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing
+2. Aircrew confusion, since they may not be expecting to be told to wait for you to get back to them.
+
+### Plain English Antidotes  {.unnumbered}
+
+1. Say something/anything.
+2. "Keep doing what you're doing." or "Stay on current conditions."
+
+{{< pagebreak >}}
+
+## …
+
+### Correct Usage   {.unnumbered}
+
+"…"
+
+### Meaning {.unnumbered}
+
+A pause between transmissions to allow the test team to interject. Often used in countdowns to irreversible events.
+
+### Typical Errors {.unnumbered}
+
+1. Holding the transmission key for the full duration of the countdown
+2. Too short of a pause
+
+### Effects of Errors   {.unnumbered}
+
+1. The test team cannot interject to prevent mistaken triggering of the irreversible event
+2. The aircrew don't have time to listen for interjections
+
+### Plain English Antidotes  {.unnumbered}
+
+1. "…"
+2. (waiting long enough to listen for test team inputs)
+
+{{< pagebreak >}}
+
+## INCREASE/DECREASE
+
+### Correct Usage   {.unnumbered}
+
+"[INCREASE/DECREASE] [PARAMETER]"
+
+### Meaning {.unnumbered}
+
+Per the brief and the mission materials, the parameter is about to go out of tolerance/limits unless you comply with this advisory call.
+
+### Typical Errors {.unnumbered}
+
+1. "CHECK/WATCH [PARAMETER]"
+2. "…" (crickets)
+
+### Effects of Errors   {.unnumbered}
+
+1. Aircrew doesn't know what you want after they look at the parameter. The parameter probably dropped out of their scan, which necessitated the call in the first place, so they aren't aware of the corrective action.
+2. Test point needs to be repeated, test limits are exceeded, aircraft limits are exceeded.
+
+### Plain English Antidotes  {.unnumbered}
+
+1. "Your [PARAMETER] is approaching [TOLERANCE/LIMIT]."
+2. Say something/anything.
+
+### CAVEAT
+
+This phrasing is up for debate, and this standard is provided as a baseline. If the test team deviates from the baseline, they should do so explicitly and intentionally.
+
+{{< pagebreak >}}
+
+## TERMINATE/ABORT/KNOCK-IT-OFF
+
+### Correct Usage   {.unnumbered}
+
+- "TERMINATE"
+- "ABORT ABORT ABORT"
+- "KNOCK-IT-OFF"
+
+Example:
+
+- Project: "ABORT ABORT ABORT"
+- Quell 1: ""Quell 1 ABORT""
+- Quell 2: ""Quell 2 ABORT""
+- Project: ""Project ABORT, [REASON]"
+
+Example: 
+
+- Test: ""Terminate,
+- Test Terminate""
+- Chase: ""Chase Terminate""
+- Project: ""Project Terminate""
+
+### Meaning {.unnumbered}
+
+Per the brief and the mission materials, stop what you're doing and take corrective action.
+
+### Typical Errors {.unnumbered}
+
+1. Not reacting per the brief
+2. The originator not saying the reason for the call.
+
+### Effect of Errors   {.unnumbered}
+
+Confusion during time-critical events
+
+### Plain English Antidotes  {.unnumbered}
+
+1. Because of the urgent nature of these calls, it's better to say the wrong thing than to say nothing. The best this is to practice the calls in the brief and over the radio prior to beginning test execution.
+2. Say something/anything.
+
+### NOTE
+
+Which specific term to use depends on the test team's prior experience, the organization's norms, and the context. There are examples of "Terminate" being used on some test ranges as the word to signal the Flight Termination System, negating the test and possibly exposing the aircrew to additional hazards.
+
+Abrupt test point cessation calls should be rehearsed in the brief, and in the air prior to testing, to establish the norm for the day.
+
+{{< pagebreak >}}
+
+## COMPLETE
+
+### Correct Usage   {.unnumbered}
+
+- "RUN COMPLETE"
+- "POINT COMPLETE"
+- "CARD COMPLETE"
+- "MISSION COMPLETE"
+
+### Meaning {.unnumbered}
+
+The referenced set (RUN/POINT/CARD/MISSION) was executed within the success criteria per the brief and mission materials. No further action for the referenced set is required or desired.
+
+In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires that the test portion of the mission must conclude.
+
+### Typical Errors {.unnumbered}
+
+1. Saying "COMPLETE" before you know if execution was successful.
+2. Saying "COMPLETE" before the set was finished.
+3. Saying "COMPLETE" when what you really mean is "TERMINATE/ABORT/KNOCK-IT-OFF"
+4. "…" (crickets)
+5. Instead of "MISSION COMPLETE," "CLEARED TO RTB"
+
+### Effects of Errors   {.unnumbered}
+
+1. Either you're lucky and the set was actually complete, or you have to eat your words and call for a repeat because the set was not, in fact, complete.
+2. The aircrew cease execution prior to completion, negating the data and wasting millions of dollars of taxpayer money.
+3. The aircrew aren't aware that something is wrong and continue with the test, possibly repeating the mistake or exceeding a limit.
+4. Bueller?... Bueller?... Bueller?
+5. ATC hears "RTB" and begins coordination before the aircrew are ready.
+
+### Plain English Antidotes  {.unnumbered}
+
+1. "Standby for data review."
+2. Say nothing until the set is complete.
+3. "Mach/airspeed/altitude out of parameters. We'll need to repeat that point."
+4. "The control room is satisfied with this run/point/card/mission."
+5. See 4.
+
+{{< pagebreak >}}
+
+## NEXT
+
+### Correct Usage   {.unnumbered}
+
+"NEXT [POINT/CARD/FLIGHT CONDITION]"
+
+### Meaning {.unnumbered}
+
+The next thing is…
+
+### Typical Error {.unnumbered}
+
+"…" (crickets)
+
+### Effects of Error   {.unnumbered}
+
+Two effects, depending on aircrew. 
+
+    1. Either the aircrew wait and wonder what’s next, or 
+    2. the aircrew declare what’s next and the control room loses control of the mission.
+
+### Plain English Antidote  {.unnumbered}
+
+"Next point is X, at X feet and X Mach/KCAS."
+
+{{< pagebreak >}}
+
+## CLEAN AND DRY
+
+### Correct Usage   {.unnumbered}
+
+- "REQUEST CLEAN AND DRY"
+- "CHASE SHOWS YOU CLEAN AND DRY"
+
+### Meaning {.unnumbered}
+
+Extends the concept of a "battle damage check" which is looking for "clean" meaning no visible damage and "dry" meaning no visible fluid leaks.
+
+In flight test, "clean" can also mean no excessive door and/or panel gaps, no missing fasteners, or any other mechanical change from the previous check. Often made after gear retraction, before and after a high speed test point, prior to aerial refueling after high load or flutter test, and before returning to base.
+
+### Typical Errors {.unnumbered}
+
+None
+
+### Effects of Errors   {.unnumbered}
+
+None
+
+### Plain English Antidotes  {.unnumbered}
+
+None
+
+{{< pagebreak >}}
+
+## Codes NOT to use
+
+1. ROGER
+2. COPY
+3. WILCO
+
+They all leave out a very important factor. WHAT is being received, received and written, or complied with.
+
+Better to be explicit.
+
+1. "I understand" And better "I understand [then say what you understand]"
+2. Read back what you just heard
+3. "I will [do the thing you just requested]"
+
+<!--# This is the section template
+## CODE
+
+### Correct Usage   {.unnumbered}
+
+"CODE"
+
+### Meaning {.unnumbered}
+
+Meaning
+
+### Typical Errors {.unnumbered}
+
+Typical errors
+
+### Effects of Errors   {.unnumbered}
+
+Effects of errors
+
+### Plain English Antidotes  {.unnumbered}
+
+Plain English Antidotes
+
+{{< pagebreak >}}
+-->

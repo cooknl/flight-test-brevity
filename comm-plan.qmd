@@ -1,0 +1,73 @@
+# Communications Plan
+
+## Brevity...a small part of the comm plan
+
+Part of the test conductor's responsibility is to establish and use a communications plan during test conduct.
+
+The primary purpose of the comm plan is to create a "cadence" to the test flow, allowing the test team to anticipate the next step, then execute that step at the right time and right place with the right actions. If the comm plan is poorly briefed and/or understood, the execution of the test will suffer because of the difficulty of establishing an understanding of what is to be done, by whom, when and where.
+
+Brevity can assist the comm plan by reducing the "chatter" on the radio, allowing the test team to focus on action, rather than communication.
+
+Brevity is NOT the most important part of a comm plan, however!
+
+Referring back to @tbl-correlation, you can see there is a priority order. Always remember that plain English (AKA "Trucker Comm") is sometimes necessary to safely execute, but you should NEVER "talk around" classified over the radio.
+
+## Creating a comm plan
+
+### Defining your terms
+
+Definitions are the foundation of a good comm plan. Test team members come from varied backgrounds. The mission materials and the pre-flight brief are the last opportunity to get everyone on the same page. A non-exhaustive listing of definition priorities is shown in Table 4.
+
++----------------------------+----------------------------+----------+
+| Terms                      | Examples                   | Priority |
++============================+============================+==========+
+| Emergency/Anomalies        | Knock-It-Off               | Highest  |
+|                            |                            |          |
+|                            | Abort                      |          |
+|                            |                            |          |
+|                            | Terminate                  |          |
++----------------------------+----------------------------+----------+
+| Switch Actions             | "Designate" v "TMS FWD"    | High     |
++----------------------------+----------------------------+----------+
+| Maneuvers                  | Success Criteria           | High     |
++----------------------------+----------------------------+----------+
+| Chase/Target               | Safety v Photo v Area      | High     |
+| Responsibilities           |                            |          |
++----------------------------+----------------------------+----------+
+| Callsigns                  | "Test" v "Taco 01"         | Medium   |
++----------------------------+----------------------------+----------+
+| Plain English              | "Fly a normal pattern" v   | Low      |
+| "Happy-to-Glad"            | "Establish a normal        |          |
+|                            | pattern"                   |          |
++----------------------------+----------------------------+----------+
+
+: Priority of Term Definitions {#tbl-priority}
+
+### Identifying the types of test points
+
+Subdividing the test by types of test points provides the structure of a good comm plan. Some test missions consist of a single type of test point, necessitating a single, repeated comm plan. Other test missions have many types of test points, necessitating a carefully laid out comm plan, which clarifies which test point type is being flown for each test point.
+
+### Scripting the plan
+
+A clear and common script is essential to ensure the test team has an objective reference for planning and briefing purposes. Include pacing when appropriate, for example during weapons deliveries pauses might be inserted into the countdown to allow for team members to call for aborts. Also consider the role of hot mic, which tends to reduce brevity on the part of the aircrew while the ground controllers are still constrained by radio communications, as well as reduced/partial comm situations, where portions of the test team cannot participate in the comm as briefed.
+
+### Brevity takes it from good to great
+
+Keeping brevity in mind is the finishing touch of a good comm plan. Brevity takes a comm plan to the next level, but the foundation and structure are more important! So, when you get to the point of scripting your plan, only after defining your terms and identifying test point types, apply the three principles of brevity:
+
+1. **Contracts** - At each step of the comm plan, know who is responsible for speaking next.
+2. **Three Types** - Ensure your words accurately reflect whether the responsible party is:
+    a.  Directing -- "Cleared to..." "Check..."
+    b.  Informing -- "Next point is..." "Point complete..."
+    c.  Requesting -- "Ops check..." "Confirm..."
+3. **Standard Word Count** - Use words in accordance with the brief and the mission materials
+
+## Using the comm plan:
+
+The key to establishing a cadence during test execution is consistency. Say the same thing at the same time to build test team confidence and to help reinforce the impression that the test mission is proceeding under control.
+
+When inconsistencies creep in, they are a sign that something has changed. It may be as simple as fatigue, or it may be a serious system problem. Bring the test team back to the comm plan, if there are no safety-of-flight or test concerns. If there are problems to be resolved, be explicit about the plan of action and the exit criteria from the troubleshooting.
+
+> Example: "We are reviewing the data. If we can't find the cause in the next 5 minutes, we'll stop testing and return to base."
+
+Remember, you're either using the comm plan, or you're having a discussion. Both can be important aspects of test conduct. Make sure the entire test team is clear on where you are in your communications.

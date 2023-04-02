@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Flight Test Brevity - Appendix E — Communications Plan</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./test-point.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Appendix E — Communications Plan</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Flight Test Brevity</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/cooknl/flight-test-brevity" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./principles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Principles of Brevity</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Appendices</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./multiservice-codes-applicable-to-flight-test.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./flight-test-brevity-codes-sections.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./unsafe-comm.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Unsafe Communication</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./test-point.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Test Point Flow</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./comm-plan.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Communications Plan</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#brevitya-small-part-of-the-comm-plan" id="toc-brevitya-small-part-of-the-comm-plan" class="nav-link active" data-scroll-target="#brevitya-small-part-of-the-comm-plan"><span class="toc-section-number">E.1</span>  Brevity…a small part of the comm plan</a></li>
+  <li><a href="#creating-a-comm-plan" id="toc-creating-a-comm-plan" class="nav-link" data-scroll-target="#creating-a-comm-plan"><span class="toc-section-number">E.2</span>  Creating a comm plan</a></li>
+  <li><a href="#using-the-comm-plan" id="toc-using-the-comm-plan" class="nav-link" data-scroll-target="#using-the-comm-plan"><span class="toc-section-number">E.3</span>  Using the comm plan:</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cooknl/flight-test-brevity/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Appendix E — Communications Plan</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="brevitya-small-part-of-the-comm-plan" class="level2" data-number="E.1">
+<h2 data-number="E.1" class="anchored" data-anchor-id="brevitya-small-part-of-the-comm-plan"><span class="header-section-number">E.1</span> Brevity…a small part of the comm plan</h2>
+<p>Part of the test conductor’s responsibility is to establish and use a communications plan during test conduct.</p>
+<p>The primary purpose of the comm plan is to create a “cadence” to the test flow, allowing the test team to anticipate the next step, then execute that step at the right time and right place with the right actions. If the comm plan is poorly briefed and/or understood, the execution of the test will suffer because of the difficulty of establishing an understanding of what is to be done, by whom, when and where.</p>
+<p>Brevity can assist the comm plan by reducing the “chatter” on the radio, allowing the test team to focus on action, rather than communication.</p>
+<p>Brevity is NOT the most important part of a comm plan, however!</p>
+<p>Referring back to <a href="intro.html#tbl-correlation">Table&nbsp;<span>1.1</span></a>, you can see there is a priority order. Always remember that plain English (AKA “Trucker Comm”) is sometimes necessary to safely execute, but you should NEVER “talk around” classified over the radio.</p>
+</section>
+<section id="creating-a-comm-plan" class="level2" data-number="E.2">
+<h2 data-number="E.2" class="anchored" data-anchor-id="creating-a-comm-plan"><span class="header-section-number">E.2</span> Creating a comm plan</h2>
+<section id="defining-your-terms" class="level3" data-number="E.2.1">
+<h3 data-number="E.2.1" class="anchored" data-anchor-id="defining-your-terms"><span class="header-section-number">E.2.1</span> Defining your terms</h3>
+<p>Definitions are the foundation of a good comm plan. Test team members come from varied backgrounds. The mission materials and the pre-flight brief are the last opportunity to get everyone on the same page. A non-exhaustive listing of definition priorities is shown in Table 4.</p>
+<div id="tbl-priority" class="anchored">
+<table class="table">
+<caption>Table&nbsp;E.1: Priority of Term Definitions</caption>
+<colgroup>
+<col style="width: 40%">
+<col style="width: 40%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Terms</th>
+<th>Examples</th>
+<th>Priority</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Emergency/Anomalies</td>
+<td><p>Knock-It-Off</p>
+<p>Abort</p>
+<p>Terminate</p></td>
+<td>Highest</td>
+</tr>
+<tr class="even">
+<td>Switch Actions</td>
+<td>“Designate” v “TMS FWD”</td>
+<td>High</td>
+</tr>
+<tr class="odd">
+<td>Maneuvers</td>
+<td>Success Criteria</td>
+<td>High</td>
+</tr>
+<tr class="even">
+<td>Chase/Target Responsibilities</td>
+<td>Safety v Photo v Area</td>
+<td>High</td>
+</tr>
+<tr class="odd">
+<td>Callsigns</td>
+<td>“Test” v “Taco 01”</td>
+<td>Medium</td>
+</tr>
+<tr class="even">
+<td>Plain English “Happy-to-Glad”</td>
+<td>“Fly a normal pattern” v “Establish a normal pattern”</td>
+<td>Low</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="identifying-the-types-of-test-points" class="level3" data-number="E.2.2">
+<h3 data-number="E.2.2" class="anchored" data-anchor-id="identifying-the-types-of-test-points"><span class="header-section-number">E.2.2</span> Identifying the types of test points</h3>
+<p>Subdividing the test by types of test points provides the structure of a good comm plan. Some test missions consist of a single type of test point, necessitating a single, repeated comm plan. Other test missions have many types of test points, necessitating a carefully laid out comm plan, which clarifies which test point type is being flown for each test point.</p>
+</section>
+<section id="scripting-the-plan" class="level3" data-number="E.2.3">
+<h3 data-number="E.2.3" class="anchored" data-anchor-id="scripting-the-plan"><span class="header-section-number">E.2.3</span> Scripting the plan</h3>
+<p>A clear and common script is essential to ensure the test team has an objective reference for planning and briefing purposes. Include pacing when appropriate, for example during weapons deliveries pauses might be inserted into the countdown to allow for team members to call for aborts. Also consider the role of hot mic, which tends to reduce brevity on the part of the aircrew while the ground controllers are still constrained by radio communications, as well as reduced/partial comm situations, where portions of the test team cannot participate in the comm as briefed.</p>
+</section>
+<section id="brevity-takes-it-from-good-to-great" class="level3" data-number="E.2.4">
+<h3 data-number="E.2.4" class="anchored" data-anchor-id="brevity-takes-it-from-good-to-great"><span class="header-section-number">E.2.4</span> Brevity takes it from good to great</h3>
+<p>Keeping brevity in mind is the finishing touch of a good comm plan. Brevity takes a comm plan to the next level, but the foundation and structure are more important! So, when you get to the point of scripting your plan, only after defining your terms and identifying test point types, apply the three principles of brevity:</p>
+<ol type="1">
+<li><strong>Contracts</strong> - At each step of the comm plan, know who is responsible for speaking next.</li>
+<li><strong>Three Types</strong> - Ensure your words accurately reflect whether the responsible party is:
+<ol type="a">
+<li>Directing – “Cleared to…” “Check…”</li>
+<li>Informing – “Next point is…” “Point complete…”</li>
+<li>Requesting – “Ops check…” “Confirm…”</li>
+</ol></li>
+<li><strong>Standard Word Count</strong> - Use words in accordance with the brief and the mission materials</li>
+</ol>
+</section>
+</section>
+<section id="using-the-comm-plan" class="level2" data-number="E.3">
+<h2 data-number="E.3" class="anchored" data-anchor-id="using-the-comm-plan"><span class="header-section-number">E.3</span> Using the comm plan:</h2>
+<p>The key to establishing a cadence during test execution is consistency. Say the same thing at the same time to build test team confidence and to help reinforce the impression that the test mission is proceeding under control.</p>
+<p>When inconsistencies creep in, they are a sign that something has changed. It may be as simple as fatigue, or it may be a serious system problem. Bring the test team back to the comm plan, if there are no safety-of-flight or test concerns. If there are problems to be resolved, be explicit about the plan of action and the exit criteria from the troubleshooting.</p>
+<blockquote class="blockquote">
+<p>Example: “We are reviewing the data. If we can’t find the cause in the next 5 minutes, we’ll stop testing and return to base.”</p>
+</blockquote>
+<p>Remember, you’re either using the comm plan, or you’re having a discussion. Both can be important aspects of test conduct. Make sure the entire test team is clear on where you are in your communications.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./test-point.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Test Point Flow</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

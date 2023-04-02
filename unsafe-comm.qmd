@@ -1,0 +1,66 @@
+# Unsafe Communication
+
+Dr. Nancy Leveson, in Engineering a Safer World [@http://zotero.org/users/7103471/items/U4HMK933] and the STPA Handbook [@http://zotero.org/users/7103471/items/TTN9MQSE], draws on systems theory to describe the importance of control actions in a complex system. An unsafe control action is a control action that, in a particular context and worst-case environment, will lead to a hazard.
+
+## 4 ways control actions can be unsafe
+
+There are four ways a control action can be unsafe:
+
+1. Not providing the control action leads to a hazard.
+2. Providing the control action leads to a hazard.
+3. Providing a potentially safe control action but too early, too late, or in the wrong order.
+4. The control action lasts too long or is stopped too soon (for continuous control actions, not discrete ones).
+
+There is some overlap in terminology between the standard flight test objectives: safe, secure, effective, efficient. In this standard terminology, "safe" is defined as avoiding loss or damage to persons or property.
+
+In Dr. Leveson's framework, unsafe and hazard are more broadly defined in terms of team-defined losses. All four of the standard flight test objectives can be defined in terms of losses:
+
+- Safe = avoiding loss of persons or property or loss of their utility
+- Secure = avoiding loss of advantage over an enemy
+- Effective = avoiding loss of test objective completion
+- Efficient = avoiding loss of time and resources beyond that required to meet test objectives
+
+Therefore, the four ways a control action can be unsafe do apply to all four of the flight test objectives, even though only one is called "safe."
+
+## Translated to flight test communications
+
+Voice communication is one type of control action. With a small modification, substituting "statement" for "control action," the four ways provide a useful heuristic for assessing communication errors.
+
+The four ways a statement can lead to loss:
+
+1. Not providing the statement
+2. Providing an incorrect statement
+3. Providing a statement too early, too late, or in the wrong order
+4. The statement lasts too long or not long enough
+
+### Omission: Not providing the statement
+
+When a statement is required, but not provided, several consequences can follow.
+
+The shared mental model among the test team can drift. The test aircrew can enter an unsafe condition without awareness. The control room team can proceed to the next test point unaware of an issue on the air vehicle.
+
+Trust between team members can deteriorate. The communications plan is a contract, and adherence to it builds confidence that the team is functioning well. Deviation from the plan, especially unacknowledged deviations, can reduce confidence, even to the point of discontinuing the test.
+
+### Negation: Providing an incorrect statement
+
+When an incorrect statement is provided, it can cause an immediate schism in mutual understanding. This is especially true if the statement is made confidently and with full trust of all team members. This can directly and actively lead to a loss of situational awareness.
+
+Again, trust can deteriorate, especially if the incorrect statement was made mistakenly, and other team members recognize the issue.
+
+In any case, significant time and resources can be expended until the incorrect statement is acknowledged by all team members, and a correct statement appropriate for the new context can be subsituted.
+
+### Succession: Providing a statement too early, too late, or in the wrong order
+
+This is about sequencing of the statement. 
+
+In flight test, timing and cadence can be very important. Whether it be weapon delivery, avionics inputs, flight control inputs, formation maneuvers, or many others, the proper timing and succession of actions is imperative.
+
+Statements communicating directives, information, or requests can directly influence the sequence of events.
+
+### Duration: The statement lasts too long or not long enough
+
+Something as simple as holding the transmit button on a one-way radio the wrong duration can induce losses. Too long, and others are prevented from passing their own statements. Too short, and the required statement may be cut off.
+
+Brevity itself is an attempt to make a statement last no longer than required, but no shorter, either.
+
+

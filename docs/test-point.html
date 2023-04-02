@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Flight Test Brevity - Appendix D — Test Point Flow</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./comm-plan.html" rel="next">
+<link href="./unsafe-comm.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Appendix D — Test Point Flow</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Flight Test Brevity</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/cooknl/flight-test-brevity" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./principles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Principles of Brevity</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Appendices</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./multiservice-codes-applicable-to-flight-test.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./flight-test-brevity-codes-sections.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./unsafe-comm.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Unsafe Communication</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./test-point.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Test Point Flow</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./comm-plan.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Communications Plan</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#the-problem" id="toc-the-problem" class="nav-link active" data-scroll-target="#the-problem"><span class="toc-section-number">D.1</span>  The problem</a></li>
+  <li><a href="#a-test-point" id="toc-a-test-point" class="nav-link" data-scroll-target="#a-test-point"><span class="toc-section-number">D.2</span>  A Test Point</a></li>
+  <li><a href="#procedure" id="toc-procedure" class="nav-link" data-scroll-target="#procedure"><span class="toc-section-number">D.3</span>  Procedure</a></li>
+  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup"><span class="toc-section-number">D.4</span>  Setup</a></li>
+  <li><a href="#recovery" id="toc-recovery" class="nav-link" data-scroll-target="#recovery"><span class="toc-section-number">D.5</span>  Recovery</a></li>
+  <li><a href="#admin" id="toc-admin" class="nav-link" data-scroll-target="#admin"><span class="toc-section-number">D.6</span>  Admin</a></li>
+  <li><a href="#transitions" id="toc-transitions" class="nav-link" data-scroll-target="#transitions"><span class="toc-section-number">D.7</span>  Transitions</a></li>
+  <li><a href="#the-structure-approach" id="toc-the-structure-approach" class="nav-link" data-scroll-target="#the-structure-approach"><span class="toc-section-number">D.8</span>  The structure approach</a></li>
+  <li><a href="#application-to-test-card-creation" id="toc-application-to-test-card-creation" class="nav-link" data-scroll-target="#application-to-test-card-creation"><span class="toc-section-number">D.9</span>  Application to test card creation</a></li>
+  <li><a href="#application-to-comm-plan" id="toc-application-to-comm-plan" class="nav-link" data-scroll-target="#application-to-comm-plan"><span class="toc-section-number">D.10</span>  Application to Comm Plan</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cooknl/flight-test-brevity/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Appendix D — Test Point Flow</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="the-problem" class="level2" data-number="D.1">
+<h2 data-number="D.1" class="anchored" data-anchor-id="the-problem"><span class="header-section-number">D.1</span> The problem</h2>
+<p>Common Test Conduct Errors:</p>
+<ul>
+<li>Omitted or improperly timed communication</li>
+<li>Poor transitions between test points</li>
+</ul>
+<section id="hypothesis" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="hypothesis">Hypothesis</h3>
+<p>A causal factor in both successful and error-prone test conduct is the understanding (or misunderstanding) of where and when critical phases of a test point begin and end.</p>
+<p>Which begs the question, what ARE the “critical phases of a test point”?</p>
+<div id="fig-testpoint" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.1: Structured Approach to Test Point Flow</figcaption><p></p>
+</figure>
+</div>
+</section>
+</section>
+<section id="a-test-point" class="level2" data-number="D.2">
+<h2 data-number="D.2" class="anchored" data-anchor-id="a-test-point"><span class="header-section-number">D.2</span> A Test Point</h2>
+<div id="fig-testpointpoint" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-point.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.2: A Quantum of Test</figcaption><p></p>
+</figure>
+</div>
+<p>The smallest unit of flight test comprised of a beginning, a middle, and an end.</p>
+</section>
+<section id="procedure" class="level2" data-number="D.3">
+<h2 data-number="D.3" class="anchored" data-anchor-id="procedure"><span class="header-section-number">D.3</span> Procedure</h2>
+<div id="fig-testpointprocedure" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-procedure.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.3: Where The Data Live</figcaption><p></p>
+</figure>
+</div>
+<p>The actions of the operator and the system that generate data to support a test objective</p>
+</section>
+<section id="setup" class="level2" data-number="D.4">
+<h2 data-number="D.4" class="anchored" data-anchor-id="setup"><span class="header-section-number">D.4</span> Setup</h2>
+<div id="fig-testpointsetup" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-setup.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.4: Preparation for Test</figcaption><p></p>
+</figure>
+</div>
+<p>The actions of the operator and the system that establish the conditions for a successful Procedure, including geometry, geography, system state, etc.</p>
+</section>
+<section id="recovery" class="level2" data-number="D.5">
+<h2 data-number="D.5" class="anchored" data-anchor-id="recovery"><span class="header-section-number">D.5</span> Recovery</h2>
+<div id="fig-testpointrecovery" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-recovery.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.5: Return to Normal Operations</figcaption><p></p>
+</figure>
+</div>
+<p>The actions of the operator and the system that safely allow resumption of “normal” operations.</p>
+</section>
+<section id="admin" class="level2" data-number="D.6">
+<h2 data-number="D.6" class="anchored" data-anchor-id="admin"><span class="header-section-number">D.6</span> Admin</h2>
+<div id="fig-testpointadmin" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-admin.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.6: A Change of State</figcaption><p></p>
+</figure>
+</div>
+<p>The actions of the operator and the system before the test, between test points, or after the test.</p>
+</section>
+<section id="transitions" class="level2" data-number="D.7">
+<h2 data-number="D.7" class="anchored" data-anchor-id="transitions"><span class="header-section-number">D.7</span> Transitions</h2>
+<div id="fig-testpointtransitions" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-transitions.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.7: “Pause” Points</figcaption><p></p>
+</figure>
+</div>
+<p>The gates from one critical phase to the next that establish the cadence of the test.</p>
+</section>
+<section id="the-structure-approach" class="level2" data-number="D.8">
+<h2 data-number="D.8" class="anchored" data-anchor-id="the-structure-approach"><span class="header-section-number">D.8</span> The structure approach</h2>
+<p>For each test point, the test team</p>
+<ul>
+<li><strong>defines</strong> the contents of each critical phase,</li>
+<li><strong>determines</strong> entry and exit criteria through the transitions,</li>
+<li><strong>creates</strong> a communications plan to support the transitions, and</li>
+<li><strong>creates</strong> mission materials to assist in test conduct</li>
+</ul>
+</section>
+<section id="application-to-test-card-creation" class="level2" data-number="D.9">
+<h2 data-number="D.9" class="anchored" data-anchor-id="application-to-test-card-creation"><span class="header-section-number">D.9</span> Application to test card creation</h2>
+<div id="fig-testpointcard" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-card.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.8: Top to Bottom Test Point Flow on Test Card</figcaption><p></p>
+</figure>
+</div>
+<p>Each test card reflects the critical phases of the test point under consideration.</p>
+<div id="fig-testpointmultiple" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-multiple.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.9: Multiple Test Points on a Single Test Card</figcaption><p></p>
+</figure>
+</div>
+<p>Multiple test points can be put on a single page! The recovery/admin/setup phases between each point are explicitly included, instead of just a string of Procedure phases.</p>
+</section>
+<section id="application-to-comm-plan" class="level2" data-number="D.10">
+<h2 data-number="D.10" class="anchored" data-anchor-id="application-to-comm-plan"><span class="header-section-number">D.10</span> Application to Comm Plan</h2>
+<div id="fig-testpointexitentry" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="./images/test-point-exit-entry.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;D.10: Exit and Entry Criteria</figcaption><p></p>
+</figure>
+</div>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 60.0%;justify-content: center;">
+<ol type="1">
+<li>Test: “Ready for next point”</li>
+<li>Control: “Cleared to [condition/configuration]”</li>
+<li>Test: “On conditions”</li>
+<li>Control: “Cleared to maneuver”</li>
+<li>Test or Control: “Maneuver complete/Recover(ing)”</li>
+<li>Control: “Cleared to [condition/configuration]”</li>
+<li>Test: “On conditions/Configuration complete/Recovered”</li>
+<li>Control: “Point complete. Next point is X at Y”</li>
+</ol>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 40.0%;justify-content: center;">
+<ul>
+<li>Odd = Exit</li>
+<li>Even = Entry</li>
+<li>The Key to Success:
+<ul>
+<li>The test team defines <strong>the content and duration</strong> of each critical phase and</li>
+<li>identifies <strong>exit and entry criteria</strong> for the transitions between phases</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./unsafe-comm.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Unsafe Communication</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./comm-plan.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Communications Plan</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

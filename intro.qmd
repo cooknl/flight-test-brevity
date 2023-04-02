@@ -14,7 +14,7 @@ For the United States armed forces, brevity codes are defined in the document *B
 1. does not misuse official brevity codes, and 
 1. defines specific words to be used in a communications plan for a particular test mission.
 
-Properly used, brevity can assist flight test conduct by encouraging proper communication. There is direct correlation between proper communications and test conduct quality, as shown in @tbl-correlation.
+Properly used, brevity can assist flight test conduct by encouraging proper communication. There is loose correlation between proper communications and test conduct quality, as shown in @tbl-correlation.
 
   Test Conduct Quality   Proper Communication
   ---------------------- ----------------------
