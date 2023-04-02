@@ -22,16 +22,16 @@ Codes are presented in roughly chronological order of a typical flight test miss
 
 ### Typical Errors {.unnumbered}
 
--   Calling for a "RADIO CHECK" from a channel other than PRIMARY or MAIN.
--   Calling for a "RADIO CHECK ON \[channel\]" from a channel other than that explicitly stated
+1.   Calling for a "RADIO CHECK" from a channel other than PRIMARY or MAIN.
+1.   Calling for a "RADIO CHECK ON \[channel\]" from a channel other than that explicitly stated
 
-### Effects of Errors {.unnumbered}
+### Effect of Errors {.unnumbered}
 
 Aircrew think you're calling on a channel that you're not calling from, and provides a RADIO CHECK on that erroneous channel, leading to a "false positive" or "false negative."
 
-### Plain English Antidotes {.unnumbered}
+### Plain English Antidote {.unnumbered}
 
-- "How do you hear me on \[channel\]?
+"How do you hear me on \[channel\]?
 
 {{< pagebreak >}}
 
@@ -45,16 +45,16 @@ Aircrew think you're calling on a channel that you're not calling from, and prov
 
 The sender is ready to support test as soon as clearance is obtained for the next administrative step (taxi, takeoff, etc.), or as soon as the receiver acknowledges with "\[Receiving callsign\] IS READY"
 
-### Typical Errors {.unnumbered}
+### Typical Error {.unnumbered}
 
 1. "CLEARED TO \[action for which the sender has no authority or responsibility such as TAXI, DEPARTURE, APPROACH, etc.\]" 2. "…" (aka crickets)
 
-### Effects of Errors {.unnumbered}
+### Effects of Error {.unnumbered}
 
 1.  Receiver begins action without proper coordination and/or clearance.
 2.  Aircrew are wondering what's going on.
 
-### Plain English Antidote {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1.  "\[Transmitting callsign\] is showing all necessary steps complete and is prepared for \[receiving callsign\] to \[take action\]"
 2.  Say something/anything.
@@ -97,19 +97,19 @@ Initiate action per the brief for this context
 
 ### Meaning {.unnumbered}
 
-A way to clearly reference to the test team a step in a setup, procedure, or recovery without explicitly describing the action. Often used to obfuscate test actions over unencrypted communications channels. Can also be used to avoid saying "special" words like "ABORT" if they are part of the procedure.
+A way to clearly refer to a step in a setup, procedure, or recovery without explicitly describing the action. Often used to obfuscate test actions over unencrypted communications channels. Can also be used to avoid saying "special" words like "ABORT" if they are part of the procedure.
 
 ### Typical Errors {.unnumbered}
 
 1. Saying the wrong step, or not indicating the card
 2. Describing the actions explicitly
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Confusion and loss of situational awareness
 2. Exposing test activities unnecessarily
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. "We are on card [card identifier], complete step [step identifier]"
 2. "We are on card [card identifier], complete step [step identifier]"
@@ -156,11 +156,11 @@ I have heard your proposed course of action and I agree with it.
 
 I am requesting that you reply with your understanding of something or with the current status of something.
 
-### Typical Errors {.unnumbered}
+### Typical Error {.unnumbered}
 
 Convoluted verbiage
 
-### Effects of Errors   {.unnumbered}
+### Effects of Error   {.unnumbered}
 
 Confusion
 
@@ -190,7 +190,7 @@ Keep going. (Alternative: I have heard you, but your concern can be addressed la
 1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing.
 2. Aircrew confusion, since they may not be expecting to hold their current flight condition, or since they brought up a concern.
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 1. Say something/anything.
 2. "Keep doing what you're doing."
@@ -245,7 +245,7 @@ See "AFFIRM"
 
 See "AFFIRM"
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 "No"
 
@@ -261,19 +261,19 @@ See "AFFIRM"
 
 I have updated something and am requesting verbal acknowledgement from all players.
 
-### Typical Errors {.unnumbered}
+### Typical Error {.unnumbered}
 
 "…" (crickets)
 
-### Effects of Errors   {.unnumbered}
+### Effects of Error   {.unnumbered}
 
-- You don't know that the test team has heard the update
-- The test team doesn't know you have heard the update.
+1. You don't know that the test team has heard the update
+1. The test team doesn't know you have heard the update.
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
-- Repeat the transmission and request acknowledgement.
-- Repeat back the transmission verbatim: "The control room copies new floor 10K."
+1. Repeat the transmission and request acknowledgement.
+1. Repeat back the transmission verbatim: "The control room copies new floor 10K."
 
 {{< pagebreak >}}
 
@@ -287,11 +287,11 @@ I have updated something and am requesting verbal acknowledgement from all playe
 
 It sounds like you're busy, but I've got something to discuss, so get back to me when you can talk
 
-### Typical Errors {.unnumbered}
+### Typical Error {.unnumbered}
 
 Talking over or into a busy pilot's conversation/thought process
 
-### Effects of Errors   {.unnumbered}
+### Effect of Error   {.unnumbered}
 
 Increased frustration
 
@@ -321,7 +321,7 @@ I have heard you, but I'm unable to reply to your transmission in detail at this
 1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing. Also waste of gas/resources as aircrew come off conditions.
 2. Aircrew confusion, since they may not be expecting to hold their current flight condition
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 1. Say something/anything.
 2. "Wait a moment while we discuss."
@@ -348,7 +348,7 @@ Maintain current conditions until further notice.
 1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing
 2. Aircrew confusion, since they may not be expecting to be told to wait for you to get back to them.
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 1. Say something/anything.
 2. "Keep doing what you're doing." or "Stay on current conditions."
@@ -375,7 +375,7 @@ A pause between transmissions to allow the test team to interject. Often used in
 1. The test team cannot interject to prevent mistaken triggering of the irreversible event
 2. The aircrew don't have time to listen for interjections
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 1. "…"
 2. (waiting long enough to listen for test team inputs)
@@ -402,7 +402,7 @@ Per the brief and the mission materials, the parameter is about to go out of tol
 1. Aircrew doesn't know what you want after they look at the parameter. The parameter probably dropped out of their scan, which necessitated the call in the first place, so they aren't aware of the corrective action.
 2. Test point needs to be repeated, test limits are exceeded, aircraft limits are exceeded.
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 1. "Your [PARAMETER] is approaching [TOLERANCE/LIMIT]."
 2. Say something/anything.
@@ -444,11 +444,11 @@ Per the brief and the mission materials, stop what you're doing and take correct
 1. Not reacting per the brief
 2. The originator not saying the reason for the call.
 
-### Effects of Errors   {.unnumbered}
+### Effect of Errors   {.unnumbered}
 
 Confusion during time-critical events
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 1. Because of the urgent nature of these calls, it's better to say the wrong thing than to say nothing. The best this is to practice the calls in the brief and over the radio prior to beginning test execution.
 2. Say something/anything.
@@ -492,7 +492,7 @@ In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires
 4. Bueller?... Bueller?... Bueller?
 5. ATC hears "RTB" and begins coordination before the aircrew are ready.
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 1. "Standby for data review."
 2. Say nothing until the set is complete.
@@ -512,13 +512,16 @@ In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires
 
 The next thing is…
 
-### Typical Errors {.unnumbered}
+### Typical Error {.unnumbered}
 
 "…" (crickets)
 
-### Effects of Errors   {.unnumbered}
+### Effects of Error   {.unnumbered}
 
-Two effects, depending on aircrew. Either the aircrew wait and wonder what’s next, or the aircrew declare what’s next and the control room loses control of the mission.
+Two effects, depending on aircrew. 
+
+    1. Either the aircrew wait and wonder what’s next, or 
+    2. the aircrew declare what’s next and the control room loses control of the mission.
 
 ### Plain English Antidote  {.unnumbered}
 
@@ -526,7 +529,32 @@ Two effects, depending on aircrew. Either the aircrew wait and wonder what’s n
 
 {{< pagebreak >}}
 
+## CLEAN AND DRY
 
+### Correct Usage   {.unnumbered}
+
+- "REQUEST CLEAN AND DRY"
+- "CHASE SHOWS YOU CLEAN AND DRY"
+
+### Meaning {.unnumbered}
+
+Extends the concept of a "battle damage check" which is looking for "clean" meaning no visible damage and "dry" meaning no visible fluid leaks.
+
+In flight test, "clean" can also mean no excessive door and/or panel gaps, no missing fasteners, or any other mechanical change from the previous check. Often made after gear retraction, before and after a high speed test point, prior to aerial refueling after high load or flutter test, and before returning to base.
+
+### Typical Errors {.unnumbered}
+
+None
+
+### Effects of Errors   {.unnumbered}
+
+None
+
+### Plain English Antidotes  {.unnumbered}
+
+None
+
+{{< pagebreak >}}
 
 ## Codes NOT to use
 
@@ -561,7 +589,7 @@ Typical errors
 
 Effects of errors
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidotes  {.unnumbered}
 
 Plain English Antidotes
 

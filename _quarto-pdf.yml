@@ -1,2 +1,4 @@
 project:
   output-dir: pdf
+
+# quarto render --profile pdf --to pdf
