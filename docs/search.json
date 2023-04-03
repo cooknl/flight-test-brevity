@@ -18,7 +18,7 @@
     "href": "index.html#change-log",
     "title": "Flight Test Brevity",
     "section": "Change Log",
-    "text": "Change Log\n\n2023-02-11\n\nPort to Quarto\nUpdate from 2002 to 2020 Change 1 version of BREVITY\n\n(FM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5 2002)\n(ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5 2020)\n\nTable 1.1 order changed\n\n2016-08-04 Most recent Word version\n\n\n\n\n\nATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5. 2020. Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes. Change 1 02 Apr 2021. Director: ALSA Center 114 Andrews Street Joint Base Langley-Eustis, VA 23665-2785. https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf.\n\n\nFM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5. 2002. Multiservice Brevity Codes. HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000. https://apps.dtic.mil/sti/pdfs/ADA404426.pdf."
+    "text": "Change Log\n\n2023-04-02 v1.1.0\n\nExtends appendices\n\nMoves “Comm Plan” from body to appendix\nAdds “Test Point”\nAdds “Unsafe Comm”\n\nAlters format of Flight Test Brevity Codes from tabular to paginated to improve pdf version\nAdds pdf version\n\n2023-02-11 v.1.0.0\n\nPort to Quarto\nUpdate from 2002 to 2020 Change 1 version of BREVITY\n\n(FM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5 2002)\n(ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5 2020)\n\nTable 1.1 order changed\n\n2016-08-04 Most recent Word version\n\n\n\n\n\nATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5. 2020. Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes. Change 1 02 Apr 2021. Director: ALSA Center 114 Andrews Street Joint Base Langley-Eustis, VA 23665-2785. https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf.\n\n\nFM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5. 2002. Multiservice Brevity Codes. HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000. https://apps.dtic.mil/sti/pdfs/ADA404426.pdf."
   },
   {
     "objectID": "intro.html#brevity-codes",
@@ -203,11 +203,18 @@
     "text": "B.18 NEXT\n\nCorrect Usage\n“NEXT [POINT/CARD/FLIGHT CONDITION]”\n\n\nMeaning\nThe next thing is…\n\n\nTypical Error\n“…” (crickets)\n\n\nEffects of Error\nTwo effects, depending on aircrew.\n1. Either the aircrew wait and wonder what’s next, or \n2. the aircrew declare what’s next and the control room loses control of the mission.\n\n\nPlain English Antidote\n“Next point is X, at X feet and X Mach/KCAS.”"
   },
   {
+    "objectID": "flight-test-brevity-codes-sections.html#clean-and-dry",
+    "href": "flight-test-brevity-codes-sections.html#clean-and-dry",
+    "title": "Appendix B — Flight Test Brevity Codes",
+    "section": "B.19 CLEAN AND DRY",
+    "text": "B.19 CLEAN AND DRY\n\nCorrect Usage\n\n“REQUEST CLEAN AND DRY”\n“CHASE SHOWS YOU CLEAN AND DRY”\n\n\n\nMeaning\nExtends the concept of a “battle damage check” which is looking for “clean” meaning no visible damage and “dry” meaning no visible fluid leaks.\nIn flight test, “clean” can also mean no excessive door and/or panel gaps, no missing fasteners, or any other mechanical change from the previous check. Often made after gear retraction, before and after a high speed test point, prior to aerial refueling after high load or flutter test, and before returning to base.\n\n\nTypical Errors\nNone\n\n\nEffects of Errors\nNone\n\n\nPlain English Antidotes\nNone"
+  },
+  {
     "objectID": "flight-test-brevity-codes-sections.html#codes-not-to-use",
     "href": "flight-test-brevity-codes-sections.html#codes-not-to-use",
     "title": "Appendix B — Flight Test Brevity Codes",
-    "section": "B.19 Codes NOT to use",
-    "text": "B.19 Codes NOT to use\n\nROGER\nCOPY\nWILCO\n\nThey all leave out a very important factor. WHAT is being received, received and written, or complied with.\nBetter to be explicit.\n\n“I understand” And better “I understand [then say what you understand]”\nRead back what you just heard\n“I will [do the thing you just requested]”"
+    "section": "B.20 Codes NOT to use",
+    "text": "B.20 Codes NOT to use\n\nROGER\nCOPY\nWILCO\n\nThey all leave out a very important factor. WHAT is being received, received and written, or complied with.\nBetter to be explicit.\n\n“I understand” And better “I understand [then say what you understand]”\nRead back what you just heard\n“I will [do the thing you just requested]”"
   },
   {
     "objectID": "unsafe-comm.html#ways-control-actions-can-be-unsafe",

@@ -16,7 +16,14 @@ This guide is a living document. All feedback is welcomed, and the most effectiv
 
 ## Change Log
 
-- 2023-02-11
+- 2023-04-02 v1.1.0
+    - Extends appendices
+        - Moves "Comm Plan" from body to appendix
+        - Adds "Test Point"
+        - Adds "Unsafe Comm"
+    - Alters format of Flight Test Brevity Codes from tabular to paginated to improve pdf version
+    - Adds pdf version
+- 2023-02-11 v.1.0.0
     - Port to Quarto
     - Update from 2002 to 2020 Change 1 version of BREVITY
         - [@http://zotero.org/users/7103471/items/HVKQ4CHY]
