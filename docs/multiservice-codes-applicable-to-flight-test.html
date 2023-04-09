@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Flight Test Brevity - Appendix A — Multiservice Codes Applicable to Flight Test</title>
+<title>Flight Test Brevity - Appendix B — Multiservice Codes Applicable to Flight Test</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./flight-test-brevity-codes-sections.html" rel="next">
-<link href="./references.html" rel="prev">
+<link href="./unsafe-comm.html" rel="next">
+<link href="./flight-test-brevity-codes-sections.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Appendix A — Multiservice Codes Applicable to Flight Test</h1>
+      <h1 class="quarto-secondary-nav-title">Appendix B — Multiservice Codes Applicable to Flight Test</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -126,12 +126,12 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./multiservice-codes-applicable-to-flight-test.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></a>
+  <a href="./flight-test-brevity-codes-sections.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./flight-test-brevity-codes-sections.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></a>
+  <a href="./multiservice-codes-applicable-to-flight-test.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -156,14 +156,32 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul class="collapse">
+  <li><a href="#symbol-keys" id="toc-symbol-keys" class="nav-link active" data-scroll-target="#symbol-keys"><span class="toc-section-number">B.1</span>  Symbol Keys</a></li>
+  <li><a href="#attention-getting-codes" id="toc-attention-getting-codes" class="nav-link" data-scroll-target="#attention-getting-codes"><span class="toc-section-number">B.2</span>  Attention-Getting Codes</a></li>
+  <li><a href="#informative-geometry-codes" id="toc-informative-geometry-codes" class="nav-link" data-scroll-target="#informative-geometry-codes"><span class="toc-section-number">B.3</span>  Informative Geometry Codes</a></li>
+  <li><a href="#relative-geometry-codes" id="toc-relative-geometry-codes" class="nav-link" data-scroll-target="#relative-geometry-codes"><span class="toc-section-number">B.4</span>  <strong>Relative Geometry Codes</strong></a></li>
+  <li><a href="#picture-geometry-codes" id="toc-picture-geometry-codes" class="nav-link" data-scroll-target="#picture-geometry-codes"><span class="toc-section-number">B.5</span>  Picture Geometry Codes</a></li>
+  <li><a href="#single-ship-maneuver-codes" id="toc-single-ship-maneuver-codes" class="nav-link" data-scroll-target="#single-ship-maneuver-codes"><span class="toc-section-number">B.6</span>  Single-Ship Maneuver Codes</a></li>
+  <li><a href="#request-codes" id="toc-request-codes" class="nav-link" data-scroll-target="#request-codes"><span class="toc-section-number">B.7</span>  Request Codes</a></li>
+  <li><a href="#weapon-codes" id="toc-weapon-codes" class="nav-link" data-scroll-target="#weapon-codes"><span class="toc-section-number">B.8</span>  Weapon Codes</a></li>
+  <li><a href="#sensor-codes" id="toc-sensor-codes" class="nav-link" data-scroll-target="#sensor-codes"><span class="toc-section-number">B.9</span>  Sensor Codes</a></li>
+  <li><a href="#avionicsdatalink-codes" id="toc-avionicsdatalink-codes" class="nav-link" data-scroll-target="#avionicsdatalink-codes"><span class="toc-section-number">B.10</span>  Avionics/Datalink Codes</a></li>
+  <li><a href="#clearance-codes" id="toc-clearance-codes" class="nav-link" data-scroll-target="#clearance-codes"><span class="toc-section-number">B.11</span>  Clearance Codes</a></li>
+  <li><a href="#flight-condition-codes" id="toc-flight-condition-codes" class="nav-link" data-scroll-target="#flight-condition-codes"><span class="toc-section-number">B.12</span>  Flight Condition Codes</a></li>
+  <li><a href="#rules-of-engagement-identification-codes" id="toc-rules-of-engagement-identification-codes" class="nav-link" data-scroll-target="#rules-of-engagement-identification-codes"><span class="toc-section-number">B.13</span>  Rules of Engagement &amp; Identification Codes</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cooknl/flight-test-brevity/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-multiservice" class="quarto-section-identifier d-none d-lg-block">Appendix A — Multiservice Codes Applicable to Flight Test</span></h1>
+<h1 class="title"><span id="sec-multiservice" class="quarto-section-identifier d-none d-lg-block">Appendix B — Multiservice Codes Applicable to Flight Test</span></h1>
 </div>
 
 
@@ -178,11 +196,71 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="symbol-keys" class="level2" data-number="B.1">
+<h2 data-number="B.1" class="anchored" data-anchor-id="symbol-keys"><span class="header-section-number">B.1</span> Symbol Keys</h2>
 <p>◬ Codes most often misused are indicated with an warning symbol and include an explanation of how to avoid misuse.</p>
+<p>The Type is shown in curly braces indicates whether a code is meant to:</p>
+<ul>
+<li>{D} Direct</li>
+<li>{I} Inform</li>
+<li>{R} Request</li>
+</ul>
+<div id="tbl-ms-key" class="anchored">
+<table class="table">
+<caption>Table&nbsp;B.1: Key to Multi-Service Brevity Codes</caption>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 35%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Symbol or Abbreviation</th>
+<th>Brevity code meaning applies to</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[A/A]</td>
+<td>Air-to-air (A/A) operations or communications.</td>
+</tr>
+<tr class="even">
+<td>[A/S]</td>
+<td>Air-to-surface (A/S) operations or communications.</td>
+</tr>
+<tr class="odd">
+<td>[S/A]</td>
+<td>Surface-to-air (S/A) operations or communications.</td>
+</tr>
+<tr class="even">
+<td>[SO]</td>
+<td>Space operations (SO) or communications.</td>
+</tr>
+<tr class="odd">
+<td>[S/S]</td>
+<td>Surface-to-surface (S/S) operations or communications.</td>
+</tr>
+<tr class="even">
+<td>[EW]</td>
+<td>Electromagnetic warfare (EW) operations or communications.</td>
+</tr>
+<tr class="odd">
+<td>[AIR-MAR]</td>
+<td>Maritime air (AIRMAR) operations or communications.</td>
+</tr>
+<tr class="even">
+<td>[MAR-MAR]</td>
+<td>Maritime to maritime (MAR-MAR) operations or communications.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="attention-getting-codes" class="level2" data-number="B.2">
+<h2 data-number="B.2" class="anchored" data-anchor-id="attention-getting-codes"><span class="header-section-number">B.2</span> Attention-Getting Codes</h2>
 <p><strong>Attention-Getting</strong> codes have significant potential for miscommunication. This is often because test aircrew and operators were trained in an operational context, whereas test and range personnel were trained in a test context. Because of the urgent nature of attention-getting codes, they must be carefully defined for each test and briefed carefully.</p>
 <div id="tbl-ms-attention" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.1: Attention-Getting Brevity Codes</caption>
+<caption>Table&nbsp;B.2: Attention-Getting Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 35%">
@@ -199,112 +277,131 @@ Brevity Code</th>
 <tbody>
 <tr class="odd">
 <td>ABORT</td>
-<td>Directive call to cease action/attack/event/mission.</td>
-<td>Per the comm plan, but typically used when test limits or boundaries have been or will be exceeded. Usually implies a briefed recovery procedure.</td>
+<td>{D} Cease action or terminate the attack prior to weapons release or event or mission.</td>
+<td>Per the comm plan, but typically used when test limits or boundaries have been or will be exceeded. Usually implies a briefed abort procedure.</td>
 </tr>
 <tr class="even">
-<td>(system) BENT/SICK</td>
-<td>System indicated is inoperative/degraded</td>
+<td>[system] BENT/SICK</td>
+<td><p>{I} System indicated is inoperative/degraded.</p>
+<p>Cancelled by SWEET</p></td>
 <td>Describing system difficulties</td>
 </tr>
 <tr class="odd">
 <td>BINGO</td>
-<td>Fuel state needed for recovery.</td>
-<td>Briefed fuel state that triggers an automatic decision to terminate testing and RTB.</td>
+<td>{I} Pre-briefed fuel state needed for recovery.</td>
+<td>Briefed fuel state that triggers an automatic decision to terminate testing and return to base.</td>
 </tr>
 <tr class="even">
 <td>BLIND</td>
-<td><p>No visual contact with friendly aircraft/ground position.</p>
+<td><p>{I} No visual contact with FRIENDLY aircraft, ship, or ground position.</p>
 <p>Opposite of VISUAL.</p></td>
 <td>Could be a test or a safety consideration.</td>
 </tr>
 <tr class="odd">
 <td>BOGEY</td>
-<td>A radar or visual air contact whose identity is unknown.</td>
+<td>{I} A radar or visual air CONTACT whose identity is unknown.</td>
 <td>An indication of “stranger traffic” that could interfere with test execution.</td>
 </tr>
 <tr class="even">
+<td>CEASE [activity]</td>
+<td>{I} Discontinue stated activity; e.g., CEASE BUZZER, CEASE LASER, CEASE SPARKLE, CEASE TORCH, etc.</td>
+<td>A generally useful term</td>
+</tr>
+<tr class="odd">
+<td>CONTACT(S)</td>
+<td><ol type="1">
+<li>{I} Sensor information at the stated position.</li>
+<li>{I} [A/S] Acknowledges sighting of a specified reference point (either visually or via sensor).</li>
+<li>{I} [A/A] Individual radar return within a GROUP or ARM.</li>
+</ol></td>
+<td>Could change required separations per the safety considerations, i.e.&nbsp;strict altitude separation required until CONTACT, then 1000 foot bubble.</td>
+</tr>
+<tr class="even">
 <td>DIVERT</td>
-<td>Proceed to alternate mission/base.</td>
+<td>{D} Proceed to alternate mission/base.</td>
 <td>Directing to alternate landing site for WX/MX/other</td>
 </tr>
 <tr class="odd">
 <td>JOKER◬</td>
-<td>Fuel state above BINGO at which separation/bugout/event termination should begin.</td>
+<td>{I} Fuel state above BINGO at which separation, bugout, or event termination should begin.</td>
 <td>Briefed fuel state that indicates a decision point in the test flow.<br>
 ◬Can have multiple jokers for various reasons (tanker, altitude block change, etc.) as determined by test team.</td>
 </tr>
 <tr class="even">
-<td>KNOCK IT OFF</td>
-<td>In training, a directive call to cease all air combat maneuvers/attacks/ activities/exercises.</td>
+<td>KNOCK-IT-OFF</td>
+<td>{D} [A/A] [A/S] Cease all air combat maneuvers, attacks, activities, or exercises (training use only).</td>
 <td>In test, typically used to indicate a safety of flight concern, directing termination of testing and resumption of “normal” flight. Followed by discussion of cause and next action to be taken.</td>
 </tr>
 <tr class="odd">
-<td>NO FACTOR</td>
-<td>Not a threat.</td>
-<td>Declaring that an identified aircraft will not interfere with safety of flight or test.</td>
+<td>[object] NO FACTOR</td>
+<td>{I} [A/A] [A/S] [S/A] Stated [object] is not a threat.</td>
+<td>Declaring that an identified object will not interfere with safety of flight or test.</td>
 </tr>
 <tr class="even">
 <td>NO JOY◬</td>
-<td><p>Aircrew does not have visual contact with the target/bandit/landmark.</p>
-<p>Opposite of TALLY.</p></td>
-<td>◬Similar to BLIND, but BLIND is for friendlies; NO JOY is for everyone else.</td>
+<td><ol type="1">
+<li>{I} [A/A] [A/S] [S/A] [SO] Aircrew does not have visual contact with the TARGET or BANDIT.<br>
+Opposite of TALLY.</li>
+<li>{I} Indicates that radio communications could not be established with the distant end on a specified radio net.</li>
+</ol></td>
+<td>◬Similar to BLIND, but BLIND is for FRIENDLY; NO JOY is for everyone else.</td>
 </tr>
 <tr class="odd">
 <td>PADLOCKED</td>
-<td>Informative call indicating aircrew cannot take eyes off an aircraft, ground target, or surface position without risk of losing TALLY/VISUAL.</td>
+<td>{I} Aircrew cannot take eyes off an aircraft, ground target, or surface position without risk of losing TALLY or VISUAL.</td>
 <td>Indicates aircrew is task saturated and channelized.</td>
 </tr>
 <tr class="even">
-<td>(system) SOUR (mode)</td>
-<td><p>Invalid/no response to an administrative IFF/SIF check.</p>
-<p>Opposite of SWEET.</p></td>
-<td>Systems testing.</td>
+<td>SOUR</td>
+<td><ol type="1">
+<li>{I} (mode/type) [A/A] [S/A] Invalid or no response to an administrative IFF or selective ID feature check.</li>
+<li>{I} (link name) (e.g., “TIMBER SOUR”) Potential problems with net entry; initiates pre-mission link troubleshooting. (Opposite of SWEET)</li>
+</ol></td>
+<td>Useful in systems testing to indicate that testing will be affecting by system problems.</td>
 </tr>
 <tr class="odd">
 <td>STRANGER</td>
-<td>Unidentified traffic that is not a participant with the action in progress.</td>
+<td>{I} [A/A] Unidentified traffic that is not a participant in the action in progress.</td>
 <td>Traffic that could conflict with test execution or flight safety.</td>
 </tr>
 <tr class="even">
 <td>TALLY</td>
-<td><p>Sighting of a target, non-friendly aircraft, or enemy position.</p>
+<td><p>{I} Sighting of a target, non-friendly aircraft, or enemy position.</p>
 <p>Opposite of NO JOY.</p></td>
-<td>Should cause a sigh of relief.</td>
+<td>Can be used to indicate successful sighting during test execution.</td>
 </tr>
 <tr class="odd">
 <td>TERMINATE◬</td>
-<td><ol type="1">
-<li>Stop laser illumination of a target.</li>
-<li>In training, cease local engagement without affecting the overall exercise.</li>
-</ol></td>
-<td><p>Often used to cease test point execution. In test, this means whatever the test team briefed it to mean, but the meaning is typically different from standard brevity code.</p>
+<td>{D} [A/A] In training, cease local engagement without affecting the overall exercise.</td>
+<td><p>Often used to cease test point execution, prior to test point completion. In test, this means whatever the test team briefed it to mean, but the meaning is typically different from standard brevity code.</p>
 <p>◬BE CAREFUL TO CLEARLY DEFINE USE WHEN FLIGHT TERMINATION SYSTEMS ARE EMPLOYED!!!</p></td>
 </tr>
 <tr class="even">
 <td>TUMBLEWEED</td>
-<td><p>Indicates</p>
-<ul>
-<li>limited SA,</li>
-<li>NO JOY,</li>
-<li>BLIND</li>
-</ul>
-<p>and is a request for information.</p></td>
-<td>HELP!!</td>
+<td>{I + R} I have limited situational awareness (i.e., NO JOY, BLIND), and I request information.</td>
+<td>HELP!! Can be used to indicate extreme disorientation.</td>
 </tr>
 <tr class="odd">
 <td>VISUAL</td>
-<td><p>Sighting of a friendly aircraft or ground position.</p>
+<td><p>{I} Sighting of a FRIENDLY aircraft, ground position, or ship.</p>
 <p>Opposite of BLIND.</p></td>
-<td>Could change required separations per the safety considerations.</td>
+<td>Could change required separations per the safety considerations, i.e.&nbsp;strict altitude separation required until VISUAL, then 1000 foot bubble.</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+<section id="informative-geometry-codes" class="level2" data-number="B.3">
+<h2 data-number="B.3" class="anchored" data-anchor-id="informative-geometry-codes"><span class="header-section-number">B.3</span> Informative Geometry Codes</h2>
 <p><strong>Informative Geometry</strong> codes communicate a general condition. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-informative" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.2: Informative Geometry Brevity Codes</caption>
+<caption>Table&nbsp;B.3: Informative Geometry Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -318,63 +415,65 @@ Brevity Code</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">ANCHOR(ED) (location)</td>
+<td style="text-align: left;">ANCHOR [location]</td>
 <td style="text-align: left;"><ol type="1">
-<li>Directive call to orbit about a specific point.</li>
-<li>Informative call to indicate a turning engagement at a specific location.</li>
-<li>Refueling track flown by tanker.</li>
+<li>{D} Orbit about a specific point.</li>
+<li>{I} Refueling track flown by tanker.</li>
 </ol></td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">ANCHORED [location]</td>
+<td style="text-align: left;">{I} [A/A] Turning engagement at the specified location.</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">FEET WET/DRY</td>
-<td style="text-align: left;">Flying over water/land.</td>
+<td style="text-align: left;">{I} Flying over water/land.</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">IN (direction)</td>
+<tr class="even">
+<td style="text-align: left;">IN [direction]</td>
 <td style="text-align: left;"><ol type="1">
-<li>Informative call indicating a turn toward a known threat.</li>
-<li>Entering terminal phase of an air-to-ground attack. Opposite of OFF.</li>
+<li>{I} [A/A] Turning toward a known threat.<br>
+Opposite of OUT.</li>
+<li>{I} [A/S] Entering terminal phase of an air-to-ground attack.<br>
+Opposite of OFF.</li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: left;">MARSHAL(ING)</td>
-<td style="text-align: left;">Establish(ed) at a specific point.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">OFF (direction)</td>
-<td style="text-align: left;">Informative call indicating attack is terminated and maneuvering to the indicated direction.</td>
+<td style="text-align: left;">{D or I} Establish(ed) at a specific point, typically used to posture forces in preparation for an offensive operation.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">ON STATION</td>
-<td style="text-align: left;">Informative call that unit/aircraft has reached assigned station.</td>
+<td style="text-align: left;">OFF [direction]</td>
+<td style="text-align: left;">{I} [A/A] [A/S] Attack is terminated, and maneuvering to the indicated direction.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">OUT (direction)</td>
-<td style="text-align: left;">Informative call indicating a turn to a cold aspect relative to a known threat.</td>
+<td style="text-align: left;">OUT [direction]</td>
+<td style="text-align: left;">{D or I} [A/A] Turn or turning to a cold aspect relative to a known threat.</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">PUSHING</td>
-<td style="text-align: left;">Departing designated point.</td>
+<td style="text-align: left;">{I} [A/A] Departing designated point.</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">SADDLED</td>
-<td style="text-align: left;">Informative call from wingman or element indicating the return to briefed formation position.</td>
+<td style="text-align: left;">{I} [A/A] Wingman or element has returned to briefed formation position.<br>
+Cancels STRIPPED</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">STRIPPED</td>
-<td style="text-align: left;">Informative call that aircraft is out of prebriefed formation. Opposite of SADDLED.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">WINGS LEVEL</td>
-<td style="text-align: left;">Informative call from aircraft to FAC reporting rolled-out on final attack heading.</td>
+<td style="text-align: left;">{I} [A/A] Aircraft is out of prebriefed formation.<br>
+Opposite of SADDLED.</td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+<section id="relative-geometry-codes" class="level2" data-number="B.4">
+<h2 data-number="B.4" class="anchored" data-anchor-id="relative-geometry-codes"><span class="header-section-number">B.4</span> <strong>Relative Geometry Codes</strong></h2>
 <p><strong>Relative Geometry</strong> codes provide relationship between two air vehicles, both location and angles. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-relative" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.3: Relative Geometry Brevity Codes</caption>
+<caption>Table&nbsp;B.4: Relative Geometry Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -389,61 +488,74 @@ Brevity Code</th>
 <tbody>
 <tr class="odd">
 <td>BEAM<br>
-(cardinal direction)</td>
-<td>Contact stabilized within 70 to 110 degrees of aspect.</td>
+[direction]</td>
+<td>{I} [A/A] CONTACT stabilized within 70 to 110 degrees of aspect.</td>
 </tr>
 <tr class="even">
 <td>BRAA</td>
 <td><ol type="1">
-<li>Following information is in a tactical control format providing target bearing, range, altitude, and aspect, relative to the specified friendly aircraft.</li>
-<li>Request/directive call to switch to tactical BRAA control format.</li>
+<li><p>{I} [A/A] [S/A] The following information is in a tactical control format providing target bearing, range, altitude, and aspect (BRAA)</p>
+<p>relative to the specified FRIENDLY aircraft.</p></li>
+<li><p>{D} Switch to BRAA format to a specific GROUP or CONTACT.</p></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>BULLSEYE</td>
-<td><p>An established reference point from which the position of an object can be referenced.</p>
+<td><p>{I} An established reference point from which the position of an object can be referenced by bearing (magnetic) and range (nautical miles) from this point.</p>
 <p>Extremely important! Ensure that the BULLSEYE is briefed.</p>
-<p>Typically paired with a bearing and range. “Bullseye 050 at 50 miles.”</p>
+<p>“Bullseye 050 at 50 miles.”</p>
 <p>Think polar coordinates with a briefed origin, instead of the Cartesian lat/long coordinates.</p></td>
 </tr>
 <tr class="even">
 <td>CLOSING</td>
-<td>Decreasing in separation.</td>
+<td>{I} [A/A] Decreasing separation.<br>
+Opposite of OPENING.</td>
 </tr>
 <tr class="odd">
 <td>COLD</td>
 <td><ol type="1">
-<li>A descriptive/directive call to initiate a turn away from anticipated threats.</li>
-<li>Defined area is not expected to receive fire (enemy or friendly).</li>
-<li>Intercept geometry will result in a pass or roll out behind the target.</li>
+<li>{D or I} [A/A] Initiate(ing) a turn in the combat air patrol away from the anticipated threats.</li>
+<li>{I} [A/S] Defined area is not expected to receive fire (enemy or FRIENDLY).</li>
+<li>{I} [A/A] Intercept geometry will result in a pass or roll out behind the target.</li>
+<li>{I} [A/A] CONTACT aspect stabilized 0–20 degrees from the tail or 160–180 degrees from the nose.</li>
+<li>{I} [A/S] CONTACT aspect stabilized 0-20 degrees or 160-180 degrees from referenced position (friendly forward operating base, named area of interest (NAI), target area, etc.).</li>
+<li>{I} [AIR-MAR] CONTACT aspect stabilized 0-20 degrees from stern or 160-180 degrees from bow.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>DRAG<br>
-(cardinal direction)</td>
-<td>Contact aspect stabilized at 0-60 degrees angle from tail or 120-180 degrees angle from nose.</td>
+[cardinal direction]</td>
+<td>{I} [A/A] CONTACT aspect stabilized at 0–60 degrees angle from tail or 120–180 degrees angle from nose.</td>
 </tr>
 <tr class="odd">
 <td>FLANK<br>
-(cardinal direction)</td>
-<td>Contact aspect stabilized at 120 to 150 degrees angle from tail or 30 to 60 degrees angle from nose of aspect.</td>
+[direction]</td>
+<td>{I} [A/A] CONTACT aspect stabilized at 120–150 degrees angle from tail or 30–60 degrees angle from nose.</td>
 </tr>
 <tr class="even">
 <td>HOT</td>
 <td><ol type="1">
-<li>A descriptive/directive call to initiate a turn toward anticipated threats.</li>
-<li>Defined area is expected to receive fire (enemy or friendly).</li>
-<li>Ordnance employment intended or completed.</li>
-<li>Contact aspect stabilized at 160-180 degrees angle from tail or 0 – 20 degrees angle from nose.</li>
+<li>{D or I} [A/A] Initiate or initiating a turn in the combat air patrol toward the anticipated threats.<br>
+Opposite of COLD.</li>
+<li>{I} Defined area is expected to receive fire (enemy or FRIENDLY).<br>
+Opposite of COLD.</li>
+<li>{I} Ordnance employment intended or completed.<br>
+Opposite of DRY.</li>
+<li>{I} CONTACT aspect stabilized at 160–180 degrees angle from tail or 0–20 degrees angle from nose.</li>
+<li>{I} [A/A] Intercept geometry will result in passing in front of the target.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>OPENING</td>
-<td>Increasing in separation.</td>
+<td>LEVEL</td>
+<td><ol type="1">
+<li>{I} Contact is co-altitude (interflight call).</li>
+<li>{I} Briefed altitude has been reached.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>STACK</td>
-<td>Two or more contacts or formations with an altitude separation in relation to each other.</td>
+<td>OPENING</td>
+<td>{I} [A/A] Increasing separation.<br>
+Opposite of CLOSING.</td>
 </tr>
 </tbody>
 </table>
@@ -451,13 +563,16 @@ Brevity Code</th>
 <div id="fig-aspect" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="./images/aspect-geometry.png" style="width:6.5in;height:4.44617in" class="figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;A.1: The Relation Between Aspect Angles and Relative Geometry Brevity Codes</figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;B.1: The Relation Between Aspect Angles and Relative Geometry Brevity Codes</figcaption><p></p>
 </figure>
 </div>
+</section>
+<section id="picture-geometry-codes" class="level2" data-number="B.5">
+<h2 data-number="B.5" class="anchored" data-anchor-id="picture-geometry-codes"><span class="header-section-number">B.5</span> Picture Geometry Codes</h2>
 <p><strong>“Picture” Geometry</strong> codes provide an overview of the tactical airspace. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-picture" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.4: “Picture” Geometry Brevity Codes</caption>
+<caption>Table&nbsp;B.5: “Picture” Geometry Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -472,31 +587,46 @@ Brevity Code</th>
 <tbody>
 <tr class="odd">
 <td>PICTURE</td>
-<td>A request to provide air information pertinent to the mission in a digital bullseye format.</td>
+<td>{R} [A/A] [A/S] [AIR-MAR] A request to provide information pertinent to the mission in a digital bullseye format unless briefed otherwise.</td>
 </tr>
 <tr class="even">
 <td>NEW PICTURE</td>
-<td>Used by controller or aircrew when tactical picture has changed. Supersedes all previous calls and re-establishes picture for all players.</td>
+<td>{I} [A/A] [A/S] [AIR-MAR] Used by controller or aircrew when tactical PICTURE has changed. Supersedes all previous calls and reestablishes PICTURE for all players.</td>
 </tr>
 <tr class="odd">
-<td>CONTACT</td>
+<td>GROUP(S)</td>
 <td><ol type="1">
-<li>Sensor contact at the stated position. Think “VISUAL” for points on the ground.</li>
-<li>Acknowledges sighting of a specified reference point.</li>
-<li>Individual radar return within a GROUP or ARM.</li>
+<li><p>{I} [A/A] Any number of air CONTACT(S) within 3 nautical miles in</p>
+<p>azimuth and range of each other.</p></li>
+<li><p>[AIR-MAR] Any number of surface CONTACTs within 1 nautical miles of each other.</p></li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>GROUP</td>
-<td>Any number of air contacts within 3 NM in azimuth or range of each other.</td>
+<td>SINGLE</td>
+<td>{I} [A/A] [AIR-MAR] One GROUP, CONTACT, etc.</td>
 </tr>
 <tr class="odd">
-<td>PACKAGE</td>
-<td>Geographically isolated collection of GROUPs.</td>
+<td>HEAVY</td>
+<td>{I} [A/A] [AIR-MAR] A GROUP known to contain three or more CONTACTs.</td>
 </tr>
 <tr class="even">
-<td>ARM</td>
-<td>Element resulting from target maneuvers exceeding GROUP criteria.</td>
+<td>PACKAGE</td>
+<td>{I} [A/A] Geographically isolated collection of GROUPs outside of briefed range.</td>
+</tr>
+<tr class="odd">
+<td>[direction] ARM</td>
+<td>{I} [A/A] [AIR-MAR] CONTACT(S) within a single GROUP that maneuvers outside of the GROUP criteria.</td>
+</tr>
+<tr class="even">
+<td>CLEAN</td>
+<td><ol type="1">
+<li>{I} [A/A] No sensor information on a GROUP of interest.</li>
+<li>{I} No visible battle damage.<br>
+For Battle Damage (BD) checks “Clean and Dry” means no damage and no leaking fluids.</li>
+<li>{I} Aircraft not carrying external stores.<br>
+Aircraft configuration. Be careful and be specific. Better to state explicitly the<br>
+required configuration than to just say “clean.”</li>
+</ol></td>
 </tr>
 <tr class="odd">
 <td><strong>2 Groups</strong></td>
@@ -504,16 +634,19 @@ Brevity Code</th>
 </tr>
 <tr class="even">
 <td>AZIMUTH</td>
-<td>A picture label describing two GROUPs separated laterally.</td>
+<td><ol type="1">
+<li>{I} [A/A] [AIR-MAR] A picture label describing two GROUPs separated laterally. GROUP names will be referenced by cardinal directions (e.g., NORTH GROUP, SOUTH GROUP, or EAST GROUP, WEST GROUP).</li>
+<li>[S/A] Direction to the threat.</li>
+</ol></td>
 </tr>
 <tr class="odd">
 <td>ECHELON<br>
-(direction)</td>
-<td>Picture label/fill-in describing two GROUPs with one group displaced behind and to the side of the other group.</td>
+[subcardinal direction]</td>
+<td>{I} [A/A] [AIR-MAR] Fill-in to a picture label describing GROUPs aligned behind and to the side of the closest GROUP.</td>
 </tr>
 <tr class="even">
 <td>RANGE</td>
-<td>A picture label describing two GROUPs separated in distance along the same line of bearing.</td>
+<td>{I} [A/A] [AIR-MAR] A PICTURE label describing two GROUPs separated in distance along the same line of bearing. GROUP names will be LEAD GROUP or TRAIL GROUP.</td>
 </tr>
 <tr class="odd">
 <td><strong>3+ Groups</strong></td>
@@ -521,23 +654,23 @@ Brevity Code</th>
 </tr>
 <tr class="even">
 <td>BOX</td>
-<td>A picture label describing four distinct GROUPs with two in front and two behind in a square or offset square orientation.</td>
+<td>{I} [A/A] [AIR-MAR] Picture label with GROUPs in a square or offset square.</td>
 </tr>
 <tr class="odd">
 <td>CHAMPAGNE</td>
-<td>A picture label describing three distinct GROUPs with two in front and one behind.</td>
+<td>{I} [A/A] [AIR-MAR] A picture label of three distinct GROUPs with two in front and one behind. GROUP names should be NORTH LEAD GROUP and SOUTH LEAD GROUP or WEST LEAD GROUP and EAST LEAD GROUP and TRAIL GROUP.</td>
 </tr>
 <tr class="even">
 <td>LADDER</td>
-<td>A picture label describing three or more GROUPs separated in range.</td>
+<td>{I} [A/A] [AIR-MAR] Picture label with three or more GROUPs on the same azimuth but separated by range. GROUP names should be LEAD GROUP, SECOND GROUP, THIRD GROUP, and TRAIL GROUP or LEAD GROUP, MIDDLE GROUP, and TRAIL GROUP.</td>
 </tr>
 <tr class="odd">
 <td>VIC</td>
-<td>A picture label describing three GROUPs with a single group closest in range and two trail groups separated in azimuth.</td>
+<td>{I} [A/A] [AIR-MAR] Picture label with three GROUPS with the single closest in range and two GROUPS, AZIMUTH split, in trail. GROUP names should be LEAD GROUP and NORTH TRAIL GROUP and SOUTH TRAIL GROUP or EAST TRAIL GROUP and WEST TRAIL GROUP.</td>
 </tr>
 <tr class="even">
 <td>WALL</td>
-<td>A picture label describing three or more GROUPs separated primarily in azimuth.</td>
+<td>{I} [A/A] [AIR-MAR] Picture label with three or more GROUPS primarily split in azimuth. GROUP names should be NORTH GROUP, MIDDLE GROUP, SOUTH GROUP or WEST GROUP, MIDDLE GROUP, EAST GROUP.</td>
 </tr>
 <tr class="odd">
 <td><strong>Separation</strong></td>
@@ -545,20 +678,23 @@ Brevity Code</th>
 </tr>
 <tr class="even">
 <td>DEEP</td>
-<td>Descriptive term used to indicate separation between the nearest and farthest GROUPs in range in a relative formation, used to describe a LADDER, VIC, CHAMPAGNE, BOX.</td>
+<td>{I} [A/A] [AIR-MAR] Indicates separation between the nearest and farthest GROUPs in range in a relative formation of three or more GROUPs, used to describe a LADDER, VIC, CHAMPAGNE, or BOX.</td>
 </tr>
 <tr class="odd">
 <td>STACK</td>
-<td>Two or more contacts or formations with an altitude separation in relation to each other.</td>
+<td><ol type="1">
+<li>{I} [A/A] Two or more CONTACTS within GROUP criteria with an altitude separation in relation to each other (typically above &gt;=10,000 foot separation).</li>
+<li>{R} Request all airborne players and their assigned altitude block in the specified area.</li>
+</ol></td>
 </tr>
 <tr class="even">
 <td>WEIGHTED<br>
-(cardinal direction)</td>
-<td>(USN/USMC) Descriptive term used for a multiple GROUP formation (WALL, LADDER, VIC, CHAMPAGNE) that is offset in one direction.</td>
+[cardinal direction]</td>
+<td>{I} [A/A] [AIR-MAR] Fill-in for a CHAMPAGNE, VIC, WALL, or LADDER when one or more GROUPS are out of position or offset from the standard picture label.</td>
 </tr>
 <tr class="odd">
 <td>WIDE</td>
-<td>Descriptive term used to indicate the separation between the farthest GROUPs in azimuth in a relative formation, use to describe a WALL, VIC, CHAMPAGNE, or BOX.</td>
+<td>{I} [A/A] [AIR-MAR] Separation between the farthest GROUPS in azimuth in a relative formation of three or more GROUPS, used to describe a WALL, VIC, CHAMPAGNE, or BOX.</td>
 </tr>
 <tr class="even">
 <td><strong>Inner</strong></td>
@@ -566,31 +702,26 @@ Brevity Code</th>
 </tr>
 <tr class="odd">
 <td>CONTAINER</td>
-<td>Inner GROUP formation with four contacts oriented in a square or offset square.</td>
+<td>{I} [A/A] [AIR-MAR] Inner GROUP formation with four CONTACTs oriented in a square or offset square.</td>
 </tr>
 <tr class="even">
 <td>LEAD-TRAIL</td>
-<td>Inner GROUP formation of two contacts separated in range.</td>
+<td>{I} [A/A] [A/S] [AIR-MAR] Inner GROUP formation of two CONTACTS separated in range.</td>
 </tr>
 <tr class="odd">
 <td>LINE ABREAST</td>
-<td>Inner GROUP formation of two or more contacts separated in azimuth.</td>
-</tr>
-<tr class="even">
-<td>NEAR-FAR</td>
-<td>(USAF) Fighter term depicting a radar-apparent description of two or more contacts within a GROUP separated in range.</td>
-</tr>
-<tr class="odd">
-<td>SIDE-SIDE</td>
-<td>(USAF) Fighter term depicting a radar-apparent description of two or more contacts within a group separated in azimuth.</td>
+<td>{I} [A/A] [AIR-MAR] Inner GROUP formation of two or more contacts separated in azimuth.</td>
 </tr>
 <tr class="even">
 <td>STINGER</td>
-<td>Three-ship inner group formation with two lead contacts line abreast and the single in trail.</td>
+<td><ol type="1">
+<li>{I} [A/A] [AIR-MAR] Three-ship inner GROUP formation with two lead CONTACTs line abreast and the SINGLE in trail.</li>
+<li>{I} [S/A] An IR man portable air defense system (MANPADS).</li>
+</ol></td>
 </tr>
 <tr class="odd">
 <td>WEDGE</td>
-<td>Three-ship inner group formation with a single contact closest in range and two trail contacts line abreast.</td>
+<td>{I} [A/A] [AIR-MAR] Three-ship inner GROUP formation with a single CONTACT closest in range and two trail CONTACTs line abreast.</td>
 </tr>
 <tr class="even">
 <td><strong>Maneuvers</strong></td>
@@ -598,49 +729,58 @@ Brevity Code</th>
 </tr>
 <tr class="odd">
 <td>CROSSING</td>
-<td>Descriptive term for when two GROUPs initially separated in azimuth decrease azimuth separation to pass each other.</td>
+<td>{I} [A/A] Two GROUPs initially separated in azimuth decreasing azimuth separation to pass each other.</td>
 </tr>
 <tr class="even">
-<td>MANEUVER (AZIMUTH/RANGE/ALTITUDE)</td>
-<td>Informative call that specified GROUP is maneuvering in azimuth, range, and/or altitude.</td>
+<td>JOINED</td>
+<td>{I} [A/A] Two or more radar returns have come together.</td>
 </tr>
 <tr class="odd">
-<td>MARSHAL(ING)</td>
-<td>Establish(ed) at a specific point.</td>
+<td>MANEUVER [azimuth, range, altitude]</td>
+<td>{I} [A/A] [AIR-MAR] Specified GROUP is maneuvering in azimuth, range, and/or altitude.</td>
 </tr>
 <tr class="even">
-<td>MERGE(D)</td>
-<td><ol type="1">
-<li>Information that friendlies and targets have arrived in the same visual arena.</li>
-<li>Informative call indicating radar returns have come together.</li>
-</ol></td>
+<td>MARSHALING</td>
+<td>{I} Established at a specific point, typically used to posture forces in preparation for an offensive operation.</td>
 </tr>
 <tr class="odd">
+<td>MERGED</td>
+<td>{I} [A/A] FRIENDLIES and targets have arrived in the visual arena.</td>
+</tr>
+<tr class="even">
 <td>PASSING</td>
-<td>Descriptive term for when two GROUPs initially separated in range, decrease range separation and pass each other.</td>
-</tr>
-<tr class="even">
-<td>SWITCHED</td>
-<td>Indicates an attacker is changing from one aircraft to another.</td>
+<td>{I} [A/A] Two GROUPs initially separated in range, decrease range separation and are passing each other.</td>
 </tr>
 <tr class="odd">
-<td>TRACK (cardinal direction)</td>
-<td>Group/contact’s direction of flight.</td>
+<td>SWITCHED</td>
+<td>{I} [A/A] Attacker is changing from one aircraft to another.</td>
+</tr>
+<tr class="even">
+<td>TRACK [direction]</td>
+<td><ol type="1">
+<li>{I} [A/A] GROUP or CONTACTS direction of flight or movement.</li>
+<li>{D} [A/S] [S/S] Directive call assigning responsibility to an asset for maintaining sensor or visual observation of a defined object or area.</li>
+<li>{D} [A/S] Rotary wing directive call to establish race track (e.g., “Taz 31, TRACK left).</li>
+<li>{I} [A/S] [AIR-MAR] Information call stating direction of vehicle or CONTACT in motion (e.g.&nbsp;TALLY TECHNICAL TRACK Northwest).</li>
+</ol></td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><strong>Maneuver</strong> codes direct or describe single-ship maneuvers. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
+</section>
+<section id="single-ship-maneuver-codes" class="level2" data-number="B.6">
+<h2 data-number="B.6" class="anchored" data-anchor-id="single-ship-maneuver-codes"><span class="header-section-number">B.6</span> Single-Ship Maneuver Codes</h2>
+<p><strong>Single-ship maneuver</strong> codes direct or describe single-ship maneuvers. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-maneuver" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.5: Maneuver Brevity Codes</caption>
+<caption>Table&nbsp;B.6: Single-Ship Maneuver Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Maneuver Brevity<br>
+<th>Single-Ship Maneuver Brevity<br>
 Code</th>
 <th>Definition</th>
 </tr>
@@ -648,160 +788,165 @@ Code</th>
 <tbody>
 <tr class="odd">
 <td>BANZAI</td>
-<td>Informative/directive call to execute launch and decide tactics.<br>
-Launch your missiles, then continue to the target. May end up as a merge.<br>
-Not common in DT, but significant for OT tactics. Also, fun to say, with aerial combat overtones.</td>
+<td>{D or I} [A/A] Execute(ing) launch and decide tactics with the intent to maneuver into the visual arena.<br>
+<br>
+Launch your missiles, then continue to the target. May end up as a merge. Not common in DT, but significant for OT tactics. Also, fun to say, with aerial combat overtones.</td>
 </tr>
 <tr class="even">
 <td>BRACKET<br>
-(direction)</td>
-<td>Directive call to maneuver to a position on opposing sides, either laterally or vertically from the target.</td>
+[direction]</td>
+<td>{D} [A/A] [A/S] Maneuver to a position on opposite sides, either laterally or vertically from the target.</td>
 </tr>
 <tr class="odd">
 <td>BUSTER</td>
-<td>Directive call to fly at maximum continuous speed (military power).</td>
+<td>{D or I} Fly at maximum continuous speed (military power).</td>
 </tr>
 <tr class="even">
 <td>CRANK<br>
-(direction)</td>
-<td>F-Pole maneuver in the direction indicated; implies illuminating target at radar GIMBAL limits.</td>
+[direction]</td>
+<td>{D} [A/A] Maneuver in the direction indicated. Implies illuminating target at or near radar GIMBAL limits.</td>
 </tr>
 <tr class="odd">
 <td>EXTEND(ING)<br>
-(direction)</td>
-<td>Short-term maneuver to gain energy, distance, or separation, normally with the intent of reengaging.</td>
+[direction]</td>
+<td>{D or I} [A/A] [A/S] Short-term maneuver to gain energy, distance, or separation with the intent of reengaging.</td>
 </tr>
 <tr class="even">
 <td>GATE</td>
-<td>Directive/informative call to fly as quickly as possible, using after-burner/max power.</td>
+<td>{D or I} Fly as quickly as possible, using afterburner or maximum power.</td>
 </tr>
 <tr class="odd">
 <td>HOT</td>
 <td><ol type="1">
-<li>A descriptive/directive call to initiate a turn toward anticipated threats.</li>
-<li>Defined area is expected to receive fire (enemy or friendly).</li>
-<li>Ordnance employment intended or completed.</li>
-<li>Contact aspect stabilized at 160-180 degrees angle from tail or 0 – 20 degrees angle from nose.</li>
+<li>{D or I} [A/A] Initiate or initiating a turn in the combat air patrol toward the anticipated threats.<br>
+Opposite of COLD.</li>
+<li>{I} Defined area is expected to receive fire (enemy or FRIENDLY).<br>
+Opposite of COLD.</li>
+<li>{I} Ordnance employment intended or completed.<br>
+Opposite of DRY.</li>
+<li>{I} CONTACT aspect stabilized at 160–180 degrees angle from tail or 0–20 degrees angle from nose.</li>
+<li>{I} [A/A] Intercept geometry will result in passing in front of the target.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>JINK</td>
-<td>Directive call to perform an unpredictable maneuver to negate a tracking solution.</td>
+<td>{D or I} [A/A] [A/S] Perform an unpredictable maneuver to negate a tracking solution.</td>
 </tr>
 <tr class="odd">
-<td>LEAN (direction)</td>
-<td>Directive/informative call to maneuver in a direction to avoid the threat.</td>
+<td>LEAN [direction]</td>
+<td>{D or I} [A/A] [A/S] Offset package or element in specified direction maintaining briefed altitude, airspeed, and formation.</td>
 </tr>
 <tr class="even">
 <td>NOTCH(ING)<br>
-direction)</td>
-<td>Directive/informative call that an aircraft is in a defensive position and maneuvering with reference to an air-to-air threat.</td>
+[direction]</td>
+<td>{D or I} [A/A] [A/S] [S/A] Aircraft is in a defensive position. Maneuver(ing) with reference to a threat.</td>
 </tr>
 <tr class="odd">
-<td>OFFSET (direction)</td>
-<td>Directive/informative call indicating maneuver in a specified direction with reference to the target.</td>
+<td>OFFSET [direction]</td>
+<td>{D or I} Maneuver in a specified direction with reference to the target.</td>
 </tr>
 <tr class="even">
 <td>PUMP</td>
-<td>A briefed maneuver to minimize closure on the threat or geographical boundary with the intent to re-engage.</td>
+<td>{D or I} [A/A] A briefed maneuver to minimize closure on the threat or geographical boundary with the intent to reengage.</td>
 </tr>
 <tr class="odd">
-<td>SHORT SKATE</td>
-<td><p>(USAF) Informative or directive call to execute launch-and-leave tactics and be out no later than MAR/DR.</p>
-<p>Launch your missiles, then turn away to fight another day prior to a briefed distance from the target.</p></td>
-</tr>
-<tr class="even">
 <td>SKATE</td>
-<td><p>Informative or directive call to execute launch-and-leave tactics.</p>
-<p>Launch your missiles, then turn away to fight another day. Turning at a distance closer than short skate to support your missile for longer.</p></td>
-</tr>
-<tr class="odd">
-<td>STERN</td>
-<td>Request for, or directive to, intercept using STERN geometry.</td>
+<td>{D or I} A/A] Informative or directive call to execute launch and leave tactics at a pre-briefed range. Modifiers can include LONG and SHORT.<br>
+<br>
+Launch your missiles, then turn away to fight another day prior to a briefed distance from the target.</td>
 </tr>
 <tr class="even">
+<td>STERN</td>
+<td>{D or R} [A/A] Requests for, or directive to, intercept using STERN geometry.</td>
+</tr>
+<tr class="odd">
 <td><strong>Turns</strong></td>
 <td></td>
 </tr>
-<tr class="odd">
-<td>CHECK<br>
-(number, LEFT/RIGHT)</td>
-<td>Turn (number) degrees left or right and maintain new heading.</td>
-</tr>
 <tr class="even">
-<td>COMEOFF<br>
-(direction)</td>
+<td>CHECK [number, left or right]</td>
+<td>{D} [A/A] Turn (number) degrees left or right and maintain new heading.</td>
+</tr>
+<tr class="odd">
+<td>COME OFF<br>
+[direction]</td>
 <td><ol type="1">
-<li>Directive call to maneuver as indicated to either regain mutual support or to deconflict flight paths. Implies both VISUAL and TALLY.</li>
-<li>Directive call to maneuver or execute a specific instruction (e.g., COMEOFF DRY).</li>
+<li>{D} [A/A] Maneuver as indicated to either regain mutual support or to deconflict flight paths. Implies both VISUAL and TALLY.</li>
+<li>{D} [A/S] Maneuver or execute a specific instruction.</li>
 </ol></td>
 </tr>
-<tr class="odd">
-<td>HARD (direction)</td>
-<td>High-G, energy sustaining 180 degree turn (or as directed) in the indicated direction.</td>
-</tr>
 <tr class="even">
-<td>HOOK (LEFT/RIGHT)</td>
-<td>Directive call to perform an in-place 180 degree turn.</td>
+<td>HARD [left, right, direction]</td>
+<td>{D} High-G-force, energy sustaining turn in the indicated direction (default is a 180-degree turn).</td>
 </tr>
 <tr class="odd">
-<td>IN PLACE (direction)</td>
-<td>Perform indicated maneuver simultaneously.</td>
+<td>HOOK</td>
+<td><ol type="1">
+<li>{D} (direction) [A/A] Perform an in-place, 180-degree turn.</li>
+<li>{D} (track # or descriptor) Data link directive call to cue sensors to described point (e.g., point of interest, SAM, MARKPOINT, track number, etc.).</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>PITCH/PITCHBACK (LEFT/RIGHT)</td>
-<td>Directive call for fighter or flight to execute a nose-high heading reversal.</td>
+<td>IN PLACE [direction]</td>
+<td>{D} [A/A] Perform indicated maneuver simultaneously.</td>
 </tr>
 <tr class="odd">
-<td>SLICE/SLICEBACK (LEFT/RIGHT)</td>
-<td>Directive call to perform a high-G descending turn in the stated direction, usually 180 degree turn.</td>
+<td>PITCH/PITCHBACK [left/right]</td>
+<td>{D} [A/A] Execute a nose-high heading reversal.</td>
 </tr>
 <tr class="even">
+<td>SLICE/SLICEBACK [left/right]</td>
+<td>{D} [A/A] Perform a high-G descending turn in the stated direction, usually 180-degree turn.</td>
+</tr>
+<tr class="odd">
 <td><strong>Non-Engagement</strong></td>
 <td></td>
 </tr>
+<tr class="even">
+<td>FLOAT(ING)</td>
+<td>{D or I} [A/A] Expand(ing) the formation laterally within visual limits to maintain radar contact or prepare for a defensive response.</td>
+</tr>
 <tr class="odd">
-<td>FLOAT</td>
-<td>Directive/informative call to expand the formation laterally within visual limits to maintain radar contact or prepare for a defensive response.</td>
+<td>FLOW [direction or heading]</td>
+<td>{D or I} [A/A] Maneuver in stated direction or heading. Can be used to begin cold operations.</td>
 </tr>
 <tr class="even">
-<td>FLOW (direction)</td>
-<td>Directive call to fly stated heading.</td>
-</tr>
-<tr class="odd">
 <td>MARSHAL(ING)</td>
-<td>Establish(ed) at a specific point.</td>
+<td>{D or I} Establish(ed) at a specific point, typically used to posture forces in preparation for an offensive operation.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>POP</td>
 <td><ol type="1">
-<li>Starting climb for A/S attack.</li>
-<li>Max performance climb out of low-altitude structure.</li>
+<li>{I} [A/S] Starting climb for A/S attack.</li>
+<li>{D or I} [A/A] Max performance climb out of low-altitude structure.</li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>POST HOLE</td>
-<td>Rapid descending spiral.</td>
-</tr>
-<tr class="even">
-<td>SHACKLE</td>
-<td>One weave, a single crossing of flight paths; maneuver to adjust or regain formation parameters.</td>
+<td>{D or I} [A/A] Rapid descending spiral.</td>
 </tr>
 <tr class="odd">
-<td>SPIN</td>
-<td>Directive or informative call to execute a timing/spacing maneuver.</td>
+<td>SHACKLE</td>
+<td>{D or I} [A/A] One weave; a single crossing of flight paths; maneuver to adjust or regain formation parameters.</td>
 </tr>
 <tr class="even">
+<td>SPIN</td>
+<td>{D or I} [A/A] Execute(ing) a timing or spacing maneuver.</td>
+</tr>
+<tr class="odd">
 <td>SPLIT</td>
-<td>Informative/directive call that flight member is leaving formation to pursue a separate attack; VISUAL may not be maintained.</td>
+<td>{D or I} Flight member is leaving formation to pursue a separate attack; VISUAL may not be maintained.</td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+<section id="request-codes" class="level2" data-number="B.7">
+<h2 data-number="B.7" class="anchored" data-anchor-id="request-codes"><span class="header-section-number">B.7</span> Request Codes</h2>
 <p><strong>Request</strong> codes compress questions into single words. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-request" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.6: Request Brevity Codes</caption>
+<caption>Table&nbsp;B.7: Request Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -816,30 +961,35 @@ Brevity Code</th>
 <tbody>
 <tr class="odd">
 <td>POSIT</td>
-<td>Request for friendly position; response in terms of a geographic landmark or off a common reference point.</td>
+<td>{R} Request for FRIENDLY position; response in terms of a geographic landmark or from a common reference point.</td>
 </tr>
 <tr class="even">
-<td>STATUS</td>
+<td>STATUS [phase]</td>
 <td><ol type="1">
-<li>Request for an individual’s tactical situation.</li>
-<li>(Group) Request for a full positional update in digital bullseye format on the specified group.</li>
+<li><p>{R} [A/A] Request for an individual’s tactical situation.</p></li>
+<li><p>{R} [A/A] [A/S] Directive call requesting amplifying information on</p>
+<p>current task or aircraft state. e.g., respond with WORKING, JONESING,</p>
+<p>VOID, CONTACT, CAPTURE, TARGETED, LOCKED, CLEAN, ENGAGED, FUEL (RED/YELLOW/GREEN), WEAPON (RED/YELLOW/GREEN) ready or plain English.</p></li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>WHAT LUCK</td>
-<td>Request for results of missions or tasks.</td>
+<td>{R} Request for results of missions or tasks.</td>
 </tr>
 <tr class="even">
 <td>WORDS</td>
-<td>Directive or interrogative call regarding further information or directives pertinent to the mission.</td>
+<td>{D or R} Directive or interrogative call regarding further information or directives pertinent to the mission.</td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+<section id="weapon-codes" class="level2" data-number="B.8">
+<h2 data-number="B.8" class="anchored" data-anchor-id="weapon-codes"><span class="header-section-number">B.8</span> Weapon Codes</h2>
 <p><strong>Weapon</strong> codes are related to employment of munitions. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-weapon" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.7: Weapon Brevity Codes</caption>
+<caption>Table&nbsp;B.8: Weapon Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -853,322 +1003,381 @@ Brevity Code</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td>(weapon) AWAY</td>
-<td>Release/launch of specified weapon.</td>
+<td>[number, weapon type] AWAY</td>
+<td><p>{I} [A/S] [S/A] Release or launch of specified weapon at designated target (e.g., 1 AWAY, 2 PIGS AWAY, BIRDS AWAY, etc.). At minimum number or weapon type required.</p>
+<p><strong>NOTE:</strong> Include launch location in BULLSEYE format and weapons track direction when appropriate</p></td>
 </tr>
 <tr class="even">
-<td>FOX (number)</td>
-<td>Simulated/actual launch of air-to-air weapons.<br>
-ONE - semiactive radar-guided missile.<br>
-TWO - infrared-guided missile.<br>
-THREE - active radar-guided missile.</td>
+<td>FOX [number]</td>
+<td>{I} [A/A] Simulated or actual launch of air-to-air weapons.<br>
+(ONE): Semi active radar-guided missile.<br>
+(TWO): IR-guided missile.<br>
+(THREE): Active radar-guided missile.</td>
 </tr>
 <tr class="odd">
 <td>GUNS</td>
-<td>Reference to gun engagement.</td>
+<td>{I} [A/A] [A/S] Aircraft gun is being employed.</td>
 </tr>
 <tr class="even">
 <td>MILLER TIME</td>
-<td><ol type="1">
-<li>(A-G) Informative call indicating completion of air-to-ground ordnance delivery. Generally used by the last striker in conjunction with a pre-coordinated egress plan.</li>
-<li>(CSAR) Indicates survivor(s) are aboard recovery vehicle in Combat Search and Rescue.</li>
-</ol></td>
+<td>{I} [A/S] Completion of A/S ordnance delivery. Generally used by the last striker in conjunction with a precoordinated egress plan.</td>
 </tr>
 <tr class="odd">
 <td>PIG(S)</td>
-<td>Friendly glide weapon (i.e., JSOW).</td>
+<td>{I} [A/S] FRIENDLY glide weapon(s) (e.g., joint stand-off weapon). See (weapon) AWAY.</td>
 </tr>
 <tr class="even">
-<td>RIFLE</td>
-<td>Friendly air-to-surface missile launch.</td>
+<td>RIFLE [number, time]</td>
+<td>{I} [A/S] [AIR-MAR] FRIENDLY A/S missile launch. Option to add follow on modifiers for number of munitions and/or time of flight.</td>
 </tr>
 <tr class="odd">
 <td>RIPPLE</td>
-<td>Two or more munitions released or fired in close succession.</td>
+<td>{D or I{ [A/S] [S/A] [AIR-MAR] Two or more munitions will be released or fired in close succession. Typically associated with number and type of weapon with release interval. (Normally discussed during the pre-strike game plan between aircraft and/or between aircraft and ground tactical controller).</td>
 </tr>
 <tr class="even">
 <td>SHOOTER</td>
-<td>Aircraft/unit designated to employ ordnance.</td>
+<td>{I} Aircraft or unit designated to employ ordnance.</td>
 </tr>
 <tr class="odd">
 <td>SHOTGUN</td>
-<td>Briefed weapons state at which separation/bugout should begin.</td>
+<td>{I} [A/A] [A/S] [S/A] Pre-briefed weapons state.</td>
 </tr>
 <tr class="even">
 <td>SPLASH(ED)</td>
 <td><ol type="1">
-<li>(A/A) Target destroyed.</li>
-<li>(A/S) Weapons impact.</li>
-<li>(S/S) Informative call to observer or spotter five seconds prior to estimated time of impact.</li>
+<li>{I} [A/A] Target destroyed.</li>
+<li>{I} [A/S] Weapons impact.</li>
+<li>{I} [S/S] Informative call to observer or spotter five seconds prior to estimated time of impact.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>TARGET</td>
 <td><ol type="1">
-<li>Directive call to assign group responsibility.</li>
-<li>(w/TAD/TIDS, etc.) Inter-flight directive to target via information displayed on data link system.</li>
+<li>{D} [A/A] [A/S] [S/A] [AIR-MAR] Assignment of targeting responsibilities.</li>
+<li>{I} [A/S] [S/S] [AIR-MAR] ROE, PID, coordination of forces, and commander’s guidance requirements on the referenced target or track have been satisfied. Target or track correlation, CDE, and clear field of fire must be accomplished prior to employing ordnance or fires.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>TARGETED</td>
-<td>Informative call that GROUP responsibility has been met.</td>
+<td>{I} [A/A] Fighter has acquired assigned GROUP and has assumed responsibility for it.</td>
 </tr>
 <tr class="odd">
-<td>THUNDER</td>
-<td>Informative call one minute prior to A/S weapons impact.</td>
+<td>WHAT STATE</td>
+<td><p>{R} [A/A] Request for amount of fuel and missiles remaining. Response to WHAT STATE is:</p>
+<ol type="1">
+<li>(1st number) number of active radar missiles remaining.<br>
+(2nd number) number of semi-active radar missiles remaining.<br>
+(3rd number) number of IR missiles remaining.<br>
+(MINUS) No gun or not sufficient ammunition for gun attack.<br>
+BY<br>
+(4th number) thousands of pounds of fuel (given to one decimal point), or time remaining.<br>
+Example response to WHAT STATE:<br>
+“Blue 44 is 3-1-2 by 7 POINT 5” is equivalent to<br>
+3 AIM-120s, 1 AIM-7, 2 AIM-9s, gun with ammunition, and 7,500 lbs. of fuel remaining.</li>
+<li>2. (item) Ammunition and oxygen are reported only when specifically requested or critical.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>WHAT STATE (item)</td>
-<td><p>Request for amount of fuel and missiles remaining. Ammunition and oxygen are reported only when specifically requested or critical.</p>
-<p>(Active) = number of active radar missiles remaining.<br>
-(Radar) = number of semi-active radar missiles remaining.<br>
-(Heat) = number of IR missiles remaining.<br>
-(Fuel) = pounds of fuel or time remaining.</p></td>
-</tr>
-<tr class="odd">
 <td>WINCHESTER</td>
-<td>No ordnance remaining.</td>
+<td>{I} No ordnance remaining.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>HARM AGM-88</strong></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ARIZONA</td>
-<td>No ARM ordnance remaining.</td>
-</tr>
-<tr class="even">
-<td>MAGNUM (system/location)</td>
-<td>Launch of friendly antiradiation missile.</td>
+<td>{I} [A/S] [EW] No anti-radiation missile ordnance remaining.</td>
 </tr>
 <tr class="odd">
-<td>SLAPSHOT (type/bearing)</td>
-<td>Directive call for an aircraft to immediately employ a best available HARM against a specified threat at the specified bearing.</td>
+<td>MAGNUM [system, location]</td>
+<td>{I} [A/S] [EW] Launch of FRIENDLY anti-radiation missile.</td>
 </tr>
 <tr class="even">
-<td>SNIPER (type, location [range, bearing])</td>
-<td>Directive call for an aircraft to employ a range-known HARM against a specified threat at the specified location.</td>
+<td>SLAPSHOT [type, bearing]</td>
+<td>{D or I} [A/S] [EW] Immediately employ a best available anti-radiation missile against a specified threat at the specified bearing.</td>
 </tr>
 <tr class="odd">
+<td>SNIPER [type, location (range, bearing)]</td>
+<td>{D or I} [A/S] [EW] Employ a range known anti-radiation missile against a specified threat at the specified location.</td>
+</tr>
+<tr class="even">
 <td>WORKING</td>
 <td><ol type="1">
-<li>(system w/location) Platform gathering EOB on a designated emitter.</li>
-<li>Platform executing EID on a specific aircraft/group to obtain identification necessary for BVR employment.</li>
+<li>{I} (system with location) [EW] Platform gathering electronic EOB on a designated emitter.</li>
+<li>{I} [A/A] Platform executing electronic ID on a specific aircraft or GROUP to obtain ID necessary for BVR employment.</li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>AMRAAM AIM-120</strong></td>
 <td></td>
 </tr>
-<tr class="odd">
-<td>CHEAPSHOT</td>
-<td>AIM-120 missile data link terminated between high and medium PRF active.</td>
-</tr>
 <tr class="even">
-<td>FOX 3 (X) SHIP (formative description)</td>
-<td>(USAF) Valid missile shot against (x) separate targets (assumes 1 missile per target).</td>
+<td>CHEAPSHOT</td>
+<td>{I} [A/A] Active missile data link terminated between high and medium pulse repetition frequency (MPRF) active.</td>
 </tr>
 <tr class="odd">
-<td>FOX THREE/ SECOND FOX 3</td>
-<td>(USAF) Simulated or actual launch of multiple active radar-guided missiles on the same target.</td>
+<td>[2nd] FOX THREE/TWO/ONE [number] SHIP</td>
+<td>{I} [A/A] Simulated or actual missile launch against separate targets (assumes one missile per target) (e.g., “SWORD 12, FOX THREE 2 SHIP”). When 2nd prefix is used indicates simulated or actual launch of multiple missiles on the same target.</td>
 </tr>
 <tr class="even">
 <td>HUSKY</td>
-<td>Informative call that the AIM-120 is at HPRF active range.</td>
+<td>{I} [A/A] Active radar missile is at high pulse repetition frequency active range.</td>
 </tr>
 <tr class="odd">
-<td>MADDOG</td>
-<td>Visual AIM-120/AIM-54 launch.</td>
+<td>PITBULL</td>
+<td>{I} [A/A] Air intercept missile (AIM)-120 is at MPRF active range.</td>
 </tr>
 <tr class="even">
-<td>PITBULL</td>
-<td><ol type="1">
-<li>Informative call that the AIM-120 is at MPRF active range.</li>
-<li>Informative call that the AIM-54 is at active range.</li>
-</ol></td>
-</tr>
-<tr class="odd">
 <td>SKOSH</td>
-<td>Aircraft is out of/or unable to employ active radar missiles.</td>
+<td>{I} [A/A] Aircraft is out of or unable to employ active radar missiles.</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><strong>RADAR/Sensor</strong> codes provide information about radio-frequency, optical, and infrared sensors, as well as lasers used for designation and ranging. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
+</section>
+<section id="sensor-codes" class="level2" data-number="B.9">
+<h2 data-number="B.9" class="anchored" data-anchor-id="sensor-codes"><span class="header-section-number">B.9</span> Sensor Codes</h2>
+<p><strong>Sensor</strong> codes provide information about radio-frequency, optical, and infrared sensors, as well as lasers used for designation and ranging. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-radar" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.8: Radar or Sensor Brevity Codes</caption>
+<caption>Table&nbsp;B.9: Radar or Sensor Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>RADAR/Sensor Brevity Code</th>
+<th>Sensor Brevity Code</th>
 <th>Definition</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>BROKE LOCK</td>
-<td>Advisory call regarding loss of radar/IR lock-on.</td>
+<td>BUDDY LOCK [position, heading, altitude]</td>
+<td>{I} [A/A] Radar locked to a known FRIENDLY aircraft. Normally a response to a SPIKED or BUDDY SPIKE calls.</td>
 </tr>
 <tr class="even">
-<td>BUDDY LOCK</td>
-<td><p>Locked to a known friendly aircraft. Normally a response to a “SPIKED” or “BUDDY SPIKE” call.</p>
-<p>Usually for transit to/from range, but could be used during test.</p></td>
+<td>BUDDY SPIKE [position or heading or alt]</td>
+<td>{I} [A/A] FRIENDLY system radar lock-on indication on radar warning receiver.</td>
 </tr>
 <tr class="odd">
-<td>BUDDY SPIKE (posit/heading/alt)</td>
-<td><p>Friendly aircraft air-to-air indication on radar warning receiver (RWR).</p>
-<p>Usually for transit to/from range, but could be used during test.</p></td>
+<td>[target or object] CAPTURED</td>
+<td>{I} [A/S] Specified surface target or object has been acquired and is being tracked with an onboard sensor.</td>
 </tr>
 <tr class="even">
-<td>CAPTURED</td>
-<td>Aircrew has acquired and is able to track a specified air-to-ground (A/G) target with an on-board sensor.</td>
-</tr>
-<tr class="odd">
 <td>CLEAN</td>
 <td><ol type="1">
-<li>No sensor information on non-friendly group of interest.</li>
-<li>No visible battle damage. Battle Damage (BD) checks “Clean and Dry” means no damage and no leaking fluids.</li>
-<li>Aircraft not carrying external stores. Aircraft configuration. Be careful and be specific. Better to state explicitly the<br>
+<li>{I} [A/A] No sensor information on a GROUP of interest.</li>
+<li>{I} No visible battle damage.<br>
+For Battle Damage (BD) checks “Clean and Dry” means no damage and no leaking fluids.</li>
+<li>{I} Aircraft not carrying external stores.<br>
+Aircraft configuration. Be careful and be specific. Better to state explicitly the<br>
 required configuration than to just say “clean.”</li>
 </ol></td>
 </tr>
+<tr class="odd">
+<td>DEADEYE</td>
+<td>{I} Laser designator system inoperative.</td>
+</tr>
 <tr class="even">
+<td>DIRT</td>
+<td>{I} [S/A] Radar warning receiver indication of surface threat in search mode. See MUD and SINGER.</td>
+</tr>
+<tr class="odd">
 <td>DROP(PING)</td>
 <td><ol type="1">
-<li>Directive/informative call to stop monitoring a specified emitter/target and resume search responsibilities.</li>
-<li>Informative call that fighter has discontinued tracking responsibility.</li>
-<li>Remove the emitter/target from tactical picture/track stores.</li>
-<li>Directive call to remove a specific system or EOB category from search responsibilities.</li>
+<li><p>{D or I} [A/A] [A/S] Stop(ping) monitoring of specified emitter or target</p>
+<p>or GROUP and resume(ing) search responsibilities.</p></li>
+<li><p>{D or I} (TRACK number) Remove the emitter or target from tactical picture or</p>
+<p>track stores.</p></li>
+<li><p>{D or I} [EW] Remove a specific system or EOB category from search responsibilities.</p></li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>EMPTY</td>
-<td>No emitters of interest detected.</td>
-</tr>
-<tr class="even">
-<td>FADED</td>
-<td>Radar contact is (temporarily) lost on nonfriendly air/surface contact and any positional information given is estimated.</td>
+<td>{I} [EW] No emitters of interest detected.</td>
 </tr>
 <tr class="odd">
-<td>GADGET</td>
-<td>Radar or emitter equipment.</td>
+<td>EYEBALL</td>
+<td><ol type="1">
+<li><p>{I} [A/A] Fighter with primary visual ID</p>
+<p>responsibility.</p></li>
+<li><p>{I} [A/A] Electro-optical (EO), IR, or night vision device acquisition of an aircraft. Normally followed by number of aircraft observed (if more than one).</p></li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>GIMBAL (direction)</td>
-<td>Radar target is approaching azimuth or elevation limits.</td>
+<td>EYEBALL NARROW</td>
+<td>{I} [A/A] EO or IR contacts are viewed in narrow field of view (FOV) and are too close for resolution via radar.</td>
+</tr>
+<tr class="odd">
+<td>FADED</td>
+<td>{I} [A/A] [S/A] [AIR-MAR] Sensor data is lost on GROUP or CONTACT. Requires information of last known position to include number of CONTACTS and TRACK direction.</td>
+</tr>
+<tr class="even">
+<td>GIMBAL</td>
+<td>{I} [A/A] Sensor target is approaching azimuth or elevation tracking limits.</td>
 </tr>
 <tr class="odd">
 <td>HIT(S)</td>
-<td>1 . Momentary radar return(s). 2. (A/A) Indicates approximate target altitude (e.g., GROUP BULLSEYE 360/10, HITS 15 thousand). 3. (A/G) Weapons impact within lethal distance.</td>
+<td><ol type="1">
+<li>{I} Momentary radar return(s).</li>
+<li>{I} (altitude) [A/A] Indicates approximate altitude (e.g., GROUP BULLSEYE 360/10, HITS 15 thousand).</li>
+<li>{I} [A/S] Weapons had desired effects on the intended target.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>LASER ON</td>
-<td>Directive call to start laser designation.</td>
+<td>JONESING</td>
+<td>{I} [A/S] Informative call requiring additional time to analyze current SAR map.</td>
 </tr>
 <tr class="odd">
-<td>LASING</td>
-<td>Informative call indicating that the speaker is firing the laser.</td>
+<td>LASER ON</td>
+<td>{D} [A/S] [S/S] Directive call to start lasing.</td>
 </tr>
 <tr class="even">
+<td>LASING</td>
+<td>{I} [A/S] [S/S] The speaker is firing the laser in response to LASER ON.</td>
+</tr>
+<tr class="odd">
 <td>LOCKED</td>
 <td><ol type="1">
-<li>(w/Group Label) Radar lock-on; SORT is not assumed.</li>
-<li>(w/Position) Radar lock-on; correct targeting is not assumed.</li>
+<li>{I} (with GROUP label) [A/A] Radar lock-on; SORT is not assumed.</li>
+<li>{I} (with position) [A/A] Radar lock-on; correct targeting is not assumed.</li>
 </ol></td>
+</tr>
+<tr class="even">
+<td>LOST LOCK</td>
+<td>{I} [A/A] Loss of host radar or IR lock-on.</td>
+</tr>
+<tr class="odd">
+<td>MAP</td>
+<td>{D} [A/S] Directive call to initiate SAR mapping event on a specified point of interest.</td>
+</tr>
+<tr class="even">
+<td>MAP COMPLETE</td>
+<td>{I} [A/S] Informative call that A/S radar completed mapping and waiting for the map to process / display. JONESING assumed.</td>
 </tr>
 <tr class="odd">
 <td>MAPPING</td>
-<td>Multifunction radar in an A/G mode.</td>
+<td>{I} Multifunction radar in an A/G mode.</td>
 </tr>
 <tr class="even">
 <td>MARK</td>
 <td><ol type="1">
-<li>Used when aircraft passes over pickup zone/landing zone (PZ/LZ) team.</li>
-<li>Directive term to record the location of a ground point of interest.</li>
+<li>{D} Record the location of a point or object of interest.</li>
+<li>{D} [A/S] [S/S] Spotting round, normally white phosphorus or illumination on the deck to indicate targets to aircraft, ground troops, or fire support.</li>
+<li>{R} [A/A] Challenge and response term for requested aircraft to report contrails.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>MONITOR</td>
-<td>Maintain radar awareness on specified group.</td>
+<td>MONITOR(ING) [GROUP or object]</td>
+<td><ol type="1">
+<li>{D or I} [A/A] [A/S] Maintain(ing) sensor awareness on specified GROUP or object. Implies that tactically significant changes will be communicated.</li>
+<li>{D} [AIR-MAR] Maintain contact or targeting information on a maritime surface contact.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>MUD (type/direction)</td>
-<td>Informative call Indicating RWR ground threat displayed.</td>
+<td>MUD [type with direction, range if able]</td>
+<td><ol type="1">
+<li>{I} [A/S] [EW] Radar warning receiver ground threat displayed with no launch indication.</li>
+<li>{I} [A/S] [EW] Radar warning receiver indication of surface threat in track mode. See DIRT and SINGER.</li>
+</ol></td>
 </tr>
 <tr class="odd">
 <td>MUSIC</td>
-<td>Radar electronic deceptive jamming.</td>
+<td>{I} [A/A] Radar electronic deceptive jamming.</td>
 </tr>
 <tr class="even">
-<td>NAILS (direction)</td>
-<td>RWR indication of AI radar in search.</td>
+<td>NAILS [direction]</td>
+<td><ol type="1">
+<li>{I} [A/A] Radar warning receiver indication of airborne interceptor (AI) radar in search.</li>
+<li>{I} [A/S] 2.75-inch flechette rockets.</li>
+</ol></td>
 </tr>
 <tr class="odd">
 <td>NAKED</td>
-<td>No RWR indications.</td>
+<td>{I} [A/A] No radar warning receiver indications.</td>
 </tr>
 <tr class="even">
 <td>NEGATIVE CONTACT</td>
 <td>Sensor information on a friendly aircraft is lost. Termination of CONTACT, track plotting is not warranted.</td>
 </tr>
 <tr class="odd">
-<td>RAYGUN (position/heading/altitude)</td>
-<td>Indicating a radar lock-on to unknown aircraft. A request for a “BUDDY SPIKE” reply from friendly aircraft meeting these parameters.</td>
+<td>RAYGUN [position, heading, altitude]</td>
+<td><ol type="1">
+<li>{I} [A/A] Radar lock-on to unknown aircraft.</li>
+<li>{R} [A/A] A request for a BUDDY SPIKE reply from FRIENDLY aircraft meeting these parameters.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>SHIFT (direction)</td>
-<td>Directive call to shift laser illumination.</td>
+<td>SHIFT [direction]</td>
+<td>{D} [A/S] [AIR-MAR] Shift laser, IR, radar, device energy, or aim point.<br>
+<br>
+<strong>NOTE</strong>: Can be used to shift from the offset position onto the target. Also used during multi-aircraft attack to shift laser energy or target assignments.</td>
 </tr>
 <tr class="odd">
-<td>SINGER (type/direction)</td>
-<td>Informative call of RWR indication of SAM launch.</td>
+<td>SINGER [type, direction]</td>
+<td>{I} [EW] Radar warning receiver indication of SAM launch. See MUD and DIRT.</td>
 </tr>
 <tr class="even">
-<td>SNAPLOCK (BRAA)</td>
-<td>Indicates fighter has obtained a radar contact inside briefed threat range with beam, flank, or hot/head aspect.</td>
+<td>SNAPLOCK [BRAA]</td>
+<td>{I} [A/A] Informative call indicating fighter has obtained a radar contact inside briefed threat range with BEAM, FLANK, or HOT aspect and is unable to complete sanitization responsibilities implying ownership. A SNAPLOCK call should be responded to with BRAA.</td>
 </tr>
 <tr class="odd">
-<td>SNIFF (type)</td>
-<td>Passive sensor indication of a radar emitter.</td>
+<td>SNIFF [type]</td>
+<td>{I} [A/A] [EW] Passive sensor indication of a radar emitter.</td>
+</tr>
+<tr class="even">
+<td>SORT</td>
+<td><ol type="1">
+<li>{D} [A/A] Assignment of responsibility within a GROUP; criteria can be met visually, electronically (i.e., radar), or both.</li>
+<li>{D} [A/S] Assignment of specific targeting responsibilities.</li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td>SORTED</td>
+<td>{I} [A/A] [A/S] [AIR-MAR] Sort responsibility within a GROUP has been met.</td>
 </tr>
 <tr class="even">
 <td>SPARKLE</td>
 <td><ol type="1">
-<li>Target marking by IR pointer.</li>
-<li>Target marking by gunship/ FAC-A using incendiary rounds.</li>
+<li>{D or I} [A/S] [S/S] Mark or marking target by IR pointer.</li>
+<li>{I} Platform is IR pointer capable.</li>
 </ol></td>
 </tr>
 <tr class="odd">
-<td>SPIKE(D) (direction)</td>
-<td>RWR indication of an AI threat in track or launch.</td>
+<td>SPIKE(D) [direction]</td>
+<td>{I} [A/A] [S/A] Radar warning receiver indication of an AI threat in track or launch.</td>
 </tr>
 <tr class="even">
 <td>SPOT</td>
-<td>Acquisition of laser designation.</td>
+<td><ol type="1">
+<li>{I} [A/S] Acquisition of the reflected laser energy.</li>
+<li>{I} Platform is laser spot tracker capable.</li>
+</ol></td>
 </tr>
 <tr class="odd">
-<td>STROBE(S) (bearing)</td>
-<td>Radar indication(s) of noise jamming.</td>
+<td>STROBE(S) [bearing]</td>
+<td>{I} [A/A] Radar indication(s) of noise jamming.</td>
 </tr>
 <tr class="even">
 <td>TIED</td>
-<td>Positive radar contact with element or aircraft.</td>
+<td>{I} [A/A] Positive radar contact with element or aircraft.</td>
 </tr>
 <tr class="odd">
 <td>TOY</td>
-<td>HTS pods.</td>
+<td>{I} [EW] high speed anti-radiation missile (HARM) targeting system (HTS) pod.</td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+<section id="avionicsdatalink-codes" class="level2" data-number="B.10">
+<h2 data-number="B.10" class="anchored" data-anchor-id="avionicsdatalink-codes"><span class="header-section-number">B.10</span> Avionics/Datalink Codes</h2>
 <p><strong>Avionics/Datalink</strong> codes describe communications, interrogations, identification, and datalink systems and their states. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-avionics" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.9: Avionics or Datalink Brevity Codes</caption>
+<caption>Table&nbsp;B.10: Avionics or Datalink Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -1182,64 +1391,69 @@ Brevity Code</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td>(system) BENT</td>
-<td>System indicated is inoperative.</td>
+<td>[system] BENT</td>
+<td>{I} System indicated is inoperative.<br>
+Cancelled by SWEET.</td>
 </tr>
 <tr class="even">
-<td>(system) SICK</td>
-<td>System indicated is degraded/partially operative.</td>
+<td>[system] SICK</td>
+<td>{I} System indicated is degraded or partially operative.<br>
+Cancelled by SWEET.</td>
 </tr>
 <tr class="odd">
-<td>(system) SILENT (time)</td>
-<td>System will be unavailable for time indicated.</td>
+<td>[system] SILENT (time)</td>
+<td><ol type="1">
+<li>{I} (time) [A/A] System will be unavailable for time indicated.</li>
+<li>{I or D} Data link is, or should be placed, in receive only.</li>
+<li>{I or D} [EW] Broadcast station is not transmitting. May also be used as an order and must be followed by a frequency or station designator. If possible, it should be followed by an estimated time of return to the air.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>(system) WELL</td>
-<td>System indicated is fully operative.</td>
+<td>SOUR</td>
+<td><ol type="1">
+<li>{I} (mode/type) [A/A] [S/A] Invalid or no response to an administrative IFF or selective ID feature check.</li>
+<li>{I} (link name) (e.g., “TIMBER SOUR”) Potential problems with net entry; initiates pre-mission link troubleshooting. (Opposite of SWEET)</li>
+</ol></td>
 </tr>
 <tr class="odd">
-<td>(system) SOUR (mode)</td>
-<td>Invalid/no response to an administrative IFF/SIF check. Opposite of SWEET.</td>
+<td>SWEET</td>
+<td><ol type="1">
+<li><p>{I} (mode/type) [A/A] [S/A] Valid response to an administrative IFF or selective ID feature check.</p></li>
+<li><p>{I} (link name) (e.g., “TIMBER SWEET”) Confirms receipt of data link information.</p></li>
+<li><p>{I} Equipment indicated is operating efficiently.</p>
+<p>(Opposite of SOUR; cancels SICK, BENT)</p></li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>(system) SWEET</td>
-<td>Valid response to an administrative IFF/SIF check request. Opposite of SOUR.</td>
-</tr>
-<tr class="odd">
 <td><strong>Systems</strong></td>
 <td></td>
 </tr>
-<tr class="even">
-<td>GADGET</td>
-<td>Radar or emitter equipment.</td>
-</tr>
 <tr class="odd">
 <td>PARROT</td>
-<td>IFF/SIF transponder.</td>
+<td>IFF selective ID feature transponder.</td>
 </tr>
 <tr class="even">
 <td>TIMBER</td>
-<td>Air control NPG of Link 16/TADIL J.<br>
-Datalink testing, especially “TIMBER SWEET” or “TIMBER SOUR”</td>
+<td>[EW] Link 16 Network.</td>
 </tr>
 <tr class="odd">
 <td>TOY</td>
-<td>HTS pods.</td>
+<td>[EW] high speed anti-radiation missile (HARM) targeting system (HTS) pod.</td>
 </tr>
 <tr class="even">
 <td>UNIFORM</td>
-<td>UHF radio.</td>
+<td>Ultra-high frequency (UHF)/amplitude modulation (AM) radio.</td>
 </tr>
 <tr class="odd">
 <td>VICTOR</td>
-<td>VHF radio.</td>
+<td>Very-high frequency (VHF)/amplitude modulation (AM) radio.</td>
 </tr>
 <tr class="even">
-<td>PRIME/PRI</td>
+<td>*PRIME/PRI</td>
 <td>Primary radio frequency. UHF if UHF/VHF. UHF1 if UHF1/UHF2.</td>
 </tr>
 <tr class="odd">
-<td>AUX</td>
+<td>*AUX</td>
 <td>Auxiliary radio frequency. VHF if UHF/VHF. UHF2 if UHF1/UHF2</td>
 </tr>
 <tr class="even">
@@ -1247,45 +1461,50 @@ Datalink testing, especially “TIMBER SWEET” or “TIMBER SOUR”</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>FENCE (IN/OUT)</td>
-<td>Set cockpit switches as appropriate before entering/exiting the combat area.</td>
+<td>FENCE [IN/OUT]</td>
+<td>{D} Set cockpit switches as appropriate before entering or exiting the combat area.</td>
 </tr>
 <tr class="even">
-<td>FLASH (system)</td>
-<td>Temporarily activate specified system for identification purposes (IFF/afterburner/flare/chaff/etc.).</td>
+<td>FLASH [system]</td>
+<td><ol type="1">
+<li>{D} [A/A] Temporarily activate specified system for ID purposes (identification, friend or foe (IFF), or afterburner, flare or chaff, etc.).</li>
+<li>{D} [A/S] [S/S] Clear the net immediately, critical information to follow (e.g., “FLASH, FLASH, FLASH this is Frontier 6, immediate MEDEVAC, grid to follow.”).</li>
+</ol></td>
 </tr>
 <tr class="odd">
 <td>INTERROGATE</td>
-<td>Interrogate the designated contact of the IFF mode indicated.</td>
+<td>{D} [A/A] [S/S] [AIR-MAR] [MAR-MAR] Interrogate the designated contact of the IFF mode indicated.</td>
 </tr>
 <tr class="even">
-<td>SQUAWK (mode/code)</td>
-<td>Operate IFF/SIF as indicated or IFF/SIF is operating as indicated.</td>
+<td>SQUAWK [mode, code]</td>
+<td>{D or I} [A/A] Operate IFF/selective ID feature as indicated or IFF or selective ID feature is operating as indicated.</td>
 </tr>
 <tr class="odd">
-<td>SQUAWKING (mode #)</td>
-<td>An informative/descriptive call denoting a BOGEY is responding with an IFF/SIF mode or code other than that prescribed by the ATO/identification criteria.</td>
+<td>SQUAWKING [mode number]</td>
+<td>{I} [A/A] [S/A] BOGEY is responding with an IFF or selective ID feature mode or code other than that prescribed by the air tasking order or ID criteria.</td>
 </tr>
 <tr class="even">
-<td>STRANGLE (system)</td>
-<td>Turn off equipment indicated.<br>
-Example: “STRANGLE PARROT”</td>
+<td>STRANGLE [system]</td>
+<td>{D} [A/A] [S/A] Turn off system indicated (e.g., STRANGLE PARROT).</td>
 </tr>
 <tr class="odd">
-<td>TOGGLE</td>
-<td>Execute a briefed change of an avionics setting.</td>
+<td>TOGGLE [system]</td>
+<td>{D} Execute the briefed setting change on specified system.</td>
 </tr>
 <tr class="even">
 <td>ZAP</td>
-<td>Request for data link information.</td>
+<td>{R} Request for data link information.</td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+<section id="clearance-codes" class="level2" data-number="B.11">
+<h2 data-number="B.11" class="anchored" data-anchor-id="clearance-codes"><span class="header-section-number">B.11</span> Clearance Codes</h2>
 <p><strong>Clearance</strong> codes have significant potential for miscommunication. This is because there are phases of test execution when a third-party is primarily responsible for clearance (often critical phases such as engine start, taxiing, takeoff, departure, aerial refueling, approach, and landing). There are other phases of test execution where the test team must decide and clarify who is responsible for clearance. The specifics of the test point should be the primary consideration, including how static or dynamic the point is.</p>
 <div id="tbl-ms-clearance" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.10: Clearance Brevity Codes</caption>
+<caption>Table&nbsp;B.11: Clearance Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 35%">
@@ -1301,95 +1520,102 @@ Brevity Code</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td>CLEAR(ED)◬</td>
-<td>Response to requested action is authorized. No engaged/support roles are assumed.</td>
+<td>CLEARED◬</td>
+<td>{D} Requested action is authorized.<br>
+<br>
+<strong>NOTE</strong>: Engaged support roles not established or transferred.</td>
 <td><p><strong>Test point</strong> pacing ONLY.</p>
 <p>DO NOT SAY “CLEARED” WHEN A/C IS ABOUT TO TAXI, TAKE THE RUNWAY, OR LAND.</p>
 <p>The “cleared” word is reserved in those situations for the controlling agency (ground, tower, etc.). Don’t get your aircrew violated because they acted without clearance from the controlling agency!</p></td>
 </tr>
 <tr class="even">
 <td>CLEARED HOT◬</td>
-<td>Ordnance release is authorized.</td>
+<td>{D} [A/S] Type 1 and 2 CAS terminal attack control when granting weapons release clearance to an aircraft attacking a specific target.</td>
 <td>NOT FOR THE TEST CONDUCTOR TO SAY! Range control has the hammer.</td>
 </tr>
 <tr class="odd">
 <td>CONTINUE</td>
-<td>Continue present maneuver, does not imply a change in clearance to engage or expend ordnance.</td>
+<td>{D} Continue present maneuver, does not imply a change in clearance to engage or expend ordnance.</td>
 <td>VERY USEFUL. By replying to an aircrew query with “CONTINUE”, you are indicating that you are aware of the situation, you’ve taken it into consideration, and they can safely, securely, effectively, and efficiently proceed with the current course of action.</td>
 </tr>
 <tr class="even">
 <td>CONTINUE DRY</td>
-<td>Ordnance release not authorized.</td>
-<td>NOT FOR YOU TO SAY!</td>
+<td>{D} [A/S] Continue present maneuver, ordnance release not authorized. Used to provide approval to aircraft to continue the pass without expending ordnance during Type 1, 2, or 3 control. (JTAC must use “Type 3, CONTINUE DRY” for dry Type 3 control).<br>
+<br>
+<strong>NOTE</strong>: Simulated weapons deliveries may be performed.</td>
+<td>From clearance authority.</td>
 </tr>
 <tr class="odd">
 <td>PRESS◬</td>
-<td>Directive call to continue the attack; mutual support will be maintained. Supportive role will be assumed by the speaker.</td>
+<td><ol type="1">
+<li>{D} [A/A] Requested action is approved and mutual support will be maintained, assumes VISUAL.</li>
+<li>{D} [A/S] Requested action is approved and mutual support will be maintained.</li>
+</ol></td>
 <td>Not typically used in flight test conduct, but a very common term in informal settings.</td>
 </tr>
 <tr class="even">
-<td>PUSH (channel)</td>
-<td>Go to designated frequency; no acknowledgment required.</td>
+<td>PUSH [channel]</td>
+<td>{D} Switch to designated frequency; no acknowledgment required.</td>
 <td>Not for you to say, but the flight lead is directing the flight to change frequencies, so follow along.</td>
 </tr>
 <tr class="odd">
 <td>RESET</td>
-<td>Proceed to a pre-briefed position or AO.</td>
+<td>{D} [A/A] [S/A] [SO] Proceed to a prebriefed position or area of operations.</td>
 <td>Start over, per the brief.</td>
 </tr>
 <tr class="even">
 <td>RESUME</td>
-<td>Resume last formation/route/mission ordered. If test point was paused, resume at last step.</td>
-<td></td>
+<td>{D} [A/A] Resume last formation, route, or mission ordered.</td>
+<td>If test point was paused, resume at last step.</td>
 </tr>
 <tr class="odd">
 <td>ROGER◬</td>
-<td>Indicates the receipt of radio transmission; does not indicate compliance or reaction.</td>
+<td>{I} Radio transmission received; does not indicate compliance or reaction.</td>
 <td>One of the more abused brevity codes. Only indicates that you heard, nothing more. “ROGER, COPY” is redundant, as is “ROGER, WILCO.”</td>
 </tr>
 <tr class="even">
-<td>ROLEX (+/- Time)</td>
-<td>Time line adjustment in minutes always referenced from original preplanned mission execution time. Plus means later; minus means earlier.</td>
-<td>Often used when delays have offset brief mission times.</td>
+<td>ROLEX [+/- time]</td>
+<td>{I} [A/A] [A/S] Timeline adjustment in minutes for entire mission; always referenced from original preplanned mission execution time.<br>
+“Plus” means later; “minus” means earlier.</td>
+<td>Often used when delays have offset briefed mission times.</td>
 </tr>
 <tr class="odd">
 <td>SAUNTER</td>
-<td>Fly at best endurance.</td>
+<td>{D} Fly at best endurance.</td>
 <td>Used when test is on hold.</td>
 </tr>
 <tr class="even">
 <td>SKIP IT</td>
-<td>Veto of fighter COMMIT, usually followed with further directions.</td>
+<td>{D} Directive call for a specific platform to not engage the indicated track. Usually followed with further directions.</td>
 <td>Used to veto aircrew suggestion or to tell aircrew NOT TO PICKLE.</td>
 </tr>
 <tr class="odd">
 <td>UNABLE</td>
-<td>Cannot comply as requested or directed.</td>
+<td>{I} Cannot comply as requested or directed.</td>
 <td>Used to indicate inability to comply.</td>
 </tr>
 <tr class="even">
-<td><p>WEAPONS ( )</p>
+<td>WEAPONS [status]</td>
+<td><p>{D or I} Weapons control status.<br>
+Fire only:</p>
 <ul>
-<li>FREE</li>
-<li>TIGHT</li>
-<li>HOLD◬ (USAF, USA,USMC)<br>
-SAFE◬ (USN)</li>
-</ul></td>
-<td><p>Fire only:</p>
-<ul>
-<li>At targets not identified as friendly IAW current ROE.</li>
-<li>At targets positively identified as hostile IAW current ROE.</li>
-<li>In self-defense or in response to a formal order.</li>
+<li><p>(FREE): At targets not identified as FRIENDLY IAW current ROE.</p></li>
+<li><p>(TIGHT): At targets positively identified as HOSTILE IAW current ROE.</p></li>
+<li><p>(HOLD◬ [USAF, USA,USMC] /</p>
+<p>SAFE◬ [USN]): In self-defense or in response to a formal order.</p></li>
 </ul></td>
 <td>Weapons testing.</td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+<section id="flight-condition-codes" class="level2" data-number="B.12">
+<h2 data-number="B.12" class="anchored" data-anchor-id="flight-condition-codes"><span class="header-section-number">B.12</span> Flight Condition Codes</h2>
 <p><strong>Flight Condition</strong> codes provide low-fidelity generalizations of altitude and airspeed. They can be very useful when tight tolerances and databands are not required, but a general condition is desired. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-condition" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.11: Flight Condition Brevity Codes</caption>
+<caption>Table&nbsp;B.12: Flight Condition Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -1403,44 +1629,47 @@ Brevity Code</th>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">VERY FAST</td>
-<td style="text-align: left;">Target speed greater than 900 knots ground speed or Mach 1.5.</td>
+<td style="text-align: left;"><strong>Speed</strong></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">FAST</td>
-<td style="text-align: left;">Target speed is estimated to be 600 – 900 knots ground speed or Mach 1.0 – 1.5 .</td>
+<td style="text-align: left;">VERY FAST</td>
+<td style="text-align: left;">{I} [A/A] [S/A] Target speed greater than 900 knots/1.5 mach.</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">SLOW</td>
-<td style="text-align: left;">Contact with ground speed of less than 300 knots.</td>
+<td style="text-align: left;">FAST</td>
+<td style="text-align: left;">{I} [A/A] Target speed of 600–900 knots ground speed or Mach 1.0 to 1.5.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">VERY HIGH</td>
-<td style="text-align: left;">Target above 40,000 ft MSL.</td>
+<td style="text-align: left;">SLOW</td>
+<td style="text-align: left;">{I} [A/A] [S/A] Target with ground speed of 100–250 knots.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">VERY SLOW</td>
+<td style="text-align: left;">{I} [A/A] [S/A] Target speed less than 100 knots.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Altitude</strong></td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">HIGH</td>
-<td style="text-align: left;">Contact is between 25,000 and 40,000 ft MSL.</td>
+<td style="text-align: left;">{I} [A/A] [S/A] CONTACT is greater than 40,000 ft mean sea level.</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">MEDIUM</td>
-<td style="text-align: left;">Contact altitude between 10,000 ft MSL and 25,000 ft MSL.</td>
-</tr>
-<tr class="odd">
 <td style="text-align: left;">LOW</td>
-<td style="text-align: left;">Contact altitude below 10,000 ft MSL.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">WEEDS</td>
-<td style="text-align: left;">Indicates that aircraft are operating close to the surface.</td>
+<td style="text-align: left;">{I} [A/A] A CONTACT less than 5,000 ft above ground level.</td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+<section id="rules-of-engagement-identification-codes" class="level2" data-number="B.13">
+<h2 data-number="B.13" class="anchored" data-anchor-id="rules-of-engagement-identification-codes"><span class="header-section-number">B.13</span> Rules of Engagement &amp; Identification Codes</h2>
 <p><strong>Rules of Engagement (ROE) &amp; Identification (ID)</strong> codes provide characterizations of the friend/foe status, as well as free/restrained weapons engagements can be. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
 <div id="tbl-ms-roe" class="anchored">
 <table class="table">
-<caption>Table&nbsp;A.12: Rules of Engagement &amp; ID Brevity Codes</caption>
+<caption>Table&nbsp;B.13: Rules of Engagement &amp; ID Brevity Codes</caption>
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -1458,62 +1687,78 @@ Brevity Code</th>
 <td></td>
 </tr>
 <tr class="even">
-<td>DECLARE</td>
-<td>Inquiry as to the identification of a specified track(s), target(s), or correlated GROUP.</td>
+<td>BOGEY DOPE</td>
+<td>{R} [A/A] [S/A] Request for information on indicated or closest GROUP in BRAA format (with appropriate fill-ins).</td>
 </tr>
 <tr class="odd">
+<td>DECLARE</td>
+<td>{R} [A/A] [S/A] [AIR-MAR] Inquiry as to the ID of a specified track(s), target(s), or correlated GROUP. Responses include: FRIENDLY, BOGEY, BANDIT, HOSTILE, NEUTRAL, UNABLE, CLEAN, or FURBALL. Full positional data (BULLSEYE) must accompany responses.</td>
+</tr>
+<tr class="even">
 <td>ID</td>
 <td><ol type="1">
-<li>Directive call to identify the target.</li>
-<li>Informative call that identification is accomplished, followed by type.</li>
+<li>{D} [A/A] [AIR-MAR] Directive call to identify the target or track.</li>
+<li>{I} (type) [A/A] ID is accomplished, followed by type.</li>
 </ol></td>
 </tr>
-<tr class="even">
-<td><strong>Descriptions</strong></td>
+<tr class="odd">
+<td><strong>Descriptions in order of FRIENDLY to HOSTILE</strong></td>
 <td></td>
-</tr>
-<tr class="odd">
-<td>BANDIT</td>
-<td>An aircraft identified as an enemy in accordance with (IAW) theater ID criteria. The term does not necessarily imply direction or authority to engage.</td>
-</tr>
-<tr class="even">
-<td>BOGEY</td>
-<td>A radar or visual air contact whose identity is unknown.</td>
-</tr>
-<tr class="odd">
-<td>CHICKS</td>
-<td>Friendly aircraft, typically used for aircraft on the tanker.</td>
 </tr>
 <tr class="even">
 <td>FRIENDLY</td>
-<td>A positively identified friendly aircraft, ship, or ground position.</td>
+<td>{I} A positively identified FRIENDLY aircraft, ship, spacecraft, or ground position.</td>
 </tr>
 <tr class="odd">
-<td>HOSTILE</td>
-<td>A contact identified as enemy upon which clearance to fire is authorized in accordance with theater rules of engagement.</td>
+<td>CHICK(S)</td>
+<td>{I} Term used to denote FRIENDLY aircraft.</td>
 </tr>
 <tr class="even">
-<td>OUTLAW</td>
-<td><p>Informative call that a BOGEY has met point of origin criteria for ROE.</p>
-<p>Point of Origin means that the contact came from a geographic location identified as hostile.</p></td>
+<td>PRINT [type]</td>
+<td>{I} [A/A] Valid noncooperative target recognition reply.</td>
 </tr>
 <tr class="odd">
 <td>PAINT(S)</td>
-<td>An interrogated group/radar contact that is responding with any of the specified IFF/SIF modes and correct codes established for the ID criteria.</td>
+<td>{I} [A/A] [AIR-MAR] [MAR-MAR] An interrogated GROUP or radar contact that is responding with any of the specified IFF, or selective ID feature modes and correct codes established for the ID criteria.</td>
 </tr>
 <tr class="even">
-<td>PRINT (type)</td>
-<td>Active NCTR reply.</td>
+<td>BOGEY</td>
+<td>{I} [A/A] [S/A] [SO] A CONTACT whose identity is unknown.</td>
 </tr>
 <tr class="odd">
 <td>SPADES</td>
-<td>An interrogated group/radar contact which lacks all of the ATO (or equivalent) IFF/SIF modes and codes required for the ID criteria.</td>
+<td>{I} [A/A] [S/A] [AIR-MAR] An interrogated GROUP or radar contact that lacks all of the air tasking order (or equivalent) IFF or selective ID feature modes and codes required for the ID criteria.</td>
+</tr>
+<tr class="even">
+<td>OUTLAW</td>
+<td><p>{I} [A/A] CONTACT has met point of origin criteria for ROE.</p>
+<p>Point of Origin means that the contact came from a geographic location identified as hostile.</p></td>
+</tr>
+<tr class="odd">
+<td>SUSPECT</td>
+<td>{I} [SO] An identity applied to a track that is potentially hostile because of its characteristics, behavior, origin, or nationality.</td>
+</tr>
+<tr class="even">
+<td>BANDIT</td>
+<td>{I} [A/A] [AIR-MAR] Positively identified as an enemy IAW theater ID criteria. The term does not imply direction or authority to engage.<br>
+[SO] A SUSPECT whose orbital parameters are such that it may become a collection and/or counterspace concern to a spacecraft in the relative near-term, therefore limiting decision space.</td>
+</tr>
+<tr class="odd">
+<td>STALKER</td>
+<td>{I} [SO] A BANDIT with counterspace capability that has significantly refined orbital parameters required to engage a high value asset.</td>
+</tr>
+<tr class="even">
+<td>HOSTILE</td>
+<td>{I} A contact identified as enemy upon which clearance to fire is authorized IAW theater rules of engagement.<br>
+<br>
+<strong>WARNING</strong>: This use of HOSTILE is as a brevity term for air-to-air and maritime air engagements and should not be confused with the same term in tactical data link ID and rules of engagement (ROE).</td>
 </tr>
 </tbody>
 </table>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1651,13 +1896,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./references.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">References</span>
+      <a href="./flight-test-brevity-codes-sections.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./flight-test-brevity-codes-sections.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./unsafe-comm.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Unsafe Communication</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

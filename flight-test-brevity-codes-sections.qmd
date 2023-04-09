@@ -63,7 +63,7 @@ The sender is ready to support test as soon as clearance is obtained for the nex
 
 ## CLEARED
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 1. "CLEARED TO MANEUVER"
 2. "CLEARED \[test point\]"
@@ -78,12 +78,12 @@ Initiate action per the brief for this context
 1. Saying "CLEARED TO MANEUVER" way too early, i.e. prior to setup, instead of clearing the aircrew to a setup flight condition to prepare for the actual maneuver.
 2. Saying "CLEARED TO MANEUVER" way too late, i.e. the aircrew are waiting and burning gas, or they've already begun the maneuver without your clearance.
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Confusion ensues about if the test point has actually begun, if aircrew are on parameters, or if clearance has already been issued, requiring a conversation.
 2. TC loses control of the mission and the trust/confidence of the aircrew because aircrew have gone rogue, not wanting to burn gas and time waiting for your clearance.
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidote {.unnumbered}
 
 "We are on test point XX. We show good setup. The control room is ready. You are cleared to maneuver."
 
@@ -91,7 +91,7 @@ Initiate action per the brief for this context
 
 ## STEP
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "CLEARED CARD [card identifier] STEP [setup/procedure/recovery step identifier]"
 
@@ -118,7 +118,7 @@ A way to clearly refer to a step in a setup, procedure, or recovery without expl
 
 ## CONCUR
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "CONCUR"
 
@@ -133,14 +133,14 @@ I have heard your proposed course of action and I agree with it.
 3. "AFFIRMATIVE"
 4. "COPY"
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing
 2. Answering a proposal with a request.
 3. Answering a complicated proposal with a simple "yes"
 4. Aircrew are left wondering you have any opinion.
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidote {.unnumbered}
 
 "I agree"
 
@@ -148,7 +148,7 @@ I have heard your proposed course of action and I agree with it.
 
 ## "CONFIRM
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "CONFIRM [declarative statement]"
 
@@ -160,11 +160,11 @@ I am requesting that you reply with your understanding of something or with the 
 
 Convoluted verbiage
 
-### Effects of Error   {.unnumbered}
+### Effects of Error {.unnumbered}
 
 Confusion
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidote {.unnumbered}
 
 "Is the [THING] in [STATE]?"
 
@@ -172,7 +172,7 @@ Confusion
 
 ## CONTINUE
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "CONTINUE"
 
@@ -185,12 +185,12 @@ Keep going. (Alternative: I have heard you, but your concern can be addressed la
 1. "…" (crickets)
 2. "HOLD"
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing.
 2. Aircrew confusion, since they may not be expecting to hold their current flight condition, or since they brought up a concern.
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. Say something/anything.
 2. "Keep doing what you're doing."
@@ -199,7 +199,7 @@ Keep going. (Alternative: I have heard you, but your concern can be addressed la
 
 ## AFFIRM
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "AFFIRM"
 
@@ -214,14 +214,14 @@ Yes
 3. "CONCUR"
 4. "CONFIRM"
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Answering a question with "I heard you" brings things to a halt
 2. Answering a question with "I heard you and have recorded what you said" brings things to a halt
 3. Answering a question with "I have heard your proposed course of action and I agree with it" brings things to a halt
 4. Answering a question with "I am requesting that you reply with your understanding of something or with the current status of something" brings things to a halt
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidote {.unnumbered}
 
 "Yes"
 
@@ -229,7 +229,7 @@ Yes
 
 ## NEGATIVE
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "NEGATIVE"
 
@@ -241,11 +241,11 @@ No
 
 See "AFFIRM"
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 See "AFFIRM"
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 "No"
 
@@ -253,7 +253,7 @@ See "AFFIRM"
 
 ## ACKNOWLEDGE
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "ACKNOWLEDGE"
 
@@ -265,12 +265,12 @@ I have updated something and am requesting verbal acknowledgement from all playe
 
 "…" (crickets)
 
-### Effects of Error   {.unnumbered}
+### Effects of Error {.unnumbered}
 
 1. You don't know that the test team has heard the update
 1. The test team doesn't know you have heard the update.
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. Repeat the transmission and request acknowledgement.
 1. Repeat back the transmission verbatim: "The control room copies new floor 10K."
@@ -279,7 +279,7 @@ I have updated something and am requesting verbal acknowledgement from all playe
 
 ## WHEN ABLE
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "WHEN ABLE"
 
@@ -291,11 +291,11 @@ It sounds like you're busy, but I've got something to discuss, so get back to me
 
 Talking over or into a busy pilot's conversation/thought process
 
-### Effect of Error   {.unnumbered}
+### Effect of Error {.unnumbered}
 
 Increased frustration
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidote {.unnumbered}
 
 "I've got a question/piece of information when you have a chance.""
 
@@ -303,7 +303,7 @@ Increased frustration
 
 ## STANDBY
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "STANDBY"
 
@@ -316,12 +316,12 @@ I have heard you, but I'm unable to reply to your transmission in detail at this
 1. "…" (crickets)
 2. "HOLD"
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing. Also waste of gas/resources as aircrew come off conditions.
 2. Aircrew confusion, since they may not be expecting to hold their current flight condition
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. Say something/anything.
 2. "Wait a moment while we discuss."
@@ -330,7 +330,7 @@ I have heard you, but I'm unable to reply to your transmission in detail at this
 
 ## HOLD
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "HOLD"
 
@@ -343,12 +343,12 @@ Maintain current conditions until further notice.
 1. "…" (crickets)
 2. "STANDBY"
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing
 2. Aircrew confusion, since they may not be expecting to be told to wait for you to get back to them.
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. Say something/anything.
 2. "Keep doing what you're doing." or "Stay on current conditions."
@@ -357,7 +357,7 @@ Maintain current conditions until further notice.
 
 ## …
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "…"
 
@@ -370,12 +370,12 @@ A pause between transmissions to allow the test team to interject. Often used in
 1. Holding the transmission key for the full duration of the countdown
 2. Too short of a pause
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. The test team cannot interject to prevent mistaken triggering of the irreversible event
 2. The aircrew don't have time to listen for interjections
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. "…"
 2. (waiting long enough to listen for test team inputs)
@@ -384,7 +384,7 @@ A pause between transmissions to allow the test team to interject. Often used in
 
 ## INCREASE/DECREASE
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "[INCREASE/DECREASE] [PARAMETER]"
 
@@ -397,12 +397,12 @@ Per the brief and the mission materials, the parameter is about to go out of tol
 1. "CHECK/WATCH [PARAMETER]"
 2. "…" (crickets)
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Aircrew doesn't know what you want after they look at the parameter. The parameter probably dropped out of their scan, which necessitated the call in the first place, so they aren't aware of the corrective action.
 2. Test point needs to be repeated, test limits are exceeded, aircraft limits are exceeded.
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. "Your [PARAMETER] is approaching [TOLERANCE/LIMIT]."
 2. Say something/anything.
@@ -413,9 +413,38 @@ This phrasing is up for debate, and this standard is provided as a baseline. If 
 
 {{< pagebreak >}}
 
+## CEASE
+
+### Correct Usage {.unnumbered}
+
+- CEASE LASER
+- CEASE FIRE
+
+### Meaning {.unnumbered}
+
+Discontinue the stated activity
+
+### Typical Errors {.unnumbered}
+
+- "CEASE" (without specifying what activity to discontinue)
+- "STOP" (without specifying what activity to discontinue)
+
+### Effects of Errors {.unnumbered}
+
+- Confusion about what to discontinue
+  - Discontinue the wrong activity
+  - Continuing the activity
+
+### Plain English Antidotes {.unnumbered}
+
+- "Turn off [system]"
+- "Stop doing [activity]"
+
+{{< pagebreak >}}
+
 ## TERMINATE/ABORT/KNOCK-IT-OFF
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 - "TERMINATE"
 - "ABORT ABORT ABORT"
@@ -444,11 +473,11 @@ Per the brief and the mission materials, stop what you're doing and take correct
 1. Not reacting per the brief
 2. The originator not saying the reason for the call.
 
-### Effect of Errors   {.unnumbered}
+### Effect of Errors {.unnumbered}
 
 Confusion during time-critical events
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. Because of the urgent nature of these calls, it's better to say the wrong thing than to say nothing. The best this is to practice the calls in the brief and over the radio prior to beginning test execution.
 2. Say something/anything.
@@ -463,7 +492,7 @@ Abrupt test point cessation calls should be rehearsed in the brief, and in the a
 
 ## COMPLETE
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 - "RUN COMPLETE"
 - "POINT COMPLETE"
@@ -484,7 +513,7 @@ In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires
 4. "…" (crickets)
 5. Instead of "MISSION COMPLETE," "CLEARED TO RTB"
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 1. Either you're lucky and the set was actually complete, or you have to eat your words and call for a repeat because the set was not, in fact, complete.
 2. The aircrew cease execution prior to completion, negating the data and wasting millions of dollars of taxpayer money.
@@ -492,7 +521,7 @@ In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires
 4. Bueller?... Bueller?... Bueller?
 5. ATC hears "RTB" and begins coordination before the aircrew are ready.
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 1. "Standby for data review."
 2. Say nothing until the set is complete.
@@ -504,7 +533,7 @@ In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires
 
 ## NEXT
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "NEXT [POINT/CARD/FLIGHT CONDITION]"
 
@@ -516,14 +545,14 @@ The next thing is…
 
 "…" (crickets)
 
-### Effects of Error   {.unnumbered}
+### Effects of Error {.unnumbered}
 
 Two effects, depending on aircrew. 
 
     1. Either the aircrew wait and wonder what’s next, or 
     2. the aircrew declare what’s next and the control room loses control of the mission.
 
-### Plain English Antidote  {.unnumbered}
+### Plain English Antidote {.unnumbered}
 
 "Next point is X, at X feet and X Mach/KCAS."
 
@@ -531,7 +560,7 @@ Two effects, depending on aircrew.
 
 ## CLEAN AND DRY
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 - "REQUEST CLEAN AND DRY"
 - "CHASE SHOWS YOU CLEAN AND DRY"
@@ -546,11 +575,11 @@ In flight test, "clean" can also mean no excessive door and/or panel gaps, no mi
 
 None
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 None
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 None
 
@@ -573,7 +602,7 @@ Better to be explicit.
 <!--# This is the section template
 ## CODE
 
-### Correct Usage   {.unnumbered}
+### Correct Usage {.unnumbered}
 
 "CODE"
 
@@ -585,11 +614,11 @@ Meaning
 
 Typical errors
 
-### Effects of Errors   {.unnumbered}
+### Effects of Errors {.unnumbered}
 
 Effects of errors
 
-### Plain English Antidotes  {.unnumbered}
+### Plain English Antidotes {.unnumbered}
 
 Plain English Antidotes
 
