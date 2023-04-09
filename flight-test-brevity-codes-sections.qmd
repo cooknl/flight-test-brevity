@@ -135,10 +135,10 @@ I have heard your proposed course of action and I agree with it.
 
 ### Effects of Errors {.unnumbered}
 
-1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing
-2. Answering a proposal with a request.
-3. Answering a complicated proposal with a simple "yes"
-4. Aircrew are left wondering you have any opinion.
+1. Aircrew have no idea why they are waiting, if the radios are broken, and generally if you are still alive and breathing.
+2. Answering a proposal with a request.
+3. Answering a complicated proposal with a simple "yes"
+4. Aircrew are left wondering you have any opinion.
 
 ### Plain English Antidote {.unnumbered}
 
