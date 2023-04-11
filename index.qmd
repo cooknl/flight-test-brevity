@@ -10,6 +10,10 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 This guide is intended to accelerate the communications training of flight testers. The desired end state is a flight test team who can safely, securely, effectively, and efficiently communicate with each other, whether over the radio or face-to-face.
 
+## PDF
+
+A pdf version of this guide is available for download at <https://github.com/cooknl/flight-test-brevity/blob/main/pdf/Flight-Test-Brevity.pdf>
+
 ## Feedback
 
 This guide is a living document. All feedback is welcomed, and the most effective means of providing it is to create an "Issue" at <https://github.com/cooknl/flight-test-brevity/issues>
