@@ -152,7 +152,7 @@ Aircrew think you're calling on a channel that you're not calling from, and prov
 
 {{< pagebreak >}}
 
-## "CONFIRM
+## CONFIRM
 
 ### Correct Usage {.unnumbered}
 

@@ -108,8 +108,8 @@
     "objectID": "flight-test-brevity-codes-sections.html#confirm",
     "href": "flight-test-brevity-codes-sections.html#confirm",
     "title": "Appendix A — Flight Test Brevity Codes",
-    "section": "A.6 “CONFIRM",
-    "text": "A.6 “CONFIRM\n\nCorrect Usage\n“CONFIRM [declarative statement]”\n\n\nMeaning\n{R} I am requesting that you reply with your understanding of something or with the current status of something.\n\n\nTypical Error\nConvoluted verbiage\n\n\nEffects of Error\nConfusion\n\n\nPlain English Antidote\n“Is the [THING] in [STATE]?”"
+    "section": "A.6 CONFIRM",
+    "text": "A.6 CONFIRM\n\nCorrect Usage\n“CONFIRM [declarative statement]”\n\n\nMeaning\n{R} I am requesting that you reply with your understanding of something or with the current status of something.\n\n\nTypical Error\nConvoluted verbiage\n\n\nEffects of Error\nConfusion\n\n\nPlain English Antidote\n“Is the [THING] in [STATE]?”"
   },
   {
     "objectID": "flight-test-brevity-codes-sections.html#continue",
