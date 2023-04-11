@@ -4,6 +4,12 @@ This appendix consists of flight test brevity codes that resolve many of the mos
 
 Codes are presented in roughly chronological order of a typical flight test mission.
 
+The Type is shown in curly braces indicates whether a code is meant to:
+
+- {D} Direct
+- {I} Inform
+- {R} Request
+
 {{< pagebreak >}}
 
 ## RADIO CHECK
@@ -15,9 +21,9 @@ Codes are presented in roughly chronological order of a typical flight test miss
 
 ### Meaning {.unnumbered}
 
--   "RADIO CHECK"
+-   {R} "RADIO CHECK"
     -   I'm requesting that you tell me how well you can hear my transmission on the PRIMARY or MAIN channel.\
--   "RADIO CHECK ON \[channel\]"
+-   {R} "RADIO CHECK ON \[channel\]"
     -   I'm requesting that you tell me how well you can hear my transmission on the explicitly stated channel.
 
 ### Typical Errors {.unnumbered}
@@ -43,7 +49,7 @@ Aircrew think you're calling on a channel that you're not calling from, and prov
 
 ### Meaning {.unnumbered}
 
-The sender is ready to support test as soon as clearance is obtained for the next administrative step (taxi, takeoff, etc.), or as soon as the receiver acknowledges with "\[Receiving callsign\] IS READY"
+{I} The sender is ready to support test as soon as clearance is obtained for the next administrative step (taxi, takeoff, etc.), or as soon as the receiver acknowledges with "\[Receiving callsign\] IS READY"
 
 ### Typical Error {.unnumbered}
 
@@ -71,7 +77,7 @@ The sender is ready to support test as soon as clearance is obtained for the nex
 
 ### Meaning {.unnumbered}
 
-Initiate action per the brief for this context
+{D} Initiate action per the brief for this context
 
 ### Typical Errors {.unnumbered}
 
@@ -97,7 +103,7 @@ Initiate action per the brief for this context
 
 ### Meaning {.unnumbered}
 
-A way to clearly refer to a step in a setup, procedure, or recovery without explicitly describing the action. Often used to obfuscate test actions over unencrypted communications channels. Can also be used to avoid saying "special" words like "ABORT" if they are part of the procedure.
+{I} A way to clearly refer to a step in a setup, procedure, or recovery without explicitly describing the action. Often used to obfuscate test actions over unencrypted communications channels. Can also be used to avoid saying "special" words like "ABORT" if they are part of the procedure.
 
 ### Typical Errors {.unnumbered}
 
@@ -124,7 +130,7 @@ A way to clearly refer to a step in a setup, procedure, or recovery without expl
 
 ### Meaning {.unnumbered}
 
-I have heard your proposed course of action and I agree with it.
+{I} I have heard your proposed course of action and I agree with it.
 
 ### Typical Errors {.unnumbered}
 
@@ -154,7 +160,7 @@ I have heard your proposed course of action and I agree with it.
 
 ### Meaning {.unnumbered}
 
-I am requesting that you reply with your understanding of something or with the current status of something.
+{R} I am requesting that you reply with your understanding of something or with the current status of something.
 
 ### Typical Error {.unnumbered}
 
@@ -178,7 +184,7 @@ Confusion
 
 ### Meaning {.unnumbered}
 
-Keep going. (Alternative: I have heard you, but your concern can be addressed later.)
+{D} Keep going. (Alternative: I have heard you, but your concern can be addressed later.)
 
 ### Typical Errors {.unnumbered}
 
@@ -205,7 +211,7 @@ Keep going. (Alternative: I have heard you, but your concern can be addressed la
 
 ### Meaning {.unnumbered}
 
-Yes
+{I} Yes
 
 ### Typical Errors {.unnumbered}
 
@@ -235,7 +241,7 @@ Yes
 
 ### Meaning {.unnumbered}
 
-No
+{I} No
 
 ### Typical Errors {.unnumbered}
 
@@ -259,7 +265,7 @@ See "AFFIRM"
 
 ### Meaning {.unnumbered}
 
-I have updated something and am requesting verbal acknowledgement from all players.
+{R} I have updated something and am requesting verbal acknowledgement from all players.
 
 ### Typical Error {.unnumbered}
 
@@ -285,7 +291,7 @@ I have updated something and am requesting verbal acknowledgement from all playe
 
 ### Meaning {.unnumbered}
 
-It sounds like you're busy, but I've got something to discuss, so get back to me when you can talk
+{R} It sounds like you're busy, but I've got something to discuss, so get back to me when you can talk
 
 ### Typical Error {.unnumbered}
 
@@ -309,7 +315,7 @@ Increased frustration
 
 ### Meaning {.unnumbered}
 
-I have heard you, but I'm unable to reply to your transmission in detail at this time. In a moment, I will say more.
+{I} I have heard you, but I'm unable to reply to your transmission in detail at this time. In a moment, I will say more.
 
 ### Typical Errors {.unnumbered}
 
@@ -336,7 +342,7 @@ I have heard you, but I'm unable to reply to your transmission in detail at this
 
 ### Meaning {.unnumbered}
 
-Maintain current conditions until further notice.
+{D} Maintain current conditions until further notice.
 
 ### Typical Errors {.unnumbered}
 
@@ -363,7 +369,7 @@ Maintain current conditions until further notice.
 
 ### Meaning {.unnumbered}
 
-A pause between transmissions to allow the test team to interject. Often used in countdowns to irreversible events.
+{I} A pause between transmissions to allow the test team to interject. Often used in countdowns to irreversible events.
 
 ### Typical Errors {.unnumbered}
 
@@ -390,7 +396,7 @@ A pause between transmissions to allow the test team to interject. Often used in
 
 ### Meaning {.unnumbered}
 
-Per the brief and the mission materials, the parameter is about to go out of tolerance/limits unless you comply with this advisory call.
+{D} Per the brief and the mission materials, the parameter is about to go out of tolerance/limits unless you comply with this advisory call.
 
 ### Typical Errors {.unnumbered}
 
@@ -422,7 +428,7 @@ This phrasing is up for debate, and this standard is provided as a baseline. If 
 
 ### Meaning {.unnumbered}
 
-Discontinue the stated activity
+{D} Discontinue the stated activity
 
 ### Typical Errors {.unnumbered}
 
@@ -466,7 +472,7 @@ Example:
 
 ### Meaning {.unnumbered}
 
-Per the brief and the mission materials, stop what you're doing and take corrective action.
+{D} Per the brief and the mission materials, stop what you're doing and take corrective action.
 
 ### Typical Errors {.unnumbered}
 
@@ -501,7 +507,7 @@ Abrupt test point cessation calls should be rehearsed in the brief, and in the a
 
 ### Meaning {.unnumbered}
 
-The referenced set (RUN/POINT/CARD/MISSION) was executed within the success criteria per the brief and mission materials. No further action for the referenced set is required or desired.
+{I} The referenced set (RUN/POINT/CARD/MISSION) was executed within the success criteria per the brief and mission materials. No further action for the referenced set is required or desired.
 
 In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires that the test portion of the mission must conclude.
 
@@ -539,7 +545,7 @@ In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires
 
 ### Meaning {.unnumbered}
 
-The next thing is…
+{I} The next thing is…
 
 ### Typical Error {.unnumbered}
 
@@ -567,7 +573,7 @@ Two effects, depending on aircrew.
 
 ### Meaning {.unnumbered}
 
-Extends the concept of a "battle damage check" which is looking for "clean" meaning no visible damage and "dry" meaning no visible fluid leaks.
+{I} Extends the concept of a "battle damage check" which is looking for "clean" meaning no visible damage and "dry" meaning no visible fluid leaks.
 
 In flight test, "clean" can also mean no excessive door and/or panel gaps, no missing fasteners, or any other mechanical change from the previous check. Often made after gear retraction, before and after a high speed test point, prior to aerial refueling after high load or flutter test, and before returning to base.
 

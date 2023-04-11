@@ -6,7 +6,7 @@ book:
   title: "Flight Test Brevity"
   subtitle: "A Communications Guide"
   author: "Nathan Cook"
-  date: 2023-04-08
+  date: 2023-04-11
   date-format: iso
   cover-image: /images/cover.png
   repo-url: https://github.com/cooknl/flight-test-brevity
@@ -37,6 +37,3 @@ format:
     toc-depth: 2
 
 license: "CC BY-SA"
-
-
-
