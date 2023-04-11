@@ -206,6 +206,12 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This appendix consists of flight test brevity codes that resolve many of the most common test team communication issues.</p>
 <p>Codes are presented in roughly chronological order of a typical flight test mission.</p>
+<p>The Type is shown in curly braces indicates whether a code is meant to:</p>
+<ul>
+<li>{D} Direct</li>
+<li>{I} Inform</li>
+<li>{R} Request</li>
+</ul>
 <div style="page-break-after: always;"></div>
 <section id="radio-check" class="level2" data-number="A.1">
 <h2 data-number="A.1" class="anchored" data-anchor-id="radio-check"><span class="header-section-number">A.1</span> RADIO CHECK</h2>
@@ -219,12 +225,12 @@ ul.task-list li input[type="checkbox"] {
 <section id="meaning" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning">Meaning</h3>
 <ul>
-<li>“RADIO CHECK”
+<li>{R} “RADIO CHECK”
 <ul>
 <li>I’m requesting that you tell me how well you can hear my transmission on the PRIMARY or MAIN channel.<br>
 </li>
 </ul></li>
-<li>“RADIO CHECK ON [channel]”
+<li>{R} “RADIO CHECK ON [channel]”
 <ul>
 <li>I’m requesting that you tell me how well you can hear my transmission on the explicitly stated channel.</li>
 </ul></li>
@@ -255,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-1" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-1">Meaning</h3>
-<p>The sender is ready to support test as soon as clearance is obtained for the next administrative step (taxi, takeoff, etc.), or as soon as the receiver acknowledges with “[Receiving callsign] IS READY”</p>
+<p>{I} The sender is ready to support test as soon as clearance is obtained for the next administrative step (taxi, takeoff, etc.), or as soon as the receiver acknowledges with “[Receiving callsign] IS READY”</p>
 </section>
 <section id="typical-error" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-error">Typical Error</h3>
@@ -289,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-2" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-2">Meaning</h3>
-<p>Initiate action per the brief for this context</p>
+<p>{D} Initiate action per the brief for this context</p>
 </section>
 <section id="typical-errors-1" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-1">Typical Errors</h3>
@@ -313,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-3" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-3">Meaning</h3>
-<p>A way to clearly refer to a step in a setup, procedure, or recovery without explicitly describing the action. Often used to obfuscate test actions over unencrypted communications channels. Can also be used to avoid saying “special” words like “ABORT” if they are part of the procedure.</p>
+<p>{I} A way to clearly refer to a step in a setup, procedure, or recovery without explicitly describing the action. Often used to obfuscate test actions over unencrypted communications channels. Can also be used to avoid saying “special” words like “ABORT” if they are part of the procedure.</p>
 </section>
 <section id="typical-errors-2" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-2">Typical Errors</h3>
@@ -346,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-4" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-4">Meaning</h3>
-<p>I have heard your proposed course of action and I agree with it.</p>
+<p>{I} I have heard your proposed course of action and I agree with it.</p>
 </section>
 <section id="typical-errors-3" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-3">Typical Errors</h3>
@@ -380,7 +386,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-5" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-5">Meaning</h3>
-<p>I am requesting that you reply with your understanding of something or with the current status of something.</p>
+<p>{R} I am requesting that you reply with your understanding of something or with the current status of something.</p>
 </section>
 <section id="typical-error-1" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-error-1">Typical Error</h3>
@@ -404,7 +410,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-6" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-6">Meaning</h3>
-<p>Keep going. (Alternative: I have heard you, but your concern can be addressed later.)</p>
+<p>{D} Keep going. (Alternative: I have heard you, but your concern can be addressed later.)</p>
 </section>
 <section id="typical-errors-4" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-4">Typical Errors</h3>
@@ -437,7 +443,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-7" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-7">Meaning</h3>
-<p>Yes</p>
+<p>{I} Yes</p>
 </section>
 <section id="typical-errors-5" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-5">Typical Errors</h3>
@@ -471,7 +477,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-8" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-8">Meaning</h3>
-<p>No</p>
+<p>{I} No</p>
 </section>
 <section id="typical-errors-6" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-6">Typical Errors</h3>
@@ -495,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-9" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-9">Meaning</h3>
-<p>I have updated something and am requesting verbal acknowledgement from all players.</p>
+<p>{R} I have updated something and am requesting verbal acknowledgement from all players.</p>
 </section>
 <section id="typical-error-2" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-error-2">Typical Error</h3>
@@ -525,7 +531,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-10" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-10">Meaning</h3>
-<p>It sounds like you’re busy, but I’ve got something to discuss, so get back to me when you can talk</p>
+<p>{R} It sounds like you’re busy, but I’ve got something to discuss, so get back to me when you can talk</p>
 </section>
 <section id="typical-error-3" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-error-3">Typical Error</h3>
@@ -549,7 +555,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-11" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-11">Meaning</h3>
-<p>I have heard you, but I’m unable to reply to your transmission in detail at this time. In a moment, I will say more.</p>
+<p>{I} I have heard you, but I’m unable to reply to your transmission in detail at this time. In a moment, I will say more.</p>
 </section>
 <section id="typical-errors-7" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-7">Typical Errors</h3>
@@ -582,7 +588,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-12" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-12">Meaning</h3>
-<p>Maintain current conditions until further notice.</p>
+<p>{D} Maintain current conditions until further notice.</p>
 </section>
 <section id="typical-errors-8" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-8">Typical Errors</h3>
@@ -615,7 +621,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-13" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-13">Meaning</h3>
-<p>A pause between transmissions to allow the test team to interject. Often used in countdowns to irreversible events.</p>
+<p>{I} A pause between transmissions to allow the test team to interject. Often used in countdowns to irreversible events.</p>
 </section>
 <section id="typical-errors-9" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-9">Typical Errors</h3>
@@ -648,7 +654,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-14" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-14">Meaning</h3>
-<p>Per the brief and the mission materials, the parameter is about to go out of tolerance/limits unless you comply with this advisory call.</p>
+<p>{D} Per the brief and the mission materials, the parameter is about to go out of tolerance/limits unless you comply with this advisory call.</p>
 </section>
 <section id="typical-errors-10" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-10">Typical Errors</h3>
@@ -688,7 +694,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-15" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-15">Meaning</h3>
-<p>Discontinue the stated activity</p>
+<p>{D} Discontinue the stated activity</p>
 </section>
 <section id="typical-errors-11" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-11">Typical Errors</h3>
@@ -742,7 +748,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-16" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-16">Meaning</h3>
-<p>Per the brief and the mission materials, stop what you’re doing and take corrective action.</p>
+<p>{D} Per the brief and the mission materials, stop what you’re doing and take corrective action.</p>
 </section>
 <section id="typical-errors-12" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-errors-12">Typical Errors</h3>
@@ -782,7 +788,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-17" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-17">Meaning</h3>
-<p>The referenced set (RUN/POINT/CARD/MISSION) was executed within the success criteria per the brief and mission materials. No further action for the referenced set is required or desired.</p>
+<p>{I} The referenced set (RUN/POINT/CARD/MISSION) was executed within the success criteria per the brief and mission materials. No further action for the referenced set is required or desired.</p>
 <p>In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires that the test portion of the mission must conclude.</p>
 </section>
 <section id="typical-errors-13" class="level3 unnumbered">
@@ -825,7 +831,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-18" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-18">Meaning</h3>
-<p>The next thing is…</p>
+<p>{I} The next thing is…</p>
 </section>
 <section id="typical-error-4" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="typical-error-4">Typical Error</h3>
@@ -854,7 +860,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="meaning-19" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="meaning-19">Meaning</h3>
-<p>Extends the concept of a “battle damage check” which is looking for “clean” meaning no visible damage and “dry” meaning no visible fluid leaks.</p>
+<p>{I} Extends the concept of a “battle damage check” which is looking for “clean” meaning no visible damage and “dry” meaning no visible fluid leaks.</p>
 <p>In flight test, “clean” can also mean no excessive door and/or panel gaps, no missing fasteners, or any other mechanical change from the previous check. Often made after gear retraction, before and after a high speed test point, prior to aerial refueling after high load or flutter test, and before returning to base.</p>
 </section>
 <section id="typical-errors-14" class="level3 unnumbered">
