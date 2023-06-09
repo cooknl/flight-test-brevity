@@ -57,4 +57,4 @@ Standard Additional Words   "CHECK (number, left/right)"\
 
 : Word Sequence Form in Brevity Codes {#tbl-sequence}
 
-The importance of sequence extends beyond brevity codes. Even complicated radio calls rely on this brevity principle to establish expectations and habit patterns to aid in information "chunking." [@"http://zotero.org/users/7103471/items/75HMNJBF"]
+The importance of sequence extends beyond brevity codes. Even complicated radio calls rely on this brevity principle to establish expectations and habit patterns to aid in information "chunking." [@http://zotero.org/users/7103471/items/75HMNJBF]
