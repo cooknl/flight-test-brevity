@@ -1,63 +1,5 @@
 [
 	{
-		"id": "http://zotero.org/users/7103471/items/U4HMK933",
-		"type": "book",
-		"ISBN": "978-0-262-29824-7",
-		"language": "en",
-		"note": "DOI: 10.7551/mitpress/8179.001.0001",
-		"publisher": "The MIT Press",
-		"source": "DOI.org (Crossref)",
-		"title": "Engineering a Safer World: Systems Thinking Applied to Safety",
-		"title-short": "Engineering a Safer World",
-		"URL": "https://direct.mit.edu/books/book/2908/engineering-a-safer-worldsystems-thinking-applied",
-		"author": [
-			{
-				"family": "Leveson",
-				"given": "Nancy G."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					2,
-					26
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2012"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/7103471/items/TTN9MQSE",
-		"type": "book",
-		"number-of-pages": "188",
-		"title": "STPA Handbook",
-		"author": [
-			{
-				"family": "Leveson",
-				"given": "Nancy G."
-			},
-			{
-				"family": "Thomas",
-				"given": "John P."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2018",
-					3
-				]
-			]
-		}
-	},
-	{
 		"id": "http://zotero.org/users/7103471/items/HVKQ4CHY",
 		"type": "book",
 		"abstract": "1. Purpose\nThis publication will improve coordination and understanding during multi-Service operations. A brevity code is a code which provides no security but which has as its sole purpose the shortening of messages rather than the concealment of its\ncontent.\n2. Scope\nThis publication standardizes air-to-air (A/A), air-to-surface (A/S), surface-to-air (S/A), surface-to-surface (S/S), maritime air, and maritime to maritime brevity\ncodes regardless of communication medium (voice/chat), as well as brevity codes (abbreviations) specific for use in tactical chat. The scope is limited to\nthose brevity codes used in multi-Service operations and does not include words unique to single-Service operations. All Services agree to these brevity code\nmeanings. These brevity codes have been forwarded to the NATO Standardization Office (NSO) terminology custodian for inclusion or modification of current joint brevity words in APP-7 and other appropriate Allied\nCommunications Publications.\n3. Applicability\nThis publication is intended for air, land, maritime, and space personnel conducting operations at the tactical level.",
@@ -119,6 +61,102 @@
 					"2020",
 					5,
 					28
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7103471/items/75HMNJBF",
+		"type": "article-journal",
+		"abstract": "Chunking is the recoding of smaller units of information into larger, familiar units. Chunking is often assumed to help bypassing the limited capacity of working memory (WM). We investigate how chunks are used in WM tasks, addressing three questions: (a) Does chunking reduce the load on WM? Across four experiments chunking benefits were found not only for recall of the chunked but also of other not-chunked information concurrently held in WM, supporting the assumption that chunking reduces load. (b) Is the chunking benefit independent of chunk size? The chunking benefit was independent of chunk size only if the chunks were composed of unique elements, so that each chunk could be replaced by its first element (Experiment 1), but not when several chunks consisted of overlapping sets of elements, disabling this replacement strategy (Experiments 2 and 3). The chunk-size effect is not due to differences in rehearsal duration as it persisted when participants were required to perform articulatory suppression (Experiment 3). Hence, WM capacity is not limited to a fixed number of chunks regardless of their size. (c) Does the chunking benefit depend on the serial position of the chunk? Chunks in early list positions improved recall of other, not-chunked material, but chunks at the end of the list did not. We conclude that a chunk reduces the load on WM via retrieval of a compact chunk representation from long-term memory that replaces the representations of individual elements of the chunk. This frees up capacity for subsequently encoded material. (PsycINFO Database Record (c) 2018 APA, all rights reserved).",
+		"container-title": "Journal of Experimental Psychology. Learning, Memory, and Cognition",
+		"DOI": "10.1037/xlm0000578",
+		"ISSN": "1939-1285",
+		"issue": "1",
+		"journalAbbreviation": "J Exp Psychol Learn Mem Cogn",
+		"language": "eng",
+		"note": "PMID: 29698045",
+		"page": "37-55",
+		"source": "PubMed",
+		"title": "How does chunking help working memory?",
+		"volume": "45",
+		"author": [
+			{
+				"family": "Thalmann",
+				"given": "Mirko"
+			},
+			{
+				"family": "Souza",
+				"given": "Alessandra S."
+			},
+			{
+				"family": "Oberauer",
+				"given": "Klaus"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7103471/items/U4HMK933",
+		"type": "book",
+		"ISBN": "978-0-262-29824-7",
+		"language": "en",
+		"note": "DOI: 10.7551/mitpress/8179.001.0001",
+		"publisher": "The MIT Press",
+		"source": "DOI.org (Crossref)",
+		"title": "Engineering a Safer World: Systems Thinking Applied to Safety",
+		"title-short": "Engineering a Safer World",
+		"URL": "https://direct.mit.edu/books/book/2908/engineering-a-safer-worldsystems-thinking-applied",
+		"author": [
+			{
+				"family": "Leveson",
+				"given": "Nancy G."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					2,
+					26
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/7103471/items/TTN9MQSE",
+		"type": "book",
+		"number-of-pages": "188",
+		"title": "STPA Handbook",
+		"author": [
+			{
+				"family": "Leveson",
+				"given": "Nancy G."
+			},
+			{
+				"family": "Thomas",
+				"given": "John P."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					3
 				]
 			]
 		}

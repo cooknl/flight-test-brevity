@@ -60,7 +60,7 @@ Keeping brevity in mind is the finishing touch of a good comm plan. Brevity take
     a.  Directing -- "Cleared to..." "Check..."
     b.  Informing -- "Next point is..." "Point complete..."
     c.  Requesting -- "Ops check..." "Confirm..."
-3. **Standard Word Count** - Use words in accordance with the brief and the mission materials
+3. **Standard Word Sequence** - Use words in accordance with the brief and the mission materials
 
 ## Using the comm plan:
 

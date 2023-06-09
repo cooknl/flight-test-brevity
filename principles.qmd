@@ -4,7 +4,7 @@
 
 - @sec-contracts Contracts
 - @sec-types Types
-- @sec-count Word Count
+- @sec-sequence Word Sequence
 
 ## Principle 1 - Contracts {#sec-contracts}
 
@@ -41,12 +41,12 @@ The bottom line is this:
 
 > If you aren't directing, informing or requesting, then you're not using brevity, you're having a discussion.
 
-## Principle 3 - Standard Word Count {#sec-count}
+## Principle 3 - Standard Word Sequence {#sec-sequence}
 
-Some brevity codes are standalone and some are always accompanied by other words, as shown in @tbl-count. This distinction is important, because it sets the expectation of how many words should constitute a radio call. If the number of words doesn't match expectations, confusion may ensue.
+Some brevity codes are standalone and some are always accompanied by other words, as shown in @tbl-sequence. This distinction is important, because it sets the expectation of which words should constitute a radio call. If the sequence of words doesn't match expectations, confusion may ensue.
 
 -----------------------------------------------------------
-Word Count Form             Examples
+Word Sequence Form          Examples
 --------------------------- -------------------------------
 Standalone                  "MADDOG"\
                             "LINE ABREAST"
@@ -55,4 +55,6 @@ Standard Additional Words   "CHECK (number, left/right)"\
                             "(system) BENT"
 -----------------------------------------------------------
 
-: Word Count Form in Brevity Codes {#tbl-count}
+: Word Sequence Form in Brevity Codes {#tbl-sequence}
+
+The importance of sequence extends beyond brevity codes. Even complicated radio calls rely on this brevity principle to establish expectations and habit patterns to aid in information "chunking." [@"http://zotero.org/users/7103471/items/75HMNJBF"]
