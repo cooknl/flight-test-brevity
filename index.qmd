@@ -20,6 +20,8 @@ This guide is a living document. All feedback is welcomed, and the most effectiv
 
 ## Change Log
 
+- 2023-06-08 v1.3.0
+    - Changes "word count" to "word sequence" with reference to [@"http://zotero.org/users/7103471/items/75HMNJBF"]
 - 2023-04-08 v1.2.0
     - Reorders appendices to have Flight Test Brevity Codes lead
     - Extensive re-alignment of Multi-Service Brevity Codes Applicable to Flight Test to conform with 2020 Change 1 version of BREVITY
