@@ -1,0 +1,94 @@
+# Test Run Flow {#sec-runflow}
+
+## The problem
+
+Common Test Conduct Errors:
+
+- Omitted or improperly timed communication
+- Poor transitions between test runs
+
+### Hypothesis {.unnumbered}
+
+A causal factor in both successful and error-prone test conduct is the understanding (or misunderstanding) of where and when critical phases of a test run begin and end.
+
+Which begs the question, what ARE the "critical phases of a test run"?
+
+![Structured Approach to Test Point Flow](./images/test-run.png){#fig-testrun}
+
+## A Test Point
+
+![A Quantum of Test](./images/test-run-run.png){#fig-testrunrun}
+
+The smallest unit of flight test comprised of a beginning, a middle, and an end.
+
+## Maneuver
+
+![Where The Data Live](./images/test-run-maneuver.png){#fig-testrunmaneuver}
+
+The actions of the operator and the system that generate data to support a test objective
+
+## Setup
+
+![Preparation for Test](./images/test-run-setup.png){#fig-testrunsetup}
+
+The actions of the operator and the system that establish the conditions for a successful Maneuver, including geometry, geography, system state, etc.
+
+## Recover
+
+![Return to Normal Operations](./images/test-run-recover.png){#fig-testrunrecover}
+
+The actions of the operator and the system that safely allow resumption of “normal” operations.
+
+## Admin
+
+![A Change of State](./images/test-run-admin.png){#fig-testrunadmin}
+
+The actions of the operator and the system before the test, between test runs, or after the test.
+
+## Transitions
+
+![“Pauses”](./images/test-run-transitions.png){#fig-testruntransitions}
+
+The gates from one critical phase to the next that establish the cadence of the test.
+
+## The structure approach
+
+For each test run, the test team 
+
+- **defines** the contents of each critical phase,
+- **determines** entry and exit criteria through the transitions,
+- **creates** a communications plan to support the transitions, and
+- **creates** mission materials to assist in test conduct
+
+## Application to test card creation
+
+![Top to Bottom Test Point Flow on Test Card](./images/test-run-card.png){#fig-testruncard}
+
+Each test card reflects the critical phases of the test run under consideration.
+
+![Multiple Test Points on a Single Test Card](./images/test-run-multiple.png){#fig-testrunmultiple}
+
+Multiple test runs can be put on a single page! The recover/admin/setup phases between each run are explicitly included, instead of just a string of Maneuver phases.
+
+## Application to Comm Plan
+
+![Exit and Entry Criteria](./images/test-run-exit-entry.png){#fig-testrunexitentry}
+
+::: {layout="[60,40]"}
+
+1. Test: “Ready for next run”
+2. Control: “Cleared to \[condition/configuration\]”
+3. Test: “On conditions”
+4. Control: “Cleared to maneuver”
+5. Test or Control: “Maneuver complete/Recover(ing)”
+6. Control: “Cleared to \[condition/configuration\]”
+7. Test: “On conditions/Configuration complete/Recovered”
+8. Control: “Point complete. Next run is X at Y”
+
+- Odd = Exit
+- Even = Entry
+- The Key to Success:
+  - The test team defines **the content and duration** of each critical phase and 
+  - identifies **exit and entry criteria** for the transitions between phases
+
+:::

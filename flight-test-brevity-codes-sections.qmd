@@ -425,6 +425,7 @@ This phrasing is up for debate, and this standard is provided as a baseline. If 
 
 - CEASE LASER
 - CEASE FIRE
+- CEASE TEST
 
 ### Meaning {.unnumbered}
 
@@ -448,11 +449,10 @@ This phrasing is up for debate, and this standard is provided as a baseline. If 
 
 {{< pagebreak >}}
 
-## TERMINATE/ABORT/KNOCK-IT-OFF
+## ABORT/KNOCK-IT-OFF
 
 ### Correct Usage {.unnumbered}
 
-- "TERMINATE"
 - "ABORT ABORT ABORT"
 - "KNOCK-IT-OFF"
 
@@ -462,13 +462,6 @@ Example:
 - Quell 1: ""Quell 1 ABORT""
 - Quell 2: ""Quell 2 ABORT""
 - Project: ""Project ABORT, [REASON]"
-
-Example: 
-
-- Test: ""Terminate,
-- Test Terminate""
-- Chase: ""Chase Terminate""
-- Project: ""Project Terminate""
 
 ### Meaning {.unnumbered}
 

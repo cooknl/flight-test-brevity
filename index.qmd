@@ -20,8 +20,14 @@ This guide is a living document. All feedback is welcomed, and the most effectiv
 
 ## Change Log
 
+- 2023-06-02 v1.4.0
+    - @sec-sequence Adds standard radio syntax
+    - @sec-runflow Updates "test point" to "test run", "procedure" to "maneuver", "recovery" to "recover"
+    - @sec-multiservice Updates to Mar 2023 version of BREVITY [@8379642/CIUVPW42]
+        - SICK, BOGEY, DIVERT, KNOCK-IT-OFF, TERMINATE, MARSHAL, BRAA, COLD, HOT, AZIMUTH, GROUP, MARSHALLING, STACK, MERGE, STATUS, PIG, RIFLE, SPLASH, WHAT STATE, WORKING, DROP, EYEBALL, ~~NEGATIVE CONTACT~~, SOUR, CLEARED HOT, WEAPONS, VERY FAST, DECLARE, BANDIT, HOSTILE
+    - @sec-flighttestbrevity Removes "Terminate" from Flight Test Brevity, adding "CEASE TEST" to CEASE
 - 2023-06-08 v1.3.0
-    - Changes "word count" to "word sequence" with reference to [@http://zotero.org/users/7103471/items/75HMNJBF]
+    - Changes "word count" to "word sequence" with reference to [@8379642/75HMNJBF]
 - 2023-04-08 v1.2.0
     - Reorders appendices to have Flight Test Brevity Codes lead
     - Extensive re-alignment of Multi-Service Brevity Codes Applicable to Flight Test to conform with 2020 Change 1 version of BREVITY
@@ -35,7 +41,7 @@ This guide is a living document. All feedback is welcomed, and the most effectiv
 - 2023-02-11 v.1.0.0
     - Port to Quarto
     - Update from 2002 to 2020 Change 1 version of BREVITY
-        - [@http://zotero.org/users/7103471/items/HVKQ4CHY]
-        - [@http://zotero.org/users/7103471/items/A99Q8MZZ]
+        - [@8379642/HVKQ4CHY]
+        - [@8379642/A99Q8MZZ]
     - @tbl-correlation order changed
 - 2016-08-04 Most recent Word version

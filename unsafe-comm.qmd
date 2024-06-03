@@ -1,6 +1,6 @@
 # Unsafe Communication
 
-Dr. Nancy Leveson, in Engineering a Safer World [@http://zotero.org/users/7103471/items/U4HMK933] and the STPA Handbook [@http://zotero.org/users/7103471/items/TTN9MQSE], draws on systems theory to describe the importance of control actions in a complex system. An unsafe control action is a control action that, in a particular context and worst-case environment, will lead to a hazard.
+Dr. Nancy Leveson, in Engineering a Safer World [@8379642/U4HMK933] and the STPA Handbook [@8379642/TTN9MQSE], draws on systems theory to describe the importance of control actions in a complex system. An unsafe control action is a control action that, in a particular context and worst-case environment, will lead to a hazard.
 
 ## 4 ways control actions can be unsafe
 

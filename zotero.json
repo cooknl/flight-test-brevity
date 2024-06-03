@@ -1,164 +1,195 @@
 [
-	{
-		"id": "http://zotero.org/users/7103471/items/HVKQ4CHY",
-		"type": "book",
-		"abstract": "1. Purpose\nThis publication will improve coordination and understanding during multi-Service operations. A brevity code is a code which provides no security but which has as its sole purpose the shortening of messages rather than the concealment of its\ncontent.\n2. Scope\nThis publication standardizes air-to-air (A/A), air-to-surface (A/S), surface-to-air (S/A), surface-to-surface (S/S), maritime air, and maritime to maritime brevity\ncodes regardless of communication medium (voice/chat), as well as brevity codes (abbreviations) specific for use in tactical chat. The scope is limited to\nthose brevity codes used in multi-Service operations and does not include words unique to single-Service operations. All Services agree to these brevity code\nmeanings. These brevity codes have been forwarded to the NATO Standardization Office (NSO) terminology custodian for inclusion or modification of current joint brevity words in APP-7 and other appropriate Allied\nCommunications Publications.\n3. Applicability\nThis publication is intended for air, land, maritime, and space personnel conducting operations at the tactical level.",
-		"number-of-pages": "60",
-		"publisher": "HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000",
-		"title": "Multiservice Brevity Codes",
-		"title-short": "BREVITY",
-		"URL": "https://apps.dtic.mil/sti/pdfs/ADA404426.pdf",
-		"author": [
-			{
-				"literal": "FM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					2,
-					2
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2002",
-					2
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/7103471/items/A99Q8MZZ",
-		"type": "book",
-		"abstract": "This publication standardizes air-to-air, air-to-surface, surface-to-air, and surface-to-surface brevity code words. The scope is limited to those brevity codes used in multiservice operations and does not include words unique to single-service operations. While not authoritative in nature, all services agree to these brevity code meanings. These code words have been forwarded for inclusion or modification of current North Atlantic Treaty Organization (NATO) brevity code words.",
-		"edition": "Change 1 02 Apr 2021",
-		"number-of-pages": "92",
-		"publisher": "Director: ALSA Center 114 Andrews Street Joint Base Langley-Eustis, VA 23665-2785",
-		"title": "Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes",
-		"title-short": "BREVITY",
-		"URL": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf",
-		"author": [
-			{
-				"literal": "ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					2,
-					11
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2020",
-					5,
-					28
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/7103471/items/75HMNJBF",
-		"type": "article-journal",
-		"abstract": "Chunking is the recoding of smaller units of information into larger, familiar units. Chunking is often assumed to help bypassing the limited capacity of working memory (WM). We investigate how chunks are used in WM tasks, addressing three questions: (a) Does chunking reduce the load on WM? Across four experiments chunking benefits were found not only for recall of the chunked but also of other not-chunked information concurrently held in WM, supporting the assumption that chunking reduces load. (b) Is the chunking benefit independent of chunk size? The chunking benefit was independent of chunk size only if the chunks were composed of unique elements, so that each chunk could be replaced by its first element (Experiment 1), but not when several chunks consisted of overlapping sets of elements, disabling this replacement strategy (Experiments 2 and 3). The chunk-size effect is not due to differences in rehearsal duration as it persisted when participants were required to perform articulatory suppression (Experiment 3). Hence, WM capacity is not limited to a fixed number of chunks regardless of their size. (c) Does the chunking benefit depend on the serial position of the chunk? Chunks in early list positions improved recall of other, not-chunked material, but chunks at the end of the list did not. We conclude that a chunk reduces the load on WM via retrieval of a compact chunk representation from long-term memory that replaces the representations of individual elements of the chunk. This frees up capacity for subsequently encoded material. (PsycINFO Database Record (c) 2018 APA, all rights reserved).",
-		"container-title": "Journal of Experimental Psychology. Learning, Memory, and Cognition",
-		"DOI": "10.1037/xlm0000578",
-		"ISSN": "1939-1285",
-		"issue": "1",
-		"journalAbbreviation": "J Exp Psychol Learn Mem Cogn",
-		"language": "eng",
-		"note": "PMID: 29698045",
-		"page": "37-55",
-		"source": "PubMed",
-		"title": "How does chunking help working memory?",
-		"volume": "45",
-		"author": [
-			{
-				"family": "Thalmann",
-				"given": "Mirko"
-			},
-			{
-				"family": "Souza",
-				"given": "Alessandra S."
-			},
-			{
-				"family": "Oberauer",
-				"given": "Klaus"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019",
-					1
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/7103471/items/U4HMK933",
-		"type": "book",
-		"ISBN": "978-0-262-29824-7",
-		"language": "en",
-		"note": "DOI: 10.7551/mitpress/8179.001.0001",
-		"publisher": "The MIT Press",
-		"source": "DOI.org (Crossref)",
-		"title": "Engineering a Safer World: Systems Thinking Applied to Safety",
-		"title-short": "Engineering a Safer World",
-		"URL": "https://direct.mit.edu/books/book/2908/engineering-a-safer-worldsystems-thinking-applied",
-		"author": [
-			{
-				"family": "Leveson",
-				"given": "Nancy G."
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2023",
-					2,
-					26
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2012"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/7103471/items/TTN9MQSE",
-		"type": "book",
-		"number-of-pages": "188",
-		"title": "STPA Handbook",
-		"author": [
-			{
-				"family": "Leveson",
-				"given": "Nancy G."
-			},
-			{
-				"family": "Thomas",
-				"given": "John P."
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2018",
-					3
-				]
-			]
-		}
-	}
+    {
+        "id": "8379642/CIUVPW42",
+        "type": "book",
+        "title": "BREVITY - MULTI-SERVICE TACTICS,\nTECHNIQUES, AND PROCEDURES\nFOR MULTI-SERVICE BREVITY\nCODES",
+        "URL": "https://rdl.train.army.mil/catalog-ws/view/100.ATSC/5773E259-8F90-4694-97AD-81EFE6B73E63-1414757496033/atp1-02x1.pdf",
+        "author": [
+            {
+                "family": "ATP 1-02.1",
+                "given": ""
+            },
+            {
+                "family": "MCRP 3-30B.1",
+                "given": ""
+            },
+            {
+                "family": "NTTP 6-02.1",
+                "given": ""
+            },
+            {
+                "family": "3-2.5",
+                "given": "AFTTP"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2023,
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "id": "8379642/75HMNJBF",
+        "type": "article-journal",
+        "title": "How does chunking help working memory?",
+        "container-title": "Journal of Experimental Psychology. Learning, Memory, and Cognition",
+        "page": "37-55",
+        "volume": "45",
+        "issue": "1",
+        "abstract": "Chunking is the recoding of smaller units of information into larger, familiar units. Chunking is often assumed to help bypassing the limited capacity of working memory (WM). We investigate how chunks are used in WM tasks, addressing three questions: (a) Does chunking reduce the load on WM? Across four experiments chunking benefits were found not only for recall of the chunked but also of other not-chunked information concurrently held in WM, supporting the assumption that chunking reduces load. (b) Is the chunking benefit independent of chunk size? The chunking benefit was independent of chunk size only if the chunks were composed of unique elements, so that each chunk could be replaced by its first element (Experiment 1), but not when several chunks consisted of overlapping sets of elements, disabling this replacement strategy (Experiments 2 and 3). The chunk-size effect is not due to differences in rehearsal duration as it persisted when participants were required to perform articulatory suppression (Experiment 3). Hence, WM capacity is not limited to a fixed number of chunks regardless of their size. (c) Does the chunking benefit depend on the serial position of the chunk? Chunks in early list positions improved recall of other, not-chunked material, but chunks at the end of the list did not. We conclude that a chunk reduces the load on WM via retrieval of a compact chunk representation from long-term memory that replaces the representations of individual elements of the chunk. This frees up capacity for subsequently encoded material. (PsycINFO Database Record (c) 2018 APA, all rights reserved).",
+        "DOI": "10.1037/xlm0000578",
+        "note": "PMID: 29698045",
+        "journalAbbreviation": "J Exp Psychol Learn Mem Cogn",
+        "language": "eng",
+        "author": [
+            {
+                "family": "Thalmann",
+                "given": "Mirko"
+            },
+            {
+                "family": "Souza",
+                "given": "Alessandra S."
+            },
+            {
+                "family": "Oberauer",
+                "given": "Klaus"
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2019,
+                    1
+                ]
+            ]
+        }
+    },
+    {
+        "id": "8379642/U4HMK933",
+        "type": "book",
+        "title": "Engineering a Safer World: Systems Thinking Applied to Safety",
+        "publisher": "The MIT Press",
+        "URL": "https://direct.mit.edu/books/book/2908/engineering-a-safer-worldsystems-thinking-applied",
+        "ISBN": "9780262298247",
+        "note": "DOI: 10.7551/mitpress/8179.001.0001",
+        "shortTitle": "Engineering a Safer World",
+        "language": "en",
+        "author": [
+            {
+                "family": "Leveson",
+                "given": "Nancy G."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    2012
+                ]
+            ]
+        },
+        "accessed": {
+            "date-parts": [
+                [
+                    2023,
+                    2,
+                    27
+                ]
+            ]
+        }
+    },
+    {
+        "id": "8379642/TTN9MQSE",
+        "type": "book",
+        "title": "STPA Handbook",
+        "number-of-pages": "188",
+        "author": [
+            {
+                "family": "Leveson",
+                "given": "Nancy G."
+            },
+            {
+                "family": "Thomas",
+                "given": "John P."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2018",
+                    3
+                ]
+            ]
+        }
+    },
+    {
+        "id": "8379642/HVKQ4CHY",
+        "type": "book",
+        "title": "Multiservice Brevity Codes",
+        "publisher": "HQ TRADOC Attn: ATDO-A Fort Monroe Va 23651-5000",
+        "number-of-pages": "60",
+        "abstract": "1. Purpose\nThis publication will improve coordination and understanding during multi-Service operations. A brevity code is a code which provides no security but which has as its sole purpose the shortening of messages rather than the concealment of its\ncontent.\n2. Scope\nThis publication standardizes air-to-air (A/A), air-to-surface (A/S), surface-to-air (S/A), surface-to-surface (S/S), maritime air, and maritime to maritime brevity\ncodes regardless of communication medium (voice/chat), as well as brevity codes (abbreviations) specific for use in tactical chat. The scope is limited to\nthose brevity codes used in multi-Service operations and does not include words unique to single-Service operations. All Services agree to these brevity code\nmeanings. These brevity codes have been forwarded to the NATO Standardization Office (NSO) terminology custodian for inclusion or modification of current joint brevity words in APP-7 and other appropriate Allied\nCommunications Publications.\n3. Applicability\nThis publication is intended for air, land, maritime, and space personnel conducting operations at the tactical level.",
+        "URL": "https://apps.dtic.mil/sti/pdfs/ADA404426.pdf",
+        "shortTitle": "BREVITY",
+        "author": [
+            {
+                "family": "FM 3-97.18/MCRP 3-25B/NTTP 6-02.1/AFTTP(I) 3-2.5",
+                "given": ""
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2002",
+                    2
+                ]
+            ]
+        },
+        "accessed": {
+            "date-parts": [
+                [
+                    2023,
+                    2,
+                    2
+                ]
+            ]
+        }
+    },
+    {
+        "id": "8379642/A99Q8MZZ",
+        "type": "book",
+        "title": "Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes",
+        "publisher": "Director: ALSA Center 114 Andrews Street Joint Base Langley-Eustis, VA 23665-2785",
+        "number-of-pages": "92",
+        "edition": "Change 1 02 Apr 2021",
+        "abstract": "This publication standardizes air-to-air, air-to-surface, surface-to-air, and surface-to-surface brevity code words. The scope is limited to those brevity codes used in multiservice operations and does not include words unique to single-service operations. While not authoritative in nature, all services agree to these brevity code meanings. These code words have been forwarded for inclusion or modification of current North Atlantic Treaty Organization (NATO) brevity code words.",
+        "URL": "https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN32045-ATP_1-02.1-001-WEB-3.pdf",
+        "shortTitle": "BREVITY",
+        "author": [
+            {
+                "family": "ATP 1-02.1/MCRP 3-30B.1/NTTP 6-02.1/AFTTP 3-2.5",
+                "given": ""
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2020",
+                    5,
+                    28
+                ]
+            ]
+        },
+        "accessed": {
+            "date-parts": [
+                [
+                    2023,
+                    2,
+                    11
+                ]
+            ]
+        }
+    }
 ]
