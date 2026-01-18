@@ -1,5 +1,64 @@
 [
     {
+        "id": "8379642/F2NCKZDR",
+        "type": "book",
+        "title": "Multi-Service Tactics, Techniques, and Procedures for Multi-Service Brevity Codes",
+        "publisher": "Air Land Sea Space Application (ALSSA) Center",
+        "number-of-pages": "88",
+        "shortTitle": "Brevity 2025",
+        "issued": {
+            "date-parts": [
+                [
+                    2025,
+                    4
+                ]
+            ]
+        },
+        "accessed": {
+            "date-parts": [
+                [
+                    2026,
+                    1,
+                    17
+                ]
+            ]
+        }
+    },
+    {
+        "id": "8379642/TTN9MQSE",
+        "type": "book",
+        "title": "STPA Handbook",
+        "number-of-pages": "188",
+        "URL": "http://psas.scripts.mit.edu/home/get_file.php?name=STPA_Handbook.pdf",
+        "author": [
+            {
+                "family": "Leveson",
+                "given": "Nancy G."
+            },
+            {
+                "family": "Thomas",
+                "given": "John P."
+            }
+        ],
+        "issued": {
+            "date-parts": [
+                [
+                    "2018",
+                    3
+                ]
+            ]
+        },
+        "accessed": {
+            "date-parts": [
+                [
+                    2026,
+                    1,
+                    17
+                ]
+            ]
+        }
+    },
+    {
         "id": "8379642/CIUVPW42",
         "type": "book",
         "title": "BREVITY - MULTI-SERVICE TACTICS,\nTECHNIQUES, AND PROCEDURES\nFOR MULTI-SERVICE BREVITY\nCODES",
@@ -96,30 +155,6 @@
                     2023,
                     2,
                     27
-                ]
-            ]
-        }
-    },
-    {
-        "id": "8379642/TTN9MQSE",
-        "type": "book",
-        "title": "STPA Handbook",
-        "number-of-pages": "188",
-        "author": [
-            {
-                "family": "Leveson",
-                "given": "Nancy G."
-            },
-            {
-                "family": "Thomas",
-                "given": "John P."
-            }
-        ],
-        "issued": {
-            "date-parts": [
-                [
-                    "2018",
-                    3
                 ]
             ]
         }

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Flight Test Brevity - Appendix B — Multiservice Codes Applicable to Flight Test</title>
+<title>Appendix B — Multiservice Codes Applicable to Flight Test – Flight Test Brevity</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -32,22 +32,30 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./unsafe-comm.html" rel="next">
 <link href="./flight-test-brevity-codes-sections.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-ed1130e1cb7fac39275fa08eb951aadf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,23 +64,30 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Appendix B — Multiservice Codes Applicable to Flight Test</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./flight-test-brevity-codes-sections.html">Appendices</a></li><li class="breadcrumb-item"><a href="./multiservice-codes-applicable-to-flight-test.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -80,73 +95,83 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Flight Test Brevity</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/cooknl/flight-test-brevity" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/cooknl/flight-test-brevity" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./principles.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Principles of Brevity</span></a>
+  <a href="./principles.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Principles of Brevity</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">References</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Appendices</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./flight-test-brevity-codes-sections.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></a>
+  <a href="./flight-test-brevity-codes-sections.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./multiservice-codes-applicable-to-flight-test.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></a>
+  <a href="./multiservice-codes-applicable-to-flight-test.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./unsafe-comm.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Unsafe Communication</span></a>
+  <a href="./unsafe-comm.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Unsafe Communication</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./test-run.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Test Run Flow</span></a>
+  <a href="./test-run.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Test Run Flow</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./comm-plan.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Communications Plan</span></a>
+  <a href="./comm-plan.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Communications Plan</span></span></a>
   </div>
 </li>
       </ul>
@@ -154,34 +179,35 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul class="collapse">
-  <li><a href="#symbol-keys" id="toc-symbol-keys" class="nav-link active" data-scroll-target="#symbol-keys"><span class="toc-section-number">B.1</span>  Symbol Keys</a></li>
-  <li><a href="#attention-getting-codes" id="toc-attention-getting-codes" class="nav-link" data-scroll-target="#attention-getting-codes"><span class="toc-section-number">B.2</span>  Attention-Getting Codes</a></li>
-  <li><a href="#informative-geometry-codes" id="toc-informative-geometry-codes" class="nav-link" data-scroll-target="#informative-geometry-codes"><span class="toc-section-number">B.3</span>  Informative Geometry Codes</a></li>
-  <li><a href="#relative-geometry-codes" id="toc-relative-geometry-codes" class="nav-link" data-scroll-target="#relative-geometry-codes"><span class="toc-section-number">B.4</span>  <strong>Relative Geometry Codes</strong></a></li>
-  <li><a href="#picture-geometry-codes" id="toc-picture-geometry-codes" class="nav-link" data-scroll-target="#picture-geometry-codes"><span class="toc-section-number">B.5</span>  Picture Geometry Codes</a></li>
-  <li><a href="#single-ship-maneuver-codes" id="toc-single-ship-maneuver-codes" class="nav-link" data-scroll-target="#single-ship-maneuver-codes"><span class="toc-section-number">B.6</span>  Single-Ship Maneuver Codes</a></li>
-  <li><a href="#request-codes" id="toc-request-codes" class="nav-link" data-scroll-target="#request-codes"><span class="toc-section-number">B.7</span>  Request Codes</a></li>
-  <li><a href="#weapon-codes" id="toc-weapon-codes" class="nav-link" data-scroll-target="#weapon-codes"><span class="toc-section-number">B.8</span>  Weapon Codes</a></li>
-  <li><a href="#sensor-codes" id="toc-sensor-codes" class="nav-link" data-scroll-target="#sensor-codes"><span class="toc-section-number">B.9</span>  Sensor Codes</a></li>
-  <li><a href="#avionicsdatalink-codes" id="toc-avionicsdatalink-codes" class="nav-link" data-scroll-target="#avionicsdatalink-codes"><span class="toc-section-number">B.10</span>  Avionics/Datalink Codes</a></li>
-  <li><a href="#clearance-codes" id="toc-clearance-codes" class="nav-link" data-scroll-target="#clearance-codes"><span class="toc-section-number">B.11</span>  Clearance Codes</a></li>
-  <li><a href="#flight-condition-codes" id="toc-flight-condition-codes" class="nav-link" data-scroll-target="#flight-condition-codes"><span class="toc-section-number">B.12</span>  Flight Condition Codes</a></li>
-  <li><a href="#rules-of-engagement-identification-codes" id="toc-rules-of-engagement-identification-codes" class="nav-link" data-scroll-target="#rules-of-engagement-identification-codes"><span class="toc-section-number">B.13</span>  Rules of Engagement &amp; Identification Codes</a></li>
+  <li><a href="#symbol-keys" id="toc-symbol-keys" class="nav-link active" data-scroll-target="#symbol-keys"><span class="header-section-number">B.1</span> Symbol Keys</a></li>
+  <li><a href="#attention-getting-codes" id="toc-attention-getting-codes" class="nav-link" data-scroll-target="#attention-getting-codes"><span class="header-section-number">B.2</span> Attention-Getting Codes</a></li>
+  <li><a href="#informative-geometry-codes" id="toc-informative-geometry-codes" class="nav-link" data-scroll-target="#informative-geometry-codes"><span class="header-section-number">B.3</span> Informative Geometry Codes</a></li>
+  <li><a href="#relative-geometry-codes" id="toc-relative-geometry-codes" class="nav-link" data-scroll-target="#relative-geometry-codes"><span class="header-section-number">B.4</span> <strong>Relative Geometry Codes</strong></a></li>
+  <li><a href="#picture-geometry-codes" id="toc-picture-geometry-codes" class="nav-link" data-scroll-target="#picture-geometry-codes"><span class="header-section-number">B.5</span> Picture Geometry Codes</a></li>
+  <li><a href="#single-ship-maneuver-codes" id="toc-single-ship-maneuver-codes" class="nav-link" data-scroll-target="#single-ship-maneuver-codes"><span class="header-section-number">B.6</span> Single-Ship Maneuver Codes</a></li>
+  <li><a href="#request-codes" id="toc-request-codes" class="nav-link" data-scroll-target="#request-codes"><span class="header-section-number">B.7</span> Request Codes</a></li>
+  <li><a href="#weapon-codes" id="toc-weapon-codes" class="nav-link" data-scroll-target="#weapon-codes"><span class="header-section-number">B.8</span> Weapon Codes</a></li>
+  <li><a href="#sensor-codes" id="toc-sensor-codes" class="nav-link" data-scroll-target="#sensor-codes"><span class="header-section-number">B.9</span> Sensor Codes</a></li>
+  <li><a href="#avionicsdatalink-codes" id="toc-avionicsdatalink-codes" class="nav-link" data-scroll-target="#avionicsdatalink-codes"><span class="header-section-number">B.10</span> Avionics/Datalink Codes</a></li>
+  <li><a href="#clearance-codes" id="toc-clearance-codes" class="nav-link" data-scroll-target="#clearance-codes"><span class="header-section-number">B.11</span> Clearance Codes</a></li>
+  <li><a href="#flight-condition-codes" id="toc-flight-condition-codes" class="nav-link" data-scroll-target="#flight-condition-codes"><span class="header-section-number">B.12</span> Flight Condition Codes</a></li>
+  <li><a href="#rules-of-engagement-identification-codes" id="toc-rules-of-engagement-identification-codes" class="nav-link" data-scroll-target="#rules-of-engagement-identification-codes"><span class="header-section-number">B.13</span> Rules of Engagement &amp; Identification Codes</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/cooknl/flight-test-brevity/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/cooknl/flight-test-brevity/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./flight-test-brevity-codes-sections.html">Appendices</a></li><li class="breadcrumb-item"><a href="./multiservice-codes-applicable-to-flight-test.html"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Multiservice Codes Applicable to Flight Test</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span id="sec-multiservice" class="quarto-section-identifier d-none d-lg-block">Appendix B — Multiservice Codes Applicable to Flight Test</span></h1>
+<h1 class="title"><span id="sec-multiservice" class="quarto-section-identifier">Appendix B — Multiservice Codes Applicable to Flight Test</span></h1>
 </div>
 
 
@@ -194,7 +220,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <section id="symbol-keys" class="level2" data-number="B.1">
 <h2 data-number="B.1" class="anchored" data-anchor-id="symbol-keys"><span class="header-section-number">B.1</span> Symbol Keys</h2>
@@ -205,9 +233,13 @@ ul.task-list li input[type="checkbox"] {
 <li>{I} Inform</li>
 <li>{R} Request</li>
 </ul>
-<div id="tbl-ms-key" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.1: Key to Multi-Service Brevity Codes</caption>
+<div id="tbl-ms-key" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 35, 35]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-key-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.1: Key to Multi-Service Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-key-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 35%">
@@ -254,13 +286,19 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 </section>
 <section id="attention-getting-codes" class="level2" data-number="B.2">
 <h2 data-number="B.2" class="anchored" data-anchor-id="attention-getting-codes"><span class="header-section-number">B.2</span> Attention-Getting Codes</h2>
 <p><strong>Attention-Getting</strong> codes have significant potential for miscommunication. This is often because test aircrew and operators were trained in an operational context, whereas test and range personnel were trained in a test context. Because of the urgent nature of attention-getting codes, they must be carefully defined for each test and briefed carefully.</p>
-<div id="tbl-ms-attention" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.2: Attention-Getting Brevity Codes</caption>
+<div id="tbl-ms-attention" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 35, 35]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-attention-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.2: Attention-Getting Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-attention-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 35%">
@@ -333,11 +371,16 @@ Brevity Code</th>
 <td>In test, typically used to indicate a safety of flight concern, directing cease of testing and resumption of “normal” flight. Followed by discussion of cause and next action to be taken.</td>
 </tr>
 <tr class="odd">
+<td>LAME DUCK</td>
+<td>{I} An aircraft in a minor state of emergency (e.g., an aircraft is troubleshooting a non-critical systems malfunction).</td>
+<td>More specific than STANDBY</td>
+</tr>
+<tr class="even">
 <td>[object] NO FACTOR</td>
 <td>{I} [A/A] [A/S] [S/A] Stated [object] is not a threat.</td>
 <td>Declaring that an identified object will not interfere with safety of flight or test.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>NO JOY◬</td>
 <td><ol type="1">
 <li>{I} [A/A] [A/S] [S/A] [SO] Aircrew does not have visual contact with the TARGET or BANDIT.<br>
@@ -346,12 +389,12 @@ Opposite of TALLY.</li>
 </ol></td>
 <td>◬Similar to BLIND, but BLIND is for FRIENDLY; NO JOY is for everyone else.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>PADLOCKED</td>
 <td>{I} Aircrew cannot take eyes off an aircraft, ground target, or surface position without risk of losing TALLY or VISUAL.</td>
 <td>Indicates aircrew is task saturated and channelized.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>SOUR</td>
 <td><ol type="1">
 <li>{I} (mode/type) [A/A] [S/A] Invalid or no response to an administrative IFF or selective ID feature check.</li>
@@ -359,29 +402,29 @@ Opposite of TALLY.</li>
 </ol></td>
 <td>Useful in systems testing to indicate that testing will be affecting by system problems.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>STRANGER</td>
 <td>{I} [A/A] Unidentified traffic that is not a participant in the action in progress.</td>
 <td>Traffic that could conflict with test execution or flight safety.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>TALLY</td>
 <td><p>{I} Sighting of a target, non-friendly aircraft, or enemy position.</p>
 <p>Opposite of NO JOY.</p></td>
 <td>Can be used to indicate successful sighting during test execution.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>TERMINATE◬</td>
 <td>{D} [A/A] In training, cease local engagement without affecting the overall exercise.</td>
 <td><p>Sometimes used to cease test execution, prior to test maneuver completion. In test, this means whatever the test team briefed it to mean, but it is typically different from standard brevity code.</p>
 <p>◬BE CAREFUL TO CLEARLY DEFINE USE WHEN FLIGHT TERMINATION SYSTEMS ARE EMPLOYED!!! Consider CEASE TEST as an alternative</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>TUMBLEWEED</td>
-<td>{I + R} I have limited situational awareness (i.e., NO JOY, BLIND), and I request information.</td>
+<td>{I + R} Request for information due to limited or loss of situational awareness, (e.g., NO JOY, BLIND)</td>
 <td>HELP!! Can be used to indicate extreme disorientation.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>VISUAL</td>
 <td><p>{I} Sighting of a FRIENDLY aircraft, ground position, or ship.</p>
 <p>Opposite of BLIND.</p></td>
@@ -390,13 +433,19 @@ Opposite of TALLY.</li>
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 </section>
 <section id="informative-geometry-codes" class="level2" data-number="B.3">
 <h2 data-number="B.3" class="anchored" data-anchor-id="informative-geometry-codes"><span class="header-section-number">B.3</span> Informative Geometry Codes</h2>
 <p><strong>Informative Geometry</strong> codes communicate a general condition. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-informative" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.3: Informative Geometry Brevity Codes</caption>
+<div id="tbl-ms-informative" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-informative-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.3: Informative Geometry Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-informative-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 18%">
 <col style="width: 41%">
@@ -474,13 +523,19 @@ Opposite of SADDLED.</td>
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 </section>
 <section id="relative-geometry-codes" class="level2" data-number="B.4">
 <h2 data-number="B.4" class="anchored" data-anchor-id="relative-geometry-codes"><span class="header-section-number">B.4</span> <strong>Relative Geometry Codes</strong></h2>
 <p><strong>Relative Geometry</strong> codes provide relationship between two air vehicles, both location and angles. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-relative" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.4: Relative Geometry Brevity Codes</caption>
+<div id="tbl-ms-relative" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-relative-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.4: Relative Geometry Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-relative-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -496,7 +551,7 @@ Brevity Code</th>
 <tr class="odd">
 <td>BEAM<br>
 [direction]</td>
-<td>{I} [A/A] CONTACT stabilized within 70 to 110 degrees of aspect.</td>
+<td>{I} [A/A] CONTACT stabilized within 60-109 degrees angle of trail or 71-120 degrees angle from nose.</td>
 </tr>
 <tr class="even">
 <td>BRAA</td>
@@ -530,12 +585,12 @@ Opposite of OPENING.</td>
 <tr class="even">
 <td>DRAG<br>
 [cardinal direction]</td>
-<td>{I} [A/A] CONTACT aspect stabilized at 0–60 degrees angle from tail or 120–180 degrees angle from nose.</td>
+<td>{I} [A/A] Contact aspect stabilized at 0–59 degrees angle from tail or 121–180 degrees angle from nose.</td>
 </tr>
 <tr class="odd">
 <td>FLANK<br>
 [direction]</td>
-<td>{I} [A/A] CONTACT aspect stabilized at 120–150 degrees angle from tail or 30–60 degrees angle from nose.</td>
+<td>{I} [A/A] CONTACT aspect stabilized at 110–149 degrees angle from tail or 31–70 degrees angle from nose.</td>
 </tr>
 <tr class="even">
 <td>HOT</td>
@@ -543,7 +598,7 @@ Opposite of OPENING.</td>
 <li>{D or I} [A/A] Initiate or initiating a turn in the combat air patrol toward the anticipated threats.<br>
 Opposite of COLD.</li>
 <li>{I} [A/A] Intercept geometry will result in passing in front of the target.</li>
-<li>{I} CONTACT aspect stabilized at 160–180 degrees angle from tail or 0–20 degrees angle from nose.</li>
+<li>{I} CONTACT aspect stabilized at 150–180 degrees angle from tail or 0–30 degrees angle from nose.</li>
 <li>{I} Defined area is expected to receive fire (enemy or FRIENDLY).<br>
 Opposite of COLD.</li>
 <li>{I} Ordnance employment intended or completed.<br>
@@ -565,19 +620,29 @@ Opposite of CLOSING.</td>
 </tbody>
 </table>
 </div>
-<div id="fig-aspect" class="quarto-figure quarto-figure-center anchored">
-<figure class="figure">
-<p><img src="./images/aspect-geometry.png" style="width:6.5in;height:4.44617in" class="figure-img"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;B.1: The Relation Between Aspect Angles and Relative Geometry Brevity Codes</figcaption><p></p>
+</figure>
+</div>
+<div id="fig-aspect" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-aspect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="./images/aspect-geometry.png" style="width:6.5in;height:4.44617in" class="figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-aspect-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;B.1: The Relation Between Aspect Angles and Relative Geometry Brevity Codes
+</figcaption>
 </figure>
 </div>
 </section>
 <section id="picture-geometry-codes" class="level2" data-number="B.5">
 <h2 data-number="B.5" class="anchored" data-anchor-id="picture-geometry-codes"><span class="header-section-number">B.5</span> Picture Geometry Codes</h2>
 <p><strong>“Picture” Geometry</strong> codes provide an overview of the tactical airspace. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-picture" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.5: “Picture” Geometry Brevity Codes</caption>
+<div id="tbl-ms-picture" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-picture-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.5: “Picture” Geometry Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-picture-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -631,6 +696,14 @@ For Battle Damage (BD) checks “Clean and Dry” means no damage and no leaking
 Aircraft configuration. Be careful and be specific. Better to state explicitly the<br>
 required configuration than to just say “clean.”</li>
 </ol></td>
+</tr>
+<tr class="odd">
+<td>WAVE</td>
+<td>{I} [A/A] One or more follow-on GROUPS in a coordinated, defense-in-depth tactic. WAVES are numbered sequentially (e.g., “First WAVE, second WAVE”).</td>
+</tr>
+<tr class="even">
+<td>TSUNAMI</td>
+<td>{I} [A/A] Three or more WAVES.</td>
 </tr>
 <tr class="odd">
 <td><strong>2 Groups</strong></td>
@@ -756,10 +829,14 @@ required configuration than to just say “clean.”</li>
 <td>{I} [A/A] Two GROUPs initially separated in range, decrease range separation and are passing each other.</td>
 </tr>
 <tr class="odd">
+<td>SPREAD</td>
+<td>{I} [A/A] A GROUP maneuver where all contacts remain at a FLANK or HOT aspect.</td>
+</tr>
+<tr class="even">
 <td>SWITCHED</td>
 <td>{I} [A/A] Attacker is changing from one aircraft to another.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>TRACK [direction]</td>
 <td><ol type="1">
 <li>{I} [A/A] GROUP or CONTACTS direction of flight or movement.</li>
@@ -771,152 +848,189 @@ required configuration than to just say “clean.”</li>
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 </section>
 <section id="single-ship-maneuver-codes" class="level2" data-number="B.6">
 <h2 data-number="B.6" class="anchored" data-anchor-id="single-ship-maneuver-codes"><span class="header-section-number">B.6</span> Single-Ship Maneuver Codes</h2>
 <p><strong>Single-ship maneuver</strong> codes direct or describe single-ship maneuvers. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-maneuver" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.6: Single-Ship Maneuver Brevity Codes</caption>
+<div id="tbl-ms-maneuver" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-maneuver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.6: Single-Ship Maneuver Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-maneuver-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
-<col style="width: 30%">
-<col style="width: 70%">
+<col style="width: 18%">
+<col style="width: 41%">
+<col style="width: 41%">
 </colgroup>
-<thead>
-<tr class="header">
-<th>Single-Ship Maneuver Brevity<br>
-Code</th>
-<th>Definition</th>
-</tr>
-</thead>
 <tbody>
 <tr class="odd">
-<td>BANZAI</td>
-<td>{D or I} [A/A] Execute(ing) launch and decide tactics with the intent to maneuver into the visual arena.<br>
+<td>Single-Ship Maneuver Brevity<br>
+Code ================================= BANZAI</td>
+<td><p>Definition</p>
+<p>============================================================================================================================================================================= {D or I} [A/A] Execute(ing) launch and decide tactics with the intent to maneuver into the visual arena.<br>
 <br>
-Launch your missiles, then continue to the target. May end up as a merge. Not common in DT, but significant for OT tactics. Also, fun to say, with aerial combat overtones.</td>
+Launch your missiles, then continue to the target. May end up as a merge. Not common in DT, but significant for OT tactics. Also, fun to say, with aerial combat overtones.</p></td>
+<td></td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>BRACKET<br>
 [direction]</td>
 <td>{D} [A/A] [A/S] Maneuver to a position on opposite sides, either laterally or vertically from the target.</td>
-</tr>
-<tr class="odd">
-<td>BUSTER</td>
-<td>{D or I} Fly at maximum continuous speed (military power).</td>
+<td></td>
 </tr>
 <tr class="even">
+<td>BUSTER</td>
+<td>{D or I} Fly at maximum continuous speed (military power).</td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>CRANK<br>
 [direction]</td>
 <td>{D} [A/A] Maneuver in the direction indicated. Implies illuminating target at or near radar GIMBAL limits.</td>
+<td></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>EXTEND(ING)<br>
 [direction]</td>
 <td>{D or I} [A/A] [A/S] Short-term maneuver to gain energy, distance, or separation with the intent of reengaging.</td>
-</tr>
-<tr class="even">
-<td>GATE</td>
-<td>{D or I} Fly as quickly as possible, using afterburner or maximum power.</td>
+<td></td>
 </tr>
 <tr class="odd">
+<td>GATE</td>
+<td>{D or I} Fly as quickly as possible, using afterburner or maximum power.</td>
+<td></td>
+</tr>
+<tr class="even">
 <td>HOT</td>
 <td><ol type="1">
 <li>{D or I} [A/A] Initiate or initiating a turn in the combat air patrol toward the anticipated threats.<br>
 Opposite of COLD.</li>
 <li>{I} [A/A] Intercept geometry will result in passing in front of the target.</li>
-<li>{I} CONTACT aspect stabilized at 160–180 degrees angle from tail or 0–20 degrees angle from nose.</li>
+<li>{I} CONTACT aspect stabilized at 150–180 degrees angle from tail or 0–30 degrees angle from nose.</li>
 <li>{I} Defined area is expected to receive fire (enemy or FRIENDLY).<br>
 Opposite of COLD.</li>
 <li>{I} Ordnance employment intended or completed.<br>
 Opposite of DRY.</li>
 </ol></td>
+<td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>JINK</td>
 <td>{D or I} [A/A] [A/S] Perform an unpredictable maneuver to negate a tracking solution.</td>
-</tr>
-<tr class="odd">
-<td>LEAN [direction]</td>
-<td>{D or I} [A/A] [A/S] Offset package or element in specified direction maintaining briefed altitude, airspeed, and formation.</td>
-</tr>
-<tr class="even">
-<td>NOTCH(ING)<br>
-[direction]</td>
-<td>{D or I} [A/A] [A/S] [S/A] Aircraft is in a defensive position. Maneuver(ing) with reference to a threat.</td>
-</tr>
-<tr class="odd">
-<td>OFFSET [direction]</td>
-<td>{D or I} Maneuver in a specified direction with reference to the target.</td>
-</tr>
-<tr class="even">
-<td>PUMP</td>
-<td>{D or I} [A/A] A briefed maneuver to minimize closure on the threat or geographical boundary with the intent to reengage.</td>
-</tr>
-<tr class="odd">
-<td>SKATE</td>
-<td>{D or I} A/A] Informative or directive call to execute launch and leave tactics at a pre-briefed range. Modifiers can include LONG and SHORT.<br>
-<br>
-Launch your missiles, then turn away to fight another day prior to a briefed distance from the target.</td>
-</tr>
-<tr class="even">
-<td>STERN</td>
-<td>{D or R} [A/A] Requests for, or directive to, intercept using STERN geometry.</td>
-</tr>
-<tr class="odd">
-<td><strong>Turns</strong></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>CHECK [number, left or right]</td>
-<td>{D} [A/A] Turn (number) degrees left or right and maintain new heading.</td>
+<td>LEAN [direction]</td>
+<td>{D or I} [A/A] [A/S] Offset package or element in specified direction maintaining briefed altitude, airspeed, and formation.</td>
+<td></td>
 </tr>
 <tr class="odd">
+<td>NOTCH(ING)<br>
+[direction]</td>
+<td>{D or I} [A/A] [A/S] [S/A] Aircraft is in a defensive position. Maneuver(ing) with reference to a threat.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>OFFSET [direction]</td>
+<td>{D or I} Maneuver in a specified direction with reference to the target.</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>PUMP</td>
+<td>{D or I} [A/A] A briefed maneuver to minimize closure on the threat or geographical boundary with the intent to reengage.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>SKATE</td>
+<td>{D or I} A/A] Informative or directive call to execute launch and leave tactics at a pre-briefed range. Modifiers include LONG, SHORT, and QUICK.<br>
+&nbsp; | Launch your missiles, then turn away to fight another day prior to a briefed distance from the target. |</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>STERN</td>
+<td>{D or R} [A/A] Requests for, or directive to, intercept using STERN geometry.</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Turns</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>CHECK [number, left or right]</td>
+<td>{D} [A/A] Turn (number) degrees left or right and maintain new heading.</td>
+<td></td>
+</tr>
+<tr class="even">
 <td>COME OFF<br>
 [direction]</td>
 <td><ol type="1">
 <li>{D} [A/A] Maneuver as indicated to either regain mutual support or to deconflict flight paths. Implies both VISUAL and TALLY.</li>
 <li>{D} [A/S] Maneuver or execute a specific instruction.</li>
 </ol></td>
-</tr>
-<tr class="even">
-<td>HARD [left, right, direction]</td>
-<td>{D} High-G-force, energy sustaining turn in the indicated direction (default is a 180-degree turn).</td>
+<td></td>
 </tr>
 <tr class="odd">
+<td>HARD [left, right, direction]</td>
+<td>{D} High-G-force, energy sustaining turn in the indicated direction (default is a 180-degree turn).</td>
+<td></td>
+</tr>
+<tr class="even">
 <td>HOOK</td>
 <td><ol type="1">
 <li>{D} (direction) [A/A] Perform an in-place, 180-degree turn.</li>
 <li>{D} (track # or descriptor) Data link directive call to cue sensors to described point (e.g., point of interest, SAM, MARKPOINT, track number, etc.).</li>
 </ol></td>
+<td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>IN PLACE [direction]</td>
 <td>{D} [A/A] Perform indicated maneuver simultaneously.</td>
-</tr>
-<tr class="odd">
-<td>PITCH/PITCHBACK [left/right]</td>
-<td>{D} [A/A] Execute a nose-high heading reversal.</td>
+<td></td>
 </tr>
 <tr class="even">
-<td>SLICE/SLICEBACK [left/right]</td>
-<td>{D} [A/A] Perform a high-G descending turn in the stated direction, usually 180-degree turn.</td>
+<td>PITCH/PITCHBACK [left/right]</td>
+<td>{D} [A/A] Execute a nose-high heading reversal.</td>
+<td></td>
 </tr>
 <tr class="odd">
+<td>SLICE/SLICEBACK [left/right]</td>
+<td>{D} [A/A] Perform a high-G descending turn in the stated direction, usually 180-degree turn.</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><strong>Non-Engagement</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>ELEVATOR [altitude]</td>
+<td>{D or R} Directive or request call to change altitude to the specified altitude in thousands of feet MSL.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>FLOAT(ING)</td>
 <td>{D or I} [A/A] Expand(ing) the formation laterally within visual limits to maintain radar contact or prepare for a defensive response.</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>FLOW [direction or heading]</td>
 <td>{D or I} [A/A] Maneuver in stated direction or heading. Can be used to begin cold operations.</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>MARSHAL(ING)</td>
 <td>{D or I} Establish(ed) at a specific point, typically used to posture forces in preparation for an offensive operation.</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>POP</td>
@@ -924,33 +1038,44 @@ Launch your missiles, then turn away to fight another day prior to a briefed dis
 <li>{I} [A/S] Starting climb for A/S attack.</li>
 <li>{D or I} [A/A] Max performance climb out of low-altitude structure.</li>
 </ol></td>
+<td></td>
 </tr>
 <tr class="even">
 <td>POST HOLE</td>
 <td>{D or I} [A/A] Rapid descending spiral.</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>SHACKLE</td>
 <td>{D or I} [A/A] One weave; a single crossing of flight paths; maneuver to adjust or regain formation parameters.</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>SPIN</td>
 <td>{D or I} [A/A] Execute(ing) a timing or spacing maneuver.</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>SPLIT</td>
 <td>{D or I} Flight member is leaving formation to pursue a separate attack; VISUAL may not be maintained.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
 </div>
 </section>
 <section id="request-codes" class="level2" data-number="B.7">
 <h2 data-number="B.7" class="anchored" data-anchor-id="request-codes"><span class="header-section-number">B.7</span> Request Codes</h2>
 <p><strong>Request</strong> codes compress questions into single words. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-request" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.7: Request Brevity Codes</caption>
+<div id="tbl-ms-request" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-request-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.7: Request Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-request-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -980,18 +1105,24 @@ Brevity Code</th>
 </tr>
 <tr class="even">
 <td>WORDS</td>
-<td>{D or R} Directive or interrogative call regarding further information or directives pertinent to the mission.</td>
+<td>{D or R} Directive calls or interrogative requests regarding further information or directives pertinent to the mission or operating area. Generated by the tactical command and control agencies and outlined in the theater-specific SPINS.</td>
 </tr>
 </tbody>
 </table>
+</div>
+</figure>
 </div>
 </section>
 <section id="weapon-codes" class="level2" data-number="B.8">
 <h2 data-number="B.8" class="anchored" data-anchor-id="weapon-codes"><span class="header-section-number">B.8</span> Weapon Codes</h2>
 <p><strong>Weapon</strong> codes are related to employment of munitions. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-weapon" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.8: Weapon Brevity Codes</caption>
+<div id="tbl-ms-weapon" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-weapon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.8: Weapon Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-weapon-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -1010,6 +1141,22 @@ Brevity Code</th>
 <p><strong>NOTE:</strong> Include launch location in BULLSEYE format and weapons track direction when appropriate</p></td>
 </tr>
 <tr class="even">
+<td>BAT(S)</td>
+<td>{I} [A/S] FRIENDLY net-enabled glide weapon(s) with a multi-mode seeker (e.g., standoff weapon, guided bomb unit, small diameter bomb).</td>
+</tr>
+<tr class="odd">
+<td>BERETTA</td>
+<td>{I} [A/S] Aircraft is out of or unable to employ remaining air-to-ground ordnance, not to include gun (if equipped).</td>
+</tr>
+<tr class="even">
+<td>DOUBLE TAP</td>
+<td>{D} [A/A] Shoot two (2) air-to-air missiles (AAMs) into designated CONTACT, or 2 AAMs per CONTACT within a GROUP.</td>
+</tr>
+<tr class="odd">
+<td>FLOCK</td>
+<td>{I} [A/S] [EW] [S/A] Two or more ROOSTERS.</td>
+</tr>
+<tr class="even">
 <td>FOX [number]</td>
 <td>{I} [A/A] Simulated or actual launch of air-to-air weapons.<br>
 (ONE): Semi active radar-guided missile.<br>
@@ -1021,21 +1168,38 @@ Brevity Code</th>
 <td>{I} [A/A] [A/S] Aircraft gun is being employed.</td>
 </tr>
 <tr class="even">
+<td>LONG RIFLE [number, time]</td>
+<td><p>{I} [A/S] Employment of long range (e.g., ≥100 NM maximum range) air-to-surface munition with sustained propulsion (e.g., air-launched cruise missile). Option to add follow-on modifiers for number of munitions and/or time of flight.</p>
+<p><strong>NOTE:</strong> Include launch location in BULLSEYE format and weapons track direction when appropriate</p></td>
+</tr>
+<tr class="odd">
 <td>MILLER TIME</td>
 <td>{I} [A/S] Completion of A/S ordnance delivery. Generally used by the last striker in conjunction with a precoordinated egress plan.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>PIG(S)</td>
 <td>{I} [A/S] FRIENDLY glide weapon(s) (e.g., standoff weapon, guided bomb unit, small diameter bomb). See (weapon) AWAY.</td>
 </tr>
+<tr class="odd">
+<td>REMINGTON</td>
+<td>{I} 1. [A/A] Aircraft is out of, or unable to employ remaining air-to-air ordnance, not to include gun (if equipped). 2. [S/A] [MAR] No ordnance remaining except gun or self-protection ammunition.</td>
+</tr>
 <tr class="even">
 <td>RIFLE [number, time]</td>
-<td><p>{I} [A/S] [AIR-MAR] FRIENDLY A/S missile launch. Option to add follow on modifiers for number of munitions and/or time of flight.</p>
+<td><p>{I} [A/S] [AIR-MAR] [A/S] [AIR-MAR] Employment of short range (e.g., &lt;100 NM maximum range) air-to-surface munition. Option to add follow-on modifiers for number of munitions and/or time of flight.</p>
 <p><strong>NOTE:</strong> Include launch location in BULLSEYE format and weapons track direction when appropriate</p></td>
 </tr>
 <tr class="odd">
 <td>RIPPLE</td>
-<td>{D or I{ [A/S] [S/A] [AIR-MAR] Two or more munitions will be released or fired in close succession. Typically associated with number and type of weapon with release interval. (Normally discussed during the pre-strike game plan between aircraft and/or between aircraft and ground tactical controller).</td>
+<td>{D or I} [A/S] [S/A] [AIR-MAR] Two or more munitions will be released or fired in close succession. Typically associated with number and type of weapon with release interval. (Normally discussed during the pre-strike game plan between aircraft and/or between aircraft and ground tactical controller).</td>
+</tr>
+<tr class="even">
+<td>ROOSTER</td>
+<td>{I} [A/S] [EW] [S/A] Enemy antiradiation missile.</td>
+</tr>
+<tr class="odd">
+<td>SCORPION</td>
+<td>{I} [S/A] Enemy man-portable air defense system (MANPADS).</td>
 </tr>
 <tr class="even">
 <td>SHOOTER</td>
@@ -1064,6 +1228,10 @@ Brevity Code</th>
 <td>{I} [A/A] Fighter has acquired assigned GROUP and has assumed responsibility for it.</td>
 </tr>
 <tr class="odd">
+<td>TIGER</td>
+<td>{I} [A/A] Enough fuel and ordnance to accept a commit.</td>
+</tr>
+<tr class="even">
 <td>WHAT STATE</td>
 <td><p>{R} [A/A] Request for amount of fuel and missiles remaining. Response to WHAT STATE is:</p>
 <ol type="1">
@@ -1076,74 +1244,80 @@ BY<br>
 Example response to WHAT STATE:<br>
 “Blue 44 is 3-1-2 by 7 POINT 5” is equivalent to<br>
 3 AIM-120s, 1 AIM-7, 2 AIM-9s, gun with ammunition, and 7,500 lbs. of fuel remaining.</li>
-<li>(item) Ammunition and oxygen are reported only when specifically requested or critical. |</li>
+<li>(item) Ammunition and oxygen are reported only when specifically requested or critical.</li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>WINCHESTER</td>
 <td>{I} No ordnance remaining.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>HARM AGM-88</strong></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ARIZONA</td>
 <td>{I} [A/S] [EW] No anti-radiation missile ordnance remaining.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>MAGNUM [system, location]</td>
 <td>{I} [A/S] [EW] Launch of FRIENDLY anti-radiation missile.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>SLAPSHOT [type, bearing]</td>
 <td>{D or I} [A/S] [EW] Immediately employ a best available anti-radiation missile against a specified threat at the specified bearing.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>SNIPER [type, location (range, bearing)]</td>
 <td>{D or I} [A/S] [EW] Employ a range known anti-radiation missile against a specified threat at the specified location.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>WORKING</td>
 <td><ol type="1">
 <li>{I} [EW] (system with location) Platform gathering electronic EOB on a designated emitter.</li>
 <li>{I} [A/A] Platform executing electronic ID on a specific aircraft or GROUP to obtain ID necessary for BVR employment.</li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>AMRAAM AIM-120</strong></td>
 <td></td>
 </tr>
-<tr class="even">
-<td>CHEAPSHOT</td>
-<td>{I} [A/A] Active missile data link terminated between high and medium pulse repetition frequency (MPRF) active.</td>
-</tr>
 <tr class="odd">
+<td>CHEAPSHOT</td>
+<td>{I} [A/A] Active missile data link terminated prior to achieving an active state.</td>
+</tr>
+<tr class="even">
 <td>[2nd] FOX THREE/TWO/ONE [number] SHIP</td>
 <td>{I} [A/A] Simulated or actual missile launch against separate targets (assumes one missile per target) (e.g., “SWORD 12, FOX THREE 2 SHIP”). When 2nd prefix is used indicates simulated or actual launch of multiple missiles on the same target.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>HUSKY</td>
 <td>{I} [A/A] Active radar missile is at high pulse repetition frequency active range.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>PITBULL</td>
 <td>{I} [A/A] Air intercept missile (AIM)-120 is at MPRF active range.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>SKOSH</td>
 <td>{I} [A/A] Aircraft is out of or unable to employ active radar missiles.</td>
 </tr>
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 </section>
 <section id="sensor-codes" class="level2" data-number="B.9">
 <h2 data-number="B.9" class="anchored" data-anchor-id="sensor-codes"><span class="header-section-number">B.9</span> Sensor Codes</h2>
 <p><strong>Sensor</strong> codes provide information about radio-frequency, optical, and infrared sensors, as well as lasers used for designation and ranging. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-radar" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.9: Radar or Sensor Brevity Codes</caption>
+<div id="tbl-ms-radar" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-radar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.9: Radar or Sensor Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-radar-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -1155,6 +1329,14 @@ Example response to WHAT STATE:<br>
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>BLACKOUT</td>
+<td>{I} [MAR] Surface ship radar is unable to effectively search or transition tracking to a new object due to over saturation.</td>
+</tr>
+<tr class="even">
+<td>BUDDY [LASE or GUIDE ]</td>
+<td>{R or I} [A/S] Request or informative communication to have weapon guidance from a source other than delivering aircraft.</td>
+</tr>
 <tr class="odd">
 <td>BUDDY LOCK [position, heading, altitude]</td>
 <td>{I} [A/A] Radar locked to a known FRIENDLY aircraft. Normally a response to a SPIKED or BUDDY SPIKE calls.</td>
@@ -1214,28 +1396,36 @@ required configuration than to just say “clean.”</li>
 <td>{I} [A/A] [S/A] [AIR-MAR] Sensor data is lost on GROUP or CONTACT. Requires information of last known position to include number of CONTACTS and TRACK direction.</td>
 </tr>
 <tr class="even">
+<td>GADGET</td>
+<td>{I} Radar or emitter equipment.</td>
+</tr>
+<tr class="odd">
 <td>GIMBAL</td>
 <td>{I} [A/A] Sensor target is approaching azimuth or elevation tracking limits.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>HIT(S)</td>
 <td><ol type="1">
 <li>{I} Momentary radar return(s).</li>
 <li>{I} (altitude) [A/A] Indicates approximate altitude (e.g., GROUP BULLSEYE 360/10, HITS 15 thousand).</li>
-<li>{I} [A/S] Weapons had desired effects on the intended target.</li>
+<li>{I} [A/S] Weapons created the desired effects on the intended target.</li>
 </ol></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>JONESING</td>
 <td>{I} [A/S] Informative call requiring additional time to analyze current SAR map.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>LASER ON</td>
 <td>{D} [A/S] [S/S] Directive call to start lasing.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>LASING</td>
 <td>{I} [A/S] [S/S] The speaker is firing the laser in response to LASER ON.</td>
+</tr>
+<tr class="even">
+<td>LIGHTS [ON/OFF]</td>
+<td>{I} [EW] Active radar system intentionally emitting/ceasing emissions. May be IAW briefed emissions control plan.</td>
 </tr>
 <tr class="odd">
 <td>LOCKED</td>
@@ -1342,7 +1532,7 @@ required configuration than to just say “clean.”</li>
 </tr>
 <tr class="even">
 <td>SPIKE(D) [direction]</td>
-<td>{I} [A/A] [S/A] Radar warning receiver indication of an AI threat in track or launch.</td>
+<td>{I} [A/A] [S/A] Radar warning receiver indication of an air interceptor threat in track or launch.</td>
 </tr>
 <tr class="odd">
 <td>SPOT</td>
@@ -1363,16 +1553,26 @@ required configuration than to just say “clean.”</li>
 <td>TOY</td>
 <td>{I} [EW] high speed anti-radiation missile (HARM) targeting system (HTS) pod.</td>
 </tr>
+<tr class="odd">
+<td>WATCHING</td>
+<td>{I} [S/A] Surface to air defense unit is assigned a target for engagement responsibility; is unable to engage due to threat range; will engage when threat meets engagement criteria.</td>
+</tr>
 </tbody>
 </table>
+</div>
+</figure>
 </div>
 </section>
 <section id="avionicsdatalink-codes" class="level2" data-number="B.10">
 <h2 data-number="B.10" class="anchored" data-anchor-id="avionicsdatalink-codes"><span class="header-section-number">B.10</span> Avionics/Datalink Codes</h2>
 <p><strong>Avionics/Datalink</strong> codes describe communications, interrogations, identification, and datalink systems and their states. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-avionics" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.10: Avionics or Datalink Brevity Codes</caption>
+<div id="tbl-ms-avionics" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-avionics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.10: Avionics or Datalink Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-avionics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -1423,67 +1623,83 @@ Cancelled by SWEET.</td>
 <td></td>
 </tr>
 <tr class="odd">
+<td>GADGET</td>
+<td>Radar or emitter equipment.</td>
+</tr>
+<tr class="even">
 <td>PARROT</td>
 <td>IFF selective ID feature transponder.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>TIMBER</td>
 <td>[EW] Link 16 Network.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>TOY</td>
 <td>[EW] high speed anti-radiation missile (HARM) targeting system (HTS) pod.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>UNIFORM</td>
 <td>Ultra-high frequency (UHF)/amplitude modulation (AM) radio.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>VICTOR</td>
 <td>Very-high frequency (VHF)/amplitude modulation (AM) radio.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>*PRIME/PRI</td>
 <td>Primary radio frequency. UHF if UHF/VHF. UHF1 if UHF1/UHF2.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>*AUX</td>
 <td>Auxiliary radio frequency. VHF if UHF/VHF. UHF2 if UHF1/UHF2</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><strong>Directives</strong></td>
 <td></td>
 </tr>
+<tr class="even">
+<td>BLACKOUT</td>
+<td>{D} [A/A] Turn off all external lighting.</td>
+</tr>
 <tr class="odd">
+<td>CHRISTMAS TREE</td>
+<td>{D} [A/A] Turn on all external lighting.</td>
+</tr>
+<tr class="even">
 <td>FENCE [IN/OUT]</td>
 <td>{D} Set cockpit switches as appropriate before entering or exiting the combat area.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>FLASH [system]</td>
 <td><ol type="1">
 <li>{D} [A/A] Temporarily activate specified system for ID purposes (identification, friend or foe (IFF), or afterburner, flare or chaff, etc.).</li>
 <li>{D} [A/S] [S/S] Clear the net immediately, critical information to follow (e.g., “FLASH, FLASH, FLASH this is Frontier 6, immediate MEDEVAC, grid to follow.”).</li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>INTERROGATE</td>
 <td>{D} [A/A] [S/S] [AIR-MAR] [MAR-MAR] Interrogate the designated contact of the IFF mode indicated.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>SQUAWK [mode, code]</td>
 <td>{D or I} [A/A] Operate IFF/selective ID feature as indicated or IFF or selective ID feature is operating as indicated.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>SQUAWKING [mode number]</td>
 <td>{I} [A/A] [S/A] BOGEY is responding with an IFF or selective ID feature mode or code other than that prescribed by the air tasking order or ID criteria.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>STRANGLE [system]</td>
 <td>{D} [A/A] [S/A] Turn off system indicated (e.g., STRANGLE PARROT).</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>TOGGLE [system]</td>
 <td>{D} Execute the briefed setting change on specified system.</td>
+</tr>
+<tr class="odd">
+<td>TWEET(ING)</td>
+<td>{D or I} [A/A] An aircraft transmitting Mode S, Automatic Dependent Surveillance-Broadcast (also known as ADS-B), or reference data (e.g., Federal Aviation Administration registration).</td>
 </tr>
 <tr class="even">
 <td>ZAP</td>
@@ -1492,13 +1708,19 @@ Cancelled by SWEET.</td>
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 </section>
 <section id="clearance-codes" class="level2" data-number="B.11">
 <h2 data-number="B.11" class="anchored" data-anchor-id="clearance-codes"><span class="header-section-number">B.11</span> Clearance Codes</h2>
 <p><strong>Clearance</strong> codes have significant potential for miscommunication. This is because there are phases of test execution when a third-party is primarily responsible for clearance (often critical phases such as engine start, taxiing, takeoff, departure, aerial refueling, approach, and landing). There are other phases of test execution where the test team must decide and clarify who is responsible for clearance. The specifics of the test point should be the primary consideration, including how static or dynamic the point is.</p>
-<div id="tbl-ms-clearance" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.11: Clearance Brevity Codes</caption>
+<div id="tbl-ms-clearance" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 35, 35]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-clearance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.11: Clearance Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-clearance-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 35%">
@@ -1540,6 +1762,11 @@ Brevity Code</th>
 <td>From clearance authority.</td>
 </tr>
 <tr class="odd">
+<td>LEEROY [time]</td>
+<td>{I} Timeline adjustment in minutes for entire mission; always referenced from original preplanned mission time; always means earlier. Opposite of ROLEX.</td>
+<td>Used when conditions drive a shortening of the timeline</td>
+</tr>
+<tr class="even">
 <td>PRESS◬</td>
 <td><ol type="1">
 <li>{D} [A/A] Requested action is approved and mutual support will be maintained, assumes VISUAL.</li>
@@ -1547,48 +1774,47 @@ Brevity Code</th>
 </ol></td>
 <td>Not typically used in flight test conduct, but a very common term in informal settings.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>PUSH [channel]</td>
 <td>{D} Switch to designated frequency; no acknowledgment required.</td>
 <td>Not for test conductor to say, but the flight lead is directing the flight to change frequencies, so follow along.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>RESET</td>
 <td>{D} [A/A] [S/A] [SO] Proceed to a prebriefed position or area of operations.</td>
 <td>Start over, per the brief.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>RESUME</td>
 <td>{D} [A/A] Resume last formation, route, or mission ordered.</td>
 <td>If test point was paused, resume at last step.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ROGER◬</td>
 <td>{I} Radio transmission received; does not indicate compliance or reaction.</td>
 <td>One of the more abused brevity codes. Only indicates that you heard, nothing more. “ROGER, COPY” is redundant, as is “ROGER, WILCO.”</td>
 </tr>
-<tr class="even">
-<td>ROLEX [+/- time]</td>
-<td>{I} [A/A] [A/S] Timeline adjustment in minutes for entire mission; always referenced from original preplanned mission execution time.<br>
-“Plus” means later; “minus” means earlier.</td>
-<td>Often used when delays have offset briefed mission times.</td>
-</tr>
 <tr class="odd">
+<td>ROLEX [time]</td>
+<td>{I} Timeline adjustment in minutes for entire mission; always referenced from original preplanned mission execution time; always means later. Opposite of LEEROY. |</td>
+<td></td>
+</tr>
+<tr class="even">
 <td>SAUNTER</td>
 <td>{D} Fly at best endurance.</td>
 <td>Used when test is on hold.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>SKIP IT</td>
 <td>{D} Directive call for a specific platform to not engage the indicated track. Usually followed with further directions.</td>
 <td>Used to veto aircrew suggestion or to tell aircrew NOT TO PICKLE.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>UNABLE</td>
 <td>{I} Cannot comply as requested or directed.</td>
 <td>Used to indicate inability to comply.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>WEAPONS [status]</td>
 <td>{D or I} Weapons control status. Fire only: 1. FREE: At targets not identified as FRIENDLY IAW current ROE. 2. TIGHT: At targets positively identified as HOSTILE IAW current ROE. 3. HOLD\SAFE: In self-defense or in response to a formal order. <strong>NOTE:</strong> NATO uses WEAPONS to determine munitions available or remaining similar to WHAT STATE.</td>
 <td></td>
@@ -1596,13 +1822,19 @@ Brevity Code</th>
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 </section>
 <section id="flight-condition-codes" class="level2" data-number="B.12">
 <h2 data-number="B.12" class="anchored" data-anchor-id="flight-condition-codes"><span class="header-section-number">B.12</span> Flight Condition Codes</h2>
 <p><strong>Flight Condition</strong> codes provide low-fidelity generalizations of altitude and airspeed. They can be very useful when tight tolerances and databands are not required, but a general condition is desired. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-condition" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.12: Flight Condition Brevity Codes</caption>
+<div id="tbl-ms-condition" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-condition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.12: Flight Condition Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-condition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -1650,13 +1882,19 @@ Brevity Code</th>
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 </section>
 <section id="rules-of-engagement-identification-codes" class="level2" data-number="B.13">
 <h2 data-number="B.13" class="anchored" data-anchor-id="rules-of-engagement-identification-codes"><span class="header-section-number">B.13</span> Rules of Engagement &amp; Identification Codes</h2>
 <p><strong>Rules of Engagement (ROE) &amp; Identification (ID)</strong> codes provide characterizations of the friend/foe status, as well as free/restrained weapons engagements can be. They do not often have test-specific meanings, but test teams can make use of the test aircrew and operators prior training to provide clarity and reduce communication bandwidth.</p>
-<div id="tbl-ms-roe" class="anchored">
-<table class="table">
-<caption>Table&nbsp;B.13: Rules of Engagement &amp; ID Brevity Codes</caption>
+<div id="tbl-ms-roe" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[30, 70]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-ms-roe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;B.13: Rules of Engagement &amp; ID Brevity Codes
+</figcaption>
+<div aria-describedby="tbl-ms-roe-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
 <colgroup>
 <col style="width: 30%">
 <col style="width: 70%">
@@ -1698,34 +1936,38 @@ Brevity Code</th>
 </tr>
 <tr class="odd">
 <td>CHICK(S)</td>
-<td>{I} Term used to denote FRIENDLY aircraft on the safe flight or mission..</td>
+<td>{I} Term used to denote FRIENDLY aircraft on the safe flight or mission.</td>
 </tr>
 <tr class="even">
+<td>MATE</td>
+<td>{I} Positively identified as an ASSUMED FRIEND IAW theater ID criteria.</td>
+</tr>
+<tr class="odd">
 <td>PRINT [type]</td>
 <td>{I} [A/A] Valid noncooperative target recognition reply.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>PAINT(S)</td>
 <td>{I} [A/A] [AIR-MAR] [MAR-MAR] An interrogated GROUP or radar contact that is responding with any of the specified IFF, or selective ID feature modes and correct codes established for the ID criteria.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>BOGEY</td>
 <td>{I} [A/A] [S/A] [SO] A CONTACT whose identity is unknown.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>SPADES</td>
 <td>{I} [A/A] [S/A] [AIR-MAR] An interrogated GROUP or radar contact that lacks all of the air tasking order (or equivalent) IFF or selective ID feature modes and codes required for the ID criteria.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>OUTLAW</td>
 <td><p>{I} [A/A] CONTACT has met point of origin criteria for ROE.</p>
 <p>Point of Origin means that the contact came from a geographic location identified as hostile.</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>SUSPECT</td>
 <td>{I} [SO] An identity applied to a track that is potentially hostile because of its characteristics, behavior, origin, or nationality.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>BANDIT</td>
 <td><ol type="1">
 <li>{I} [A/A] [AIR-MAR] Positively identified as an enemy IAW theater ID criteria. The term does not imply direction or authority to engage.<br>
@@ -1733,11 +1975,11 @@ Brevity Code</th>
 <li>{I} [SO] A SUSPECT whose orbital parameters are such that it may become a collection and/or counterspace concern to a spacecraft in the relative near-term, therefore limiting decision space.</li>
 </ol></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>STALKER</td>
 <td>{I} [SO] A BANDIT with counterspace capability that has significantly refined orbital parameters required to engage a high value asset.</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>HOSTILE</td>
 <td>{I} A contact identified as enemy upon which clearance to fire is authorized IAW theater rules of engagement.<br>
 <br>
@@ -1746,152 +1988,421 @@ Brevity Code</th>
 </tbody>
 </table>
 </div>
+</figure>
+</div>
 
 
 </section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
-    }
-  });
-  clipboard.on('success', function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  });
-  function tippyHover(el, contentFn) {
-    const config = {
-      allowHTML: true,
-      content: contentFn,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start'
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
     };
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      return note.innerHTML;
-    });
-  }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
-    } else {
-      return undefined;
+      return false;
     }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
       });
     }
-  }
-});
-</script>
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./flight-test-brevity-codes-sections.html" class="pagination-link">
+      <a href="./flight-test-brevity-codes-sections.html" class="pagination-link" aria-label="Flight Test Brevity Codes">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Flight Test Brevity Codes</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./unsafe-comm.html" class="pagination-link">
+      <a href="./unsafe-comm.html" class="pagination-link" aria-label="Unsafe Communication">
         <span class="nav-page-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Unsafe Communication</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -1900,4 +2411,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-</body></html>
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/cooknl/flight-test-brevity/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

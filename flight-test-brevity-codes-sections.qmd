@@ -10,6 +10,34 @@ The Type is shown in curly braces indicates whether a code is meant to:
 - {I} Inform
 - {R} Request
 
+For GO/NO-GO codes, this figure provides an overview.
+
+!["Activities, Events, and Decisions"](/images/activities_events_decisions.png)
+
+{{< pagebreak >}}
+
+## CANCEL
+
+### Correct Usage {.unnumbered}
+
+"\<Activity\> is canceled"
+
+### Meaning {.unnumbered}
+
+A NO-GO decision to REMOVE the activity from the timeline
+
+### Typical Errors {.unnumbered}
+
+Using the word "cancel" before ready to actually cancel
+
+### Effects of Errors {.unnumbered}
+
+Activities or resources may be cancelled before the test team is ready.
+
+### Plain English Antidotes {.unnumbered}
+
+Talk about go/no-go instead of the "c-word"
+
 {{< pagebreak >}}
 
 ## RADIO CHECK
@@ -92,6 +120,32 @@ Aircrew think you're calling on a channel that you're not calling from, and prov
 ### Plain English Antidote {.unnumbered}
 
 "We are on test point XX. We show good setup. The control room is ready. You are cleared to maneuver."
+
+{{< pagebreak >}}
+
+## SKIP
+
+### Correct Usage {.unnumbered}
+
+"SKIP IT SKIP IT SKIP IT"
+
+### Meaning {.unnumbered}
+
+A NOT-YET decision to TRANSITION directly to the END of the activity before transitioning to the middle of the activity, without completing the BEGINNING or MIDDLE of the activity; often followed by an assessment of whether to attempt a repeat of the activity
+
+### Typical Errors {.unnumbered}
+
+Not saying it soon enough to avoid irreversible actions, such as weapons employment.
+
+### Effects of Errors {.unnumbered}
+
+1. Loss of mission
+2. Loss of system under test
+3. Loss of time
+
+### Plain English Antidotes {.unnumbered}
+
+"Do not proceed"
 
 {{< pagebreak >}}
 
@@ -419,6 +473,33 @@ This phrasing is up for debate, and this standard is provided as a baseline. If 
 
 {{< pagebreak >}}
 
+## RECOVER
+
+### Correct Usage {.unnumbered}
+
+"RECOVER"
+
+### Meaning {.unnumbered}
+
+A GO decision to TRANSITION from the MIDDLE to the END of the activity.
+
+### Typical Errors {.unnumbered}
+
+1. Saying "COMPLETE" before the system under test has been recovered to a safe and sustainable condition.
+2. Saying "ABORT" when an abort criterion has not been met.
+
+### Effects of Errors {.unnumbered}
+
+1. Ending the activity without recovering to a safe and sustainable condition, may leave out important steps that increase hazards between test runs.
+2. Using a high-urgency term can both dilute the strength of the term and induce unnecessary stress.
+
+### Plain English Antidotes {.unnumbered}
+
+1. List out the recovery steps
+2. "You have completed the maneuver, you are cleared to the recovery steps"
+
+{{< pagebreak >}}
+
 ## CEASE
 
 ### Correct Usage {.unnumbered}
@@ -459,9 +540,9 @@ This phrasing is up for debate, and this standard is provided as a baseline. If 
 Example:
 
 - Project: "ABORT ABORT ABORT"
-- Quell 1: ""Quell 1 ABORT""
-- Quell 2: ""Quell 2 ABORT""
-- Project: ""Project ABORT, [REASON]"
+- Quell 1: "Quell 1 ABORT"
+- Quell 2: "Quell 2 ABORT"
+- Project: "Project ABORT, [REASON]"
 
 ### Meaning {.unnumbered}
 
@@ -486,6 +567,44 @@ Confusion during time-critical events
 Which specific term to use depends on the test team's prior experience, the organization's norms, and the context. There are examples of "Terminate" being used on some test ranges as the word to signal the Flight Termination System, negating the test and possibly exposing the aircrew to additional hazards.
 
 Abrupt test point cessation calls should be rehearsed in the brief, and in the air prior to testing, to establish the norm for the day.
+
+{{< pagebreak >}}
+
+## KILL
+
+### Correct Usage {.unnumbered}
+
+- "KILL KILL KILL"
+
+Example:
+
+- Project: "KILL KILL KILL"
+- Range Safety Officer: "RSO KILL" (Activates the flight termination system, emergency stop, etc.)
+- Quell 1: "Quell 1 KILL""
+- Quell 2: "Quell 2 KILL""
+- Project: "Project KILL, [REASON]"
+
+### Meaning {.unnumbered}
+
+{D} Per the brief and the mission materials, disable the system under test.
+
+### Typical Errors {.unnumbered}
+
+1. Not reacting per the brief
+
+### Effect of Errors {.unnumbered}
+
+System under test endangering persons and property.
+
+### Plain English Antidotes {.unnumbered}
+
+1. This is one of the brevity codes that has no plain english antidotes. This word should not be used for any other reason.
+
+### NOTE
+
+Which specific term to use depends on the test team's prior experience, the organization's norms, and the context. There are examples of "Terminate" being used on some test ranges as the word to signal the Flight Termination System, negating the test and possibly exposing the aircrew to additional hazards.
+
+Emergency safety calls must be rehearsed in dress rehearsal events prior to test, as well as in the brief.
 
 {{< pagebreak >}}
 
@@ -527,6 +646,55 @@ In the case of MISSION COMPLETE, the data, fuel, aircraft, or formation requires
 3. "Mach/airspeed/altitude out of parameters. We'll need to repeat that point."
 4. "The control room is satisfied with this run/point/card/mission."
 5. See 4.
+
+{{< pagebreak >}}
+
+## PAUSE
+
+### Correct Usage {.unnumbered}
+
+"PAUSE"
+
+### Meaning {.unnumbered}
+
+A SIM & TRAINING decision to pause the scenario to discuss or change the activity
+
+### Typical Errors {.unnumbered}
+
+Allowing the simulation or training event to continue past an important learning point or a point of diminishing returns
+
+### Effects of Errors {.unnumbered}
+
+1. Loss of time
+2. Loss of precision of memory
+
+### Plain English Antidotes {.unnumbered}
+
+Plain English Antidotes
+
+{{< pagebreak >}}
+
+## RESUME
+
+### Correct Usage {.unnumbered}
+
+"RESUME"
+
+### Meaning {.unnumbered}
+
+A SIM & TRAINING decision to resume the scenario as discussed
+
+### Typical Errors {.unnumbered}
+
+None
+
+### Effects of Errors {.unnumbered}
+
+None
+
+### Plain English Antidotes {.unnumbered}
+
+"Let's keep going."
 
 {{< pagebreak >}}
 
